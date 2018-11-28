@@ -1,0 +1,357 @@
+- name: Sikkerhedsmeddelelser og bulletiner
+  href: index.md
+  items:
+  - name: Security Advisories
+    items:
+    - name: "2012"
+      items:
+      - name: "2719615"
+        href: 2719615.md
+      - name: "2718704"
+        href: 2718704.md
+      - name: "2695962"
+        href: 2695962.md
+      - name: "2647518"
+        href: 2647518.md
+    - name: "2011"
+      items:
+      - name: "2659883"
+        href: 2659883.md
+      - name: "2641690"
+        href: 2641690.md
+      - name: "2639658"
+        href: 2639658.md
+      - name: "2607712"
+        href: 2607712.md
+      - name: "2588513"
+        href: 2588513.md
+      - name: "2501584"
+        href: 2501584.md
+    - name: "2010"
+      items:
+      - name: "2458511"
+        href: 2458511.md
+      - name: "2286198"
+        href: 2286198.md
+      - name: "2269637"
+        href: 2269637.md
+      - name: "983438"
+        href: 983438.md
+      - name: "981374"
+        href: 981374.md
+      - name: "980088"
+        href: 980088.md
+      - name: "979682"
+        href: 979682.md
+      - name: "979352"
+        href: 979352.md
+      - name: "979267"
+        href: 979267.md
+      - name: "977377"
+        href: 977377.md
+    - name: "2009"
+      items:
+      - name: "977981"
+        href: 977981.md
+      - name: "977544"
+        href: 977544.md
+      - name: "975497"
+        href: 975497.md
+      - name: "975191"
+        href: 975191.md
+      - name: "974926"
+        href: 974926.md
+      - name: "973882"
+        href: 973882.md
+      - name: "973811"
+        href: 973811.md
+      - name: "973472"
+        href: 973472.md
+      - name: "972890"
+        href: 972890.md
+      - name: "971888"
+        href: 971888.md
+      - name: "971778"
+        href: 971778.md
+      - name: "971492"
+        href: 971492.md
+      - name: "969898"
+        href: 969898.md
+      - name: "969136"
+        href: 969136.md
+      - name: "968272"
+        href: 968272.md
+      - name: "967940"
+        href: 967940.md
+      - name: "960715"
+        href: 960715.md
+      - name: "954157"
+        href: 954157.md
+    - name: "2008"
+      items:
+      - name: "961509"
+        href: 961509.md
+      - name: "961051"
+        href: 961051.md
+      - name: "961040"
+        href: 961040.md
+      - name: "960906"
+        href: 960906.md
+      - name: "958963"
+        href: 958963.md
+      - name: "956391"
+        href: 956391.md
+      - name: "956187"
+        href: 956187.md
+      - name: "955179"
+        href: 955179.md
+      - name: "954960"
+        href: 954960.md
+      - name: "954474"
+        href: 954474.md
+      - name: "954462"
+        href: 954462.md
+      - name: "953839"
+        href: 953839.md
+      - name: "953818"
+        href: 953818.md
+      - name: "953635"
+        href: 953635.md
+      - name: "951306"
+        href: 951306.md
+      - name: "950627"
+        href: 950627.md
+      - name: "947563"
+        href: 947563.md
+      - name: "943411"
+        href: 943411.md
+    - name: "2007"
+      items:
+      - name: "945713"
+        href: 945713.md
+      - name: "944653"
+        href: 944653.md
+      - name: "943521"
+        href: 943521.md
+      - name: "937696"
+        href: 937696.md
+      - name: "935964"
+        href: 935964.md
+      - name: "935423"
+        href: 935423.md
+      - name: "933052"
+        href: 933052.md
+      - name: "932596"
+        href: 932596.md
+      - name: "932553"
+        href: 932553.md
+      - name: "932114"
+        href: 932114.md
+      - name: "927891"
+        href: 927891.md
+    - name: "2006"
+      items:
+      - name: "929433"
+        href: 929433.md
+      - name: "928604"
+        href: 928604.md
+      - name: "927892"
+        href: 927892.md
+      - name: "927709"
+        href: 927709.md
+      - name: "926043"
+        href: 926043.md
+      - name: "925984"
+        href: 925984.md
+      - name: "925568"
+        href: 925568.md
+      - name: "925444"
+        href: 925444.md
+      - name: "925143"
+        href: 925143.md
+      - name: "925059"
+        href: 925059.md
+      - name: "923762"
+        href: 923762.md
+      - name: "922970"
+        href: 922970.md
+      - name: "922582"
+        href: 922582.md
+      - name: "922437"
+        href: 922437.md
+      - name: "921923"
+        href: 921923.md
+      - name: "921365"
+        href: 921365.md
+      - name: "917077"
+        href: 917077.md
+      - name: "917021"
+        href: 917021.md
+      - name: "916208"
+        href: 916208.md
+      - name: "914784"
+        href: 914784.md
+      - name: "914457"
+        href: 914457.md
+      - name: "913333"
+        href: 913333.md
+      - name: "912945"
+        href: 912945.md
+      - name: "912920"
+        href: 912920.md
+      - name: "904420"
+        href: 904420.md
+    - name: "2005"
+      items:
+      - name: "919637"
+        href: 919637.md
+      - name: "910550"
+        href: 910550.md
+      - name: "906267"
+        href: 906267.md
+  - name: Security Bulletin Summaries
+    items:
+    - name: "2012"
+      items:
+      - name: MS12-JUN
+        href: ms12-jun.md
+      - name: MS12-MAY
+        href: ms12-may.md
+      - name: MS12-APR
+        href: ms12-apr.md
+      - name: MS12-MAR
+        href: ms12-mar.md
+      - name: MS12-FEB
+        href: ms12-feb.md
+      - name: MS12-JAN
+        href: ms12-jan.md
+    - name: "2011"
+      items:
+      - name: MS11-DEC
+        href: ms11-dec.md
+      - name: MS11-NOV
+        href: ms11-nov.md
+      - name: MS11-OCT
+        href: ms11-oct.md
+      - name: MS11-SEP
+        href: ms11-sep.md
+      - name: MS11-AUG
+        href: ms11-aug.md
+      - name: MS11-JUL
+        href: ms11-jul.md
+      - name: MS11-JUN
+        href: ms11-jun.md
+      - name: MS11-MAY
+        href: ms11-may.md
+      - name: MS11-APR
+        href: ms11-apr.md
+      - name: MS11-MAR
+        href: ms11-mar.md
+      - name: MS11-FEB
+        href: ms11-feb.md
+      - name: MS11-JAN
+        href: ms11-jan.md
+    - name: "2010"
+      items:
+      - name: MS10-DEC
+        href: ms10-dec.md
+      - name: MS10-NOV
+        href: ms10-nov.md
+      - name: MS10-OCT
+        href: ms10-oct.md
+      - name: MS10-SEP
+        href: ms10-sep.md
+      - name: MS10-AUG
+        href: ms10-aug.md
+      - name: MS10-JUL
+        href: ms10-jul.md
+      - name: MS10-JUN
+        href: ms10-jun.md
+      - name: MS10-MAY
+        href: ms10-may.md
+      - name: MS10-APR
+        href: ms10-apr.md
+      - name: MS10-MAR
+        href: ms10-mar.md
+      - name: MS10-FEB
+        href: ms10-feb.md
+      - name: MS10-JAN
+        href: ms10-jan.md
+    - name: "2009"
+      items:
+      - name: MS09-DEC
+        href: ms09-dec.md
+      - name: MS09-NOV
+        href: ms09-nov.md
+      - name: MS09-OCT
+        href: ms09-oct.md
+      - name: MS09-MAR
+        href: ms09-mar.md
+      - name: MS09-SEP
+        href: ms09-sep.md
+      - name: MS09-AUG
+        href: ms09-aug.md
+      - name: MS09-JUL
+        href: ms09-jul.md
+      - name: MS09-JUN
+        href: ms09-jun.md
+      - name: MS09-MAY
+        href: ms09-may.md
+      - name: MS09-APR
+        href: ms09-apr.md
+      - name: MS09-FEB
+        href: ms09-feb.md
+      - name: MS09-JAN
+        href: ms09-jan.md
+    - name: "2008"
+      items:
+      - name: MS08-DEC
+        href: ms08-dec.md
+      - name: MS08-NOV
+        href: ms08-nov.md
+      - name: MS08-OCT
+        href: ms08-oct.md
+      - name: MS08-SEP
+        href: ms08-sep.md
+      - name: MS08-AUG
+        href: ms08-aug.md
+      - name: MS08-JUL
+        href: ms08-jul.md
+      - name: MS08-JUN
+        href: ms08-jun.md
+      - name: MS08-MAY
+        href: ms08-may.md
+      - name: MS08-APR
+        href: ms08-apr.md
+      - name: MS08-MAR
+        href: ms08-mar.md
+      - name: MS08-FEB
+        href: ms08-feb.md
+      - name: MS08-JAN
+        href: ms08-jan.md
+    - name: "2007"
+      items:
+      - name: MS07-DEC
+        href: ms07-dec.md
+      - name: MS07-NOV
+        href: ms07-nov.md
+      - name: MS07-OCT
+        href: ms07-oct.md
+      - name: MS07-SEP
+        href: ms07-sep.md
+      - name: MS07-AUG
+        href: ms07-aug.md
+      - name: MS07-JUL
+        href: ms07-jul.md
+      - name: MS07-JUN
+        href: ms07-jun.md
+      - name: MS07-MAY
+        href: ms07-may.md
+      - name: MS07-APR
+        href: ms07-apr.md
+      - name: MS07-MAR
+        href: ms07-mar.md
+      - name: MS07-FEB
+        href: ms07-feb.md
+      - name: MS07-JAN
+        href: ms07-jan.md
