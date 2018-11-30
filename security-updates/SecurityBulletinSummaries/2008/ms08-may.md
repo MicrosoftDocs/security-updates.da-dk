@@ -33,109 +33,109 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Kritisk (3)
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra MS08-026</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra MS08-026</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=117295"><strong>Sårbarheder i Microsoft Word kan give mulighed for fjernudførelse af kode (951207)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=117295"><strong>Sårbarheder i Microsoft Word kan give mulighed for fjernudførelse af kode (951207)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne kritiske sikkerhedsopdatering løser flere privat rapporterede sårbarheder i Microsoft Word, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet Word-fil. En hacker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne kritiske sikkerhedsopdatering løser flere privat rapporterede sårbarheder i Microsoft Word, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet Word-fil. En hacker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra MS08-027</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra MS08-027</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=117907"><strong>Sårbarhed i Microsoft Publisher kan muliggøre fjernudførelse af kode (951208)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=117907"><strong>Sårbarhed i Microsoft Publisher kan muliggøre fjernudførelse af kode (951208)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Publisher, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet Publisher-fil. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Publisher, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet Publisher-fil. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra MS08-028</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra MS08-028</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=114750"><strong>Sårbarhed i Microsoft Jet Database Engine kan give mulighed for fjernudførelse af kode (950749)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=114750"><strong>Sårbarhed i Microsoft Jet Database Engine kan give mulighed for fjernudførelse af kode (950749)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en sikkerhedssårbarhed i Microsoft Jet Database Engine (Jet) i Windows. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder<strong>.</strong> Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en sikkerhedssårbarhed i Microsoft Jet Database Engine (Jet) i Windows. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder<strong>.</strong> Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver muligvis, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver muligvis, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -143,37 +143,37 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Moderat (1)
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra MS08-029</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra MS08-029</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=117943"><strong>Sårbarheder i Microsoft Malware Protection Engine kan give mulighed for Denial-of-Service (952044)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=117943"><strong>Sårbarheder i Microsoft Malware Protection Engine kan give mulighed for Denial-of-Service (952044)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser to privat rapporterede sårbarheder i Microsoft Malware Protection Engine. En hacker udnytte sårbarheden ved at konstruere en særligt udformet, der kan give mulighed for denial-of-service, når den modtages af målcomputersystemet og scannes af Microsoft Malware Protection Engine. En hacker, som har held til at udnytte denne sårbarhed, kan forårsage Microsoft Malware Protection Engine til ikke at svare og genstarte automatisk.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser to privat rapporterede sårbarheder i Microsoft Malware Protection Engine. En hacker udnytte sårbarheden ved at konstruere en særligt udformet, der kan give mulighed for denial-of-service, når den modtages af målcomputersystemet og scannes af Microsoft Malware Protection Engine. En hacker, som har held til at udnytte denne sårbarhed, kan forårsage Microsoft Malware Protection Engine til ikke at svare og genstarte automatisk.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Moderat</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Moderat</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Denial-of-Service</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Denial-of-Service</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Den pågældende software har indbyggede mekanismer til automatisk registrering og implementering af opdateringer. Opdateringen kræver ikke genstart af computeren.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Den pågældende software har indbyggede mekanismer til automatisk registrering og implementering af opdateringer. Opdateringen kræver ikke genstart af computeren.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Windows Live OneCare, Microsoft Antigen, Microsoft Windows Defender, Microsoft Forefront Security.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Windows Live OneCare, Microsoft Antigen, Microsoft Windows Defender, Microsoft Forefront Security.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -181,7 +181,7 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Berørte programmer og downloadplaceringer
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du skal se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er behov for en sikkerhedsopdatering. Hvis et program eller en komponent findes på listen, findes der hyperlinks til tilgængelige softwareopdateringer, og sårbarhedens omfang også angivet.
 
@@ -189,75 +189,75 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 #### Windows-operativsystemet og servere
 
-<table>
+<table style="border:1px solid black;">
 <caption>Microsoft Windows 2000</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=114750"><strong>MS08-028</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=114750"><strong>MS08-028</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Microsoft Windows 2000 Service Pack 4</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0de12d09-e675-4cf0-bc6f-e42eeb4784a1">Microsoft Jet 4.0 Database Engine</a><br />
+<td style="border:1px solid black;">Microsoft Windows 2000 Service Pack 4</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0de12d09-e675-4cf0-bc6f-e42eeb4784a1">Microsoft Jet 4.0 Database Engine</a><br />
 (Kritisk)</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <caption>Windows XP</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=114750"><strong>MS08-028</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=114750"><strong>MS08-028</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Windows XP Service Pack 2</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3247433f-0aa9-49b8-9e40-c5463a95bcff">Microsoft Jet 4.0 Database Engine</a><br />
+<td style="border:1px solid black;">Windows XP Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3247433f-0aa9-49b8-9e40-c5463a95bcff">Microsoft Jet 4.0 Database Engine</a><br />
 (Kritisk)</td>
 </tr>
 <tr class="even">
-<td>Windows XP Professional x64 Edition</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=4915ebc4-5e7b-493e-b8c4-321d40d9a701">Microsoft Jet 4.0 Database Engine</a><br />
+<td style="border:1px solid black;">Windows XP Professional x64 Edition</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=4915ebc4-5e7b-493e-b8c4-321d40d9a701">Microsoft Jet 4.0 Database Engine</a><br />
 (Kritisk)</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <caption>Windows Server 2003</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=114750"><strong>MS08-028</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=114750"><strong>MS08-028</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Windows Server 2003 Service Pack 1</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=86e3ed62-98f7-46ec-96ab-5e8c123b1288">Microsoft Jet 4.0 Database Engine</a><br />
+<td style="border:1px solid black;">Windows Server 2003 Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=86e3ed62-98f7-46ec-96ab-5e8c123b1288">Microsoft Jet 4.0 Database Engine</a><br />
 (Kritisk)</td>
 </tr>
 <tr class="even">
-<td>Windows Server 2003 x64 Edition</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5dfc867b-74b7-4818-9fc2-d71e7c9d2e38">Microsoft Jet 4.0 Database Engine</a><br />
+<td style="border:1px solid black;">Windows Server 2003 x64 Edition</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5dfc867b-74b7-4818-9fc2-d71e7c9d2e38">Microsoft Jet 4.0 Database Engine</a><br />
 (Kritisk)</td>
 </tr>
 <tr class="odd">
-<td>Windows Server 2003 med SP1 til Itanium-baserede systemer</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3452119b-ba4c-4272-82ec-97396b2c2c3d">Microsoft Jet 4.0 Database Engine</a><br />
+<td style="border:1px solid black;">Windows Server 2003 med SP1 til Itanium-baserede systemer</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3452119b-ba4c-4272-82ec-97396b2c2c3d">Microsoft Jet 4.0 Database Engine</a><br />
 (Kritisk)</td>
 </tr>
 </tbody>
@@ -266,111 +266,111 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 #### Micorsoft Office-pakker og -programmer
 
-<table>
+<table style="border:1px solid black;">
 <caption>Microsoft Office Suites, systemer og komponenter</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=117295"><strong>MS08-026</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=117907"><strong>MS08-027</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=117295"><strong>MS08-026</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=117907"><strong>MS08-027</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Microsoft Office 2000 Service Pack 3</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9215ff71-38c0-416a-b89a-fe3474160f41">Microsoft Word 2000 Service Pack 3</a><br />
+<td style="border:1px solid black;">Microsoft Office 2000 Service Pack 3</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9215ff71-38c0-416a-b89a-fe3474160f41">Microsoft Word 2000 Service Pack 3</a><br />
 (KB950250)<br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8675b9b6-fbf0-4ad2-9210-285e2cc10556">Microsoft Publisher 2000 Service Pack 3</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8675b9b6-fbf0-4ad2-9210-285e2cc10556">Microsoft Publisher 2000 Service Pack 3</a><br />
 (KB950682)<br />
 (Kritisk)</td>
 </tr>
 <tr class="even">
-<td>Microsoft Office XP Service Pack 3</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b348a518-221e-4567-a797-999715a8b2ef">Microsoft Word 2002 Service Pack 3</a><br />
+<td style="border:1px solid black;">Microsoft Office XP Service Pack 3</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b348a518-221e-4567-a797-999715a8b2ef">Microsoft Word 2002 Service Pack 3</a><br />
 (KB950243)<br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=df623784-6e26-42c0-9e21-e7960b849e1e">Microsoft Publisher 2002 Service Pack 3</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=df623784-6e26-42c0-9e21-e7960b849e1e">Microsoft Publisher 2002 Service Pack 3</a><br />
 (KB950129)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="odd">
-<td>Microsoft Office 2003 Service Pack 2</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bc33d144-f917-47b8-961f-744ca847e14c">Microsoft Word 2003 Service Pack 2</a><br />
+<td style="border:1px solid black;">Microsoft Office 2003 Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bc33d144-f917-47b8-961f-744ca847e14c">Microsoft Word 2003 Service Pack 2</a><br />
 (KB950241)<br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c18b060b-9828-4952-8e80-5328c0832d83">Microsoft Publisher 2003 Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c18b060b-9828-4952-8e80-5328c0832d83">Microsoft Publisher 2003 Service Pack 2</a><br />
 (KB950213)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td>Microsoft Office 2003 Service Pack 3</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bc33d144-f917-47b8-961f-744ca847e14c">Microsoft Word 2003 Service Pack 3</a><br />
+<td style="border:1px solid black;">Microsoft Office 2003 Service Pack 3</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bc33d144-f917-47b8-961f-744ca847e14c">Microsoft Word 2003 Service Pack 3</a><br />
 (KB950241)<br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c18b060b-9828-4952-8e80-5328c0832d83">Microsoft Publisher 2003 Service Pack 3</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c18b060b-9828-4952-8e80-5328c0832d83">Microsoft Publisher 2003 Service Pack 3</a><br />
 (KB950213)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="odd">
-<td>2007 Microsoft Office System</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Word 2007</a><br />
+<td style="border:1px solid black;">2007 Microsoft Office System</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Word 2007</a><br />
 (KB950113)<br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e4b647c2-79a3-49e0-9b1d-741667fdbcca">Microsoft Publisher 2007</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e4b647c2-79a3-49e0-9b1d-741667fdbcca">Microsoft Publisher 2007</a><br />
 (KB950114)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td></td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Outlook 2007</a><br />
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Outlook 2007</a><br />
 (KB950113)<br />
 (Kritisk)</td>
-<td>Ingen</td>
+<td style="border:1px solid black;">Ingen</td>
 </tr>
 <tr class="odd">
-<td>2007 Microsoft Office System Service Pack 1</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Word 2007 Service Pack 1</a><br />
+<td style="border:1px solid black;">2007 Microsoft Office System Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Word 2007 Service Pack 1</a><br />
 (KB950113)<br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e4b647c2-79a3-49e0-9b1d-741667fdbcca">Microsoft Publisher 2007 Service Pack 1</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e4b647c2-79a3-49e0-9b1d-741667fdbcca">Microsoft Publisher 2007 Service Pack 1</a><br />
 (KB950114)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td></td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Outlook 2007 Service Pack 1</a><br />
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Outlook 2007 Service Pack 1</a><br />
 (KB950113)<br />
 (Kritisk)</td>
-<td>Ingen</td>
+<td style="border:1px solid black;">Ingen</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <caption>Microsoft Office til Mac</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=117295"><strong>MS08-026</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=117295"><strong>MS08-026</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Microsoft Office 2004 til Mac</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=99f54471-ccf9-4d94-a882-a05ecd128adc">Microsoft Office 2004 til Mac</a><br />
+<td style="border:1px solid black;">Microsoft Office 2004 til Mac</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=99f54471-ccf9-4d94-a882-a05ecd128adc">Microsoft Office 2004 til Mac</a><br />
 (KB952332)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td>Microsoft Office 2008 til Mac</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=395d1487-a3a6-4106-a0f8-4d6e1d6d89d2">Microsoft Office 2008 til Mac</a><br />
+<td style="border:1px solid black;">Microsoft Office 2008 til Mac</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=395d1487-a3a6-4106-a0f8-4d6e1d6d89d2">Microsoft Office 2008 til Mac</a><br />
 (KB952331)<br />
 (Alvorlig)</td>
 </tr>
@@ -378,20 +378,20 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <caption>Øvrigt Microsoft Office-software</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=117295"><strong>MS08-026</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=117295"><strong>MS08-026</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Microsoft Word Viewer</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bce7ea31-2bf0-4930-aff9-837bcc82a682">Microsoft Word Viewer 2003</a><br />
+<td style="border:1px solid black;">Microsoft Word Viewer</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bce7ea31-2bf0-4930-aff9-837bcc82a682">Microsoft Word Viewer 2003</a><br />
 (KB950625)<br />
 (Alvorlig)<br />
 <br />
@@ -400,8 +400,8 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td>Microsoft Office Compatibility Pack</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2d718f37-c5d1-4e15-a7e1-5a15fedef52f">Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater</a><br />
+<td style="border:1px solid black;">Microsoft Office Compatibility Pack</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2d718f37-c5d1-4e15-a7e1-5a15fedef52f">Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater</a><br />
 (KB951808)<br />
 (Alvorlig)<br />
 <br />
@@ -417,38 +417,38 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 **Bemærk** Føgende poster har ikke tilknyttet downloadlinks, eftersom den omtalte software har indbyggede mekanismer til registrering og implementering af opdateringer.
 
-<table>
+<table style="border:1px solid black;">
 <caption>Microsoft Anti-Malware</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=117943"><strong>MS08-029</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=117943"><strong>MS08-029</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Moderat</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Moderat</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Windows Live OneCare</td>
-<td>Windows Live OneCare<br />
+<td style="border:1px solid black;">Windows Live OneCare</td>
+<td style="border:1px solid black;">Windows Live OneCare<br />
 (Moderat)</td>
 </tr>
 <tr class="even">
-<td>Microsoft Antigen</td>
-<td>Microsoft Antigen til Exchange<br />
+<td style="border:1px solid black;">Microsoft Antigen</td>
+<td style="border:1px solid black;">Microsoft Antigen til Exchange<br />
 (Moderat)<br />
 <br />
 Microsoft Antigen til SMTP-gateway<br />
 (Moderat)</td>
 </tr>
 <tr class="odd">
-<td>Microsoft Windows Defender</td>
-<td>Microsoft Windows Defender<br />
+<td style="border:1px solid black;">Microsoft Windows Defender</td>
+<td style="border:1px solid black;">Microsoft Windows Defender<br />
 (Moderat)</td>
 </tr>
 <tr class="even">
-<td>Microsoft Forefront Security</td>
-<td>Microsoft Forefront Client Security<br />
+<td style="border:1px solid black;">Microsoft Forefront Security</td>
+<td style="border:1px solid black;">Microsoft Forefront Client Security<br />
 (Moderat)<br />
 <br />
 Microsoft Forefront Security til Exchange Server<br />
@@ -458,8 +458,8 @@ Microsoft Forefront Security til SharePoint<br />
 (Moderat)</td>
 </tr>
 <tr class="odd">
-<td>Standalone System Sweeper</td>
-<td>Standalone System Sweeper findet i Diagnostics and Recovery Toolset 6.0<br />
+<td style="border:1px solid black;">Standalone System Sweeper</td>
+<td style="border:1px solid black;">Standalone System Sweeper findet i Diagnostics and Recovery Toolset 6.0<br />
 (Lav)</td>
 </tr>
 </tbody>

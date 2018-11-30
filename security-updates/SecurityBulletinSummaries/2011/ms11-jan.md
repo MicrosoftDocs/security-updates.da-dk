@@ -33,36 +33,36 @@ Følgende tabel viser sikkerhedsbulletinerne for denne måned efter vigtighed.
 
 Oplysninger om berørte programmer kan fås i næste afsnit, **Berørte programmer og downloadplaceringer**.
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Bulletinens titel og resumé</th>
-<th>Klassifikation og sårbarhedens omfang</th>
-<th>Krav om genstart</th>
-<th>Berørte programmer</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Bulletinens titel og resumé</th>
+<th style="border:1px solid black;">Klassifikation og sårbarhedens omfang</th>
+<th style="border:1px solid black;">Krav om genstart</th>
+<th style="border:1px solid black;">Berørte programmer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=204803">MS11-002</a></td>
-<td><strong>Sårbarheder i Microsoft Data Access Components kan muliggøre fjernudførelse af kode (2451910)</strong><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=204803">MS11-002</a></td>
+<td style="border:1px solid black;"><strong>Sårbarheder i Microsoft Data Access Components kan muliggøre fjernudførelse af kode (2451910)</strong><br />
 <br />
 Denne sikkerhedsopdatering løser to privat rapporterede sårbarheder i Microsoft Data Access Components. Disse sårbarheder kan give mulighed for fjernudførelse af kode, hvis en bruger har besøgt en særligt udformet webside. En hacker, som det lykkes at udnytte denne sårbarhed, vil kunne få de samme brugerrettigheder som den lokale bruger. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a><br />
 Fjernudførelse af kode</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Windows</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=207795">MS11-001</a></td>
-<td><strong>Sårbarhed i Windows Backup Manager kan muliggøre fjernudførelse af kode (2478935)</strong><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=207795">MS11-001</a></td>
+<td style="border:1px solid black;"><strong>Sårbarhed i Windows Backup Manager kan muliggøre fjernudførelse af kode (2478935)</strong><br />
 <br />
 Denne sikkerhedsopdatering løser en offentliggjort sårbarhed i Windows Backup Manager. Sårbarheden kan muliggøre fjernudførelse af kode, hvis en bruger åbner en legitim Windows Backup Manager-fil, der er placeret i samme netværk som en særligt udformet biblioteksfil. For at et angreb skal lykkes skal en bruger besøge en fjernplacering på et filsystem, der ikke er tillid til, eller en WebDAV-deling og åbne den legitime fil fra den placering, hvilket kan få Windows Backup Manager til at indlæse den særligt udformede biblioteksfil.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
 Fjernudførelse af kode</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Windows</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 </tbody>
 </table>
@@ -72,41 +72,41 @@ Fjernudførelse af kode</td>
 
 Følgende tabel viser en vurdering af udnyttelsesmuligheden for hver af de sårbarheder, der behandles i denne måned. Sårbarhederne er anført i faldende rækkefølge i forhold til CVE ID's vurderingsniveau for udnyttelse. Kun sårbarheder, der har en klassifikation som Kritisk eller Alvorlig i bulletinerne, bliver inkluderet.
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til sandsynligheden for, at fungerende exploit-kode udgives inden for 30 dage efter udgivelse af sikkerhedsbulletin, for hver af de sikkerhedsopdateringer, du muligvis skal installere. Du bør gennemse alle vurderinger nedenfor, i overensstemmelse med din specifikke konfiguration for at prioritere din implementering. Hvis du ønsker flere oplysninger om, hvad disse klassifikationer betyder, og hvordan de fastlægges, kan du se [Microsoft Indeks for udnyttelse](http://technet.microsoft.com/en-us/security/cc998259.aspx).
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Titel på sårbarhed</th>
-<th>CVE ID</th>
-<th>Vurdering af mulighed for udnyttelse</th>
-<th>Vigtige bemærkninger</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Titel på sårbarhed</th>
+<th style="border:1px solid black;">CVE ID</th>
+<th style="border:1px solid black;">Vurdering af mulighed for udnyttelse</th>
+<th style="border:1px solid black;">Vigtige bemærkninger</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=207795">MS11-001</a></td>
-<td>Sårbarhed vedrørende usikker indlæsning af Backup Manager-bibliotek</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3145">CVE-2010-3145</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
-<td><strong>Denne sårbarhed er blevet offentliggjort</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=207795">MS11-001</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende usikker indlæsning af Backup Manager-bibliotek</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3145">CVE-2010-3145</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;"><strong>Denne sårbarhed er blevet offentliggjort</strong></td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=204803">MS11-002</a></td>
-<td>Sårbarhed vedr. overløb i DSN</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0026">CVE-2011-0026</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=204803">MS11-002</a></td>
+<td style="border:1px solid black;">Sårbarhed vedr. overløb i DSN</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0026">CVE-2011-0026</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=204803">MS11-002</a></td>
-<td>Sårbarhed vedr. hukommelse i ADO-post</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0027">CVE-2011-0027</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=204803">MS11-002</a></td>
+<td style="border:1px solid black;">Sårbarhed vedr. hukommelse i ADO-post</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0027">CVE-2011-0027</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 </tbody>
 </table>
@@ -116,7 +116,7 @@ Brug denne tabel til at få kendskab til sandsynligheden for, at fungerende expl
 
 Følgende tabel viser bulletinerne efter overordnet softwarekategori og klassifikation.
 
-**Hvordan bruger jeg disse tabeller?**
+**Hvordan bruger jeg disse tabeller?**  
 
 Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du bør se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er nogen sikkerhedsopdateringer vedrørende din installation. Hvis et program eller en komponent findes på listen, findes der hyperlinks til tilgængelige softwareopdateringer, og sårbarhedens omfang også angivet.
 
@@ -126,182 +126,182 @@ Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligv
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="3">Windows XP</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows XP</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=204803">
                       <strong>MS11-002</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207795">
                       <strong>MS11-001</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>Ingen</td></tr>
-                <tr><td>Windows XP Service Pack 3</td><td>
+                  </td><td style="border:1px solid black;">Ingen</td></tr>
+                <tr><td style="border:1px solid black;">Windows XP Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=7951fd7b-6b0a-4168-8519-312a62ff3289">Microsoft Data Access Components 2.8 Service Pack 1</a>
-                    <br />(KB2419632)<br />(Kritisk)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Windows XP Professional x64 Edition Service Pack 2</td><td>
+                    <br />(KB2419632)<br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows XP Professional x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ce06bfdc-7b0d-4e65-9a13-e009e3a6a9f0">Microsoft Data Access Components 2.8 Service Pack 2</a>
-                    <br />(KB2419635)<br />(Kritisk)</td><td>Ikke relevant</td></tr>
+                    <br />(KB2419635)<br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="3">Windows Server 2003</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows Server 2003</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=204803">
                       <strong>MS11-002</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207795">
                       <strong>MS11-001</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>Ingen</td></tr>
-                <tr><td>Windows Server 2003 Service Pack 2</td><td>
+                  </td><td style="border:1px solid black;">Ingen</td></tr>
+                <tr><td style="border:1px solid black;">Windows Server 2003 Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=d451ced7-c9c7-4c41-9d44-8f8929fca390">Microsoft Data Access Components 2.8 Service Pack 2</a>
-                    <br />(KB2419635)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2003 x64 Edition Service Pack 2</td><td>
+                    <br />(KB2419635)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3f2c8cfa-819e-4fd9-93ba-b687eb2d46fe">Microsoft Data Access Components 2.8 Service Pack 2</a>
-                    <br />(KB2419635)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr><td>Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td>
+                    <br />(KB2419635)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr><td style="border:1px solid black;">Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8dbcbb91-464b-4eb3-b7e5-afe82febf8d7">Microsoft Data Access Components 2.8 Service Pack 2</a>
-                    <br />(KB2419635)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
+                    <br />(KB2419635)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="3">Windows Vista</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows Vista</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=204803">
                       <strong>MS11-002</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207795">
                       <strong>MS11-001</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Windows Vista Service Pack 1 og Windows Vista Service Pack 2</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Vista Service Pack 1 og Windows Vista Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=13445e4a-099a-4edd-864e-c44f42940500">Windows Data Access Components 6.0</a>
-                    <br />(KB2419640)<br />(Kritisk)</td><td>
+                    <br />(KB2419640)<br />(Kritisk)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4eeaad20-729c-4594-8853-e4ae55e9d491">Windows Vista Service Pack 1 og Windows Vista Service Pack 2</a>
                     <br />(Alvorlig)</td></tr>
-                <tr><td>Windows Vista x64 Edition Service Pack 1 og Windows Vista x64 Edition Service Pack 2</td><td>
+                <tr><td style="border:1px solid black;">Windows Vista x64 Edition Service Pack 1 og Windows Vista x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=fd6b806e-50d4-4f4d-96e1-7c71fca4c543">Windows Data Access Components 6.0</a>
-                    <br />(KB2419640)<br />(Kritisk)</td><td>
+                    <br />(KB2419640)<br />(Kritisk)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=b2839cd0-1958-4a22-9aac-0e0aa8f2b52c">Windows Vista x64 Edition Service Pack 1 og Windows Vista x64 Edition Service Pack 2</a>
                     <br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="3">Windows Server 2008</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows Server 2008</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=204803">
                       <strong>MS11-002</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207795">
                       <strong>MS11-001</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>Ingen</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2008 til 32-bit-systemer og Windows Server 2008 til 32-bit-systemer Service Pack 2</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3d0885ac-97b3-46b5-970d-cc810270fba3">Windows Data Access Components 6.0</a>*<br />(KB2419640)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr><td>Windows Server 2008 til x64-baserede systemer og Windows Server 2008 til x64-baserede systemer Service Pack 2</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8f33c57e-343c-4cdb-b667-af18a8779ad2">Windows Data Access Components 6.0</a>*<br />(KB2419640)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2008 til Itanium-baserede systemer og Windows Server 2008 til Itanium-baserede systemer Service Pack 2</td><td>
+                  </td><td style="border:1px solid black;">Ingen</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2008 til 32-bit-systemer og Windows Server 2008 til 32-bit-systemer Service Pack 2</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3d0885ac-97b3-46b5-970d-cc810270fba3">Windows Data Access Components 6.0</a>*<br />(KB2419640)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr><td style="border:1px solid black;">Windows Server 2008 til x64-baserede systemer og Windows Server 2008 til x64-baserede systemer Service Pack 2</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8f33c57e-343c-4cdb-b667-af18a8779ad2">Windows Data Access Components 6.0</a>*<br />(KB2419640)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2008 til Itanium-baserede systemer og Windows Server 2008 til Itanium-baserede systemer Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5ecc8180-6baa-4f4b-a392-4b45a30469fc">Windows Data Access Components 6.0</a>
-                    <br />(KB2419640)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
+                    <br />(KB2419640)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="3">Windows 7</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows 7</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=204803">
                       <strong>MS11-002</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207795">
                       <strong>MS11-001</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>Ingen</td></tr>
-                <tr><td>Windows 7 Beta til 32-bit-systemer</td><td>
+                  </td><td style="border:1px solid black;">Ingen</td></tr>
+                <tr><td style="border:1px solid black;">Windows 7 Beta til 32-bit-systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3dfd4f1c-e7a5-4686-8d2c-b7a5a53c5333">Windows Data Access Components 6.0</a>
-                    <br />(KB2419640)<br />(Kritisk)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Windows 7 til x64-baserede systemer</td><td>
+                    <br />(KB2419640)<br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows 7 til x64-baserede systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=cf30e5c0-811b-4ecd-a6b2-874000d25074">Windows Data Access Components 6.0</a>
-                    <br />(KB2419640)<br />(Kritisk)</td><td>Ikke relevant</td></tr>
+                    <br />(KB2419640)<br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="3">Windows Server 2008 R2</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows Server 2008 R2</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=204803">
                       <strong>MS11-002</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207795">
                       <strong>MS11-001</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>Ingen</td></tr>
-                <tr><td>Windows Server 2008 R2 til x64-baserede systemer</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=cc9bac5a-3eaa-46fb-9ef4-c511b5f57996">Windows Data Access Components 6.0</a>*<br />(KB2419640)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2008 R2 til Itanium-baserede systemer</td><td>
+                  </td><td style="border:1px solid black;">Ingen</td></tr>
+                <tr><td style="border:1px solid black;">Windows Server 2008 R2 til x64-baserede systemer</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=cc9bac5a-3eaa-46fb-9ef4-c511b5f57996">Windows Data Access Components 6.0</a>*<br />(KB2419640)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2008 R2 til Itanium-baserede systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ba2612ec-ffad-4cd3-85c6-ba07f70a0d24">Windows Data Access Components 6.0</a>
-                    <br />(KB2419640)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
+                    <br />(KB2419640)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               </table>
 
 
@@ -396,8 +396,8 @@ Lær, hvordan du forbedrer sikkerheden og optimerer din it-infrastruktur og disk
 
 Microsoft [takker](http://go.microsoft.com/fwlink/?linkid=21127) følgende for at hjælpe os i arbejdet med at beskytte kunderne:
 
-  - Abdul Aziz Hariri, der samarbejder med [TippingPoint's](http://www.tippingpoint.com/)* *[Zero Day Initiative](http://www.zerodayinitiative.com/), for at have rapporteret et problem, der er beskrevet i MS11-002
-  - Peter Vreugdenhil, der samarbejder med [TippingPoint's](http://www.tippingpoint.com/)* *[Zero Day Initiative](http://www.zerodayinitiative.com/), for at have rapporteret et problem, der er beskrevet i MS11-002
+  - Abdul Aziz Hariri, der samarbejder med [TippingPoint's](http://www.tippingpoint.com/) [Zero Day Initiative](http://www.zerodayinitiative.com/), for at have rapporteret et problem, der er beskrevet i MS11-002
+  - Peter Vreugdenhil, der samarbejder med [TippingPoint's](http://www.tippingpoint.com/) [Zero Day Initiative](http://www.zerodayinitiative.com/), for at have rapporteret et problem, der er beskrevet i MS11-002
 
 #### Support
 

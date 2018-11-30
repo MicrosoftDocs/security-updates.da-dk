@@ -33,26 +33,26 @@ Følgende tabel viser sikkerhedsbulletinerne for denne måned efter vigtighed.
 
 Oplysninger om berørte programmer kan fås i næste afsnit, **Berørte programmer og downloadplaceringer**.
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Bulletinens titel og resumé</th>
-<th>Klassifikation og sårbarhedens omfang</th>
-<th>Krav om genstart</th>
-<th>Berørte programmer</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Bulletinens titel og resumé</th>
+<th style="border:1px solid black;">Klassifikation og sårbarhedens omfang</th>
+<th style="border:1px solid black;">Krav om genstart</th>
+<th style="border:1px solid black;">Berørte programmer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td><strong>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</strong><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><strong>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</strong><br />
 <br />
 Denne sikkerhedsopdatering løser en offentliggjort sårbarhed og flere privat rapporterede sårbarheder i Microsoft Office PowerPoint, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet PowerPoint-fil. En hacker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a><br />
 Fjernudførelse af kode</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Office</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Office</td>
 </tr>
 </tbody>
 </table>
@@ -62,125 +62,125 @@ Fjernudførelse af kode</td>
 
 Følgende tabel viser en vurdering af udnyttelsesmuligheden for hver af de sårbarheder, der behandles i denne måned. Sårbarhederne er opført i rækkefølge efter bulletin-id og CVE-id.
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til sandsynligheden for, at fungerende exploit-kode udgives inden for 30 dage efter udgivelse af sikkerhedsbulletin, for hver af de sikkerhedsopdateringer, du muligvis skal installere. Du bør gennemse alle vurderinger nedenfor, i overensstemmelse med din specifikke konfiguration for at prioritere din implementering. Hvis du ønsker flere oplysninger om, hvad disse klassifikationer betyder, og hvordan de fastlægges, kan du se [Microsoft Indeks for udnyttelse](http://technet.microsoft.com/en-us/security/cc998259.aspx).
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Bulletinens titel</th>
-<th>CVE ID</th>
-<th>Vurdering af mulighed for udnyttelse</th>
-<th>Vigtige bemærkninger</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Bulletinens titel</th>
+<th style="border:1px solid black;">CVE ID</th>
+<th style="border:1px solid black;">Vurdering af mulighed for udnyttelse</th>
+<th style="border:1px solid black;">Vigtige bemærkninger</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0220">CVE-2009-0220</a></td>
-<td>For Office-versioner kompileret uden /GS:<br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0220">CVE-2009-0220</a></td>
+<td style="border:1px solid black;">For Office-versioner kompileret uden /GS:<br />
 <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
+<td style="border:1px solid black;">Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0221">CVE-2009-0221</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Inkonsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0221">CVE-2009-0221</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Inkonsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0222">CVE-2009-0222</a></td>
-<td>For Office-versioner kompileret uden /GS:<br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0222">CVE-2009-0222</a></td>
+<td style="border:1px solid black;">For Office-versioner kompileret uden /GS:<br />
 <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
+<td style="border:1px solid black;">Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0223">CVE-2009-0223</a></td>
-<td>For Office-versioner kompileret uden /GS:<br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0223">CVE-2009-0223</a></td>
+<td style="border:1px solid black;">For Office-versioner kompileret uden /GS:<br />
 <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
+<td style="border:1px solid black;">Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0224">CVE-2009-0224</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Inkonsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0224">CVE-2009-0224</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Inkonsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0225">CVE-2009-0225</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Inkonsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0225">CVE-2009-0225</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Inkonsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0226">CVE-2009-0226</a></td>
-<td>For Office-versioner kompileret uden /GS:<br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0226">CVE-2009-0226</a></td>
+<td style="border:1px solid black;">For Office-versioner kompileret uden /GS:<br />
 <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
+<td style="border:1px solid black;">Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0227">CVE-2009-0227</a></td>
-<td>For Office-versioner kompileret uden /GS:<br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0227">CVE-2009-0227</a></td>
+<td style="border:1px solid black;">For Office-versioner kompileret uden /GS:<br />
 <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
+<td style="border:1px solid black;">Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0556">CVE-2009-0556</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td><strong>Denne sårbarhed bliver i øjeblikket udnyttet i Internet-økosystemet.</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0556">CVE-2009-0556</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;"><strong>Denne sårbarhed bliver i øjeblikket udnyttet i Internet-økosystemet.</strong></td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1128">CVE-2009-1128</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1128">CVE-2009-1128</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1129">CVE-2009-1129</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1129">CVE-2009-1129</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1130">CVE-2009-1130</a></td>
-<td>For Office-versioner kompileret uden /GS:<br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1130">CVE-2009-1130</a></td>
+<td style="border:1px solid black;">For Office-versioner kompileret uden /GS:<br />
 <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
+<td style="border:1px solid black;">Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1131">CVE-2009-1131</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1131">CVE-2009-1131</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
-<td>Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1137">CVE-2009-1137</a></td>
-<td>For Office-versioner kompileret uden /GS:<br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;">Sårbarheder i Microsoft Office PowerPoint kan muliggøre fjernudførelse af kode (967340)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1137">CVE-2009-1137</a></td>
+<td style="border:1px solid black;">For Office-versioner kompileret uden /GS:<br />
 <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
+<td style="border:1px solid black;">Den /GS-beskyttelse, der blev lavet ved kompileringen af Office 2003 Service Pack 3 og nyere versioner af Office, er en begrænsende faktor i forhold til denne sårbarhed, idet risikoen for sådanne systemer markant reduceres til <a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig.</td>
 </tr>
 </tbody>
 </table>
@@ -190,7 +190,7 @@ Brug denne tabel til at få kendskab til sandsynligheden for, at fungerende expl
 
 Følgende tabel viser bulletinerne efter overordnet softwarekategori og klassifikation.
 
-**Hvordan bruger jeg disse tabeller?**
+**Hvordan bruger jeg disse tabeller?**  
 
 Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du bør se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er nogen sikkerhedsopdateringer vedrørende din installation. Hvis et program eller en komponent findes på listen, findes der hyperlinks til tilgængelige softwareopdateringer, og sårbarhedens omfang også angivet.
 
@@ -200,82 +200,82 @@ Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligv
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="2">Microsoft Office Suites, systemer og komponenter</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Microsoft Office Suites, systemer og komponenter</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=141704">
                       <strong>MS09-017</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Office 2000 Service Pack 3</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office 2000 Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=f443312a-ac74-4ebc-a4ac-7a756aa67894">Microsoft Office PowerPoint 2000 Service Pack 3</a>
                     <br />(KB957790)<br />(Kritisk)</td></tr>
-                <tr class="alternateRow"><td>Microsoft Office XP Service Pack 3</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office XP Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=a24ec7ab-c1c7-4ddb-8b6e-107f1af67f49">Microsoft Office PowerPoint 2002 Service Pack 3</a>
                     <br />(KB957781)<br />(Alvorlig)</td></tr>
-                <tr><td>Microsoft Office 2003 Service Pack 3</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office 2003 Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ccfa978b-3340-40db-a45d-c880ba36b106">Microsoft Office PowerPoint 2003 Service Pack 3</a>
                     <br />(KB957784)<br />(Alvorlig)</td></tr>
-                <tr class="alternateRow"><td>2007 Microsoft Office System Service Pack 1 og 2007 Microsoft Office System Service Pack 2</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">2007 Microsoft Office System Service Pack 1 og 2007 Microsoft Office System Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=11f8380f-ffb6-4c22-a89c-3dc55d0f9834">Microsoft Office PowerPoint 2007 Service Pack 1 og Microsoft Office PowerPoint 2007 Service Pack 2</a>
                     <br />(KB957789)<br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="2">Microsoft Office til Mac</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Microsoft Office til Mac</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=141704">
                       <strong>MS09-017</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Office 2004 til Mac</td><td>Microsoft Office 2004 til Mac*<br />(Alvorlig)</td></tr>
-                <tr class="alternateRow"><td>Microsoft Office 2008 til Mac</td><td>Microsoft Office 2008 til Mac*<br />(Alvorlig)</td></tr>
-                <tr><td>Open XML File Format Converter til Mac</td><td>Open XML File Format Converter til Mac*<br />(Alvorlig)</td></tr>
+                <tr><td style="border:1px solid black;">Microsoft Office 2004 til Mac</td><td style="border:1px solid black;">Microsoft Office 2004 til Mac*<br />(Alvorlig)</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office 2008 til Mac</td><td style="border:1px solid black;">Microsoft Office 2008 til Mac*<br />(Alvorlig)</td></tr>
+                <tr><td style="border:1px solid black;">Open XML File Format Converter til Mac</td><td style="border:1px solid black;">Open XML File Format Converter til Mac*<br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="2">Anden Office Software</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Anden Office Software</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=141704">
                       <strong>MS09-017</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>PowerPoint Viewer</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">PowerPoint Viewer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6a57e6ed-bd24-406f-87bb-117391e083e0">PowerPoint Viewer 2003</a>
                     <br />(KB969615)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=141b8338-5c52-4326-a9e4-d2f2d8940d9c">PowerPoint Viewer 2007 Service Pack 1 og PowerPoint Viewer 2007 Service Pack 2</a><br />(KB970059)<br />(Alvorlig)</td></tr>
-                <tr><td>Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e1d3a4c3-538a-4f98-8d60-250803a80e2a">Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater Service Pack 1 og Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater Service Pack </a>
                     <br />(KB969618)<br />(Alvorlig)</td></tr>
-                <tr class="alternateRow"><td>Microsoft Works 8.5</td><td>Microsoft Works 8.5*<br />(Alvorlig)</td></tr>
-                <tr><td>Microsoft Works 9.0</td><td>Microsoft Works 9.0*<br />(Alvorlig)</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Works 8.5</td><td style="border:1px solid black;">Microsoft Works 8.5*<br />(Alvorlig)</td></tr>
+                <tr><td style="border:1px solid black;">Microsoft Works 9.0</td><td style="border:1px solid black;">Microsoft Works 9.0*<br />(Alvorlig)</td></tr>
               </table>
 
 

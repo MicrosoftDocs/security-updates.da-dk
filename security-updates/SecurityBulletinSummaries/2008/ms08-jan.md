@@ -33,37 +33,37 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Kritisk (1)
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS08-001</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS08-001</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=104919"><strong>Sårbarheder i Windows TCP/IP kan tillade fjernudførelse af kode (941644)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=104919"><strong>Sårbarheder i Windows TCP/IP kan tillade fjernudførelse af kode (941644)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne kritiske sikkerhedsopdatering løser to privat rapporterede sårbarheder i TCP/IP (Transmission Control Protocol/Internet Protocol). En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne kritiske sikkerhedsopdatering løser to privat rapporterede sårbarheder i TCP/IP (Transmission Control Protocol/Internet Protocol). En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -71,37 +71,37 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Alvorlig (1)
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS08-002</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS08-002</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=104921"><strong>En sårbarhed i LSASS kan muliggøre lokal udvidelse af rettigheder (943485)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=104921"><strong>En sårbarhed i LSASS kan muliggøre lokal udvidelse af rettigheder (943485)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne vigtige opdatering løser en privat rapporteret sårbarhed i Microsoft Windows Local Security Authority Subsystem Service (LSASS). Sårbarheden kan gøre det muligt for en hacker at køre arbitrær kode med udvidede rettigheder. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne vigtige opdatering løser en privat rapporteret sårbarhed i Microsoft Windows Local Security Authority Subsystem Service (LSASS). Sårbarheden kan gøre det muligt for en hacker at køre arbitrær kode med udvidede rettigheder. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Lokal udvidelse af rettigheder</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Lokal udvidelse af rettigheder</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Windows. </strong>Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Windows. </strong>Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -109,7 +109,7 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Berørte programmer og downloadplaceringer
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du skal se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er behov for en sikkerhedsopdatering. Hvis et program eller en komponent findes på listen, er sårbarhedens omfang også angivet, og der findes hyperlinks til tilgængelige softwareopdateringer.
 
@@ -119,72 +119,72 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th>Oplysninger        </th>
-    <th>Oplysninger        </th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;">Oplysninger        </th>
+    <th style="border:1px solid black;">Oplysninger        </th>
   </tr>
-            <tr><td>
+            <tr><td style="border:1px solid black;">
                 <strong>Bulletin-id</strong>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=104919">
                   <strong>MS08-001</strong>
                 </a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=104921">
                   <strong>MS08-002</strong>
                 </a>
               </td></tr>
-            <tr class="alternateRow"><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">
                 <strong>Klassifikation</strong>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                   <strong>Kritisk</strong>
                 </a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                   <strong>Alvorlig</strong>
                 </a>
               </td></tr>
           
-            <tr><th colspan="3">Windows-operativsystem</th></tr>
+            <tr><th colspan="3" style="border:1px solid black;">Windows-operativsystem</th></tr>
           
-            <tr><td>Microsoft Windows 2000 Service Pack 4</td><td>
+            <tr><td style="border:1px solid black;">Microsoft Windows 2000 Service Pack 4</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=980f5457-c7b5-421c-8643-0e57429ec156">Moderat</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=7956632e-17d9-4876-8340-84fe3e43e5cc">Alvorlig</a>
               </td></tr>
-            <tr class="alternateRow"><td>Windows XP Service Pack 2</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Windows XP Service Pack 2</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0a766242-2342-4fa0-9b66-8953c54a2211">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6a4cf182-8e36-490e-aefe-edb7b3a0df9c">Alvorlig</a>
               </td></tr>
-            <tr><td>Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</td><td>
+            <tr><td style="border:1px solid black;">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=2e8bc7d5-fe81-4ed5-9efa-360738d160ee">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=51fc657b-2b4a-4725-a744-d279e027c4a5">Alvorlig</a>
               </td></tr>
-            <tr class="alternateRow"><td>Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=fda060a5-9a1e-4036-9899-13eb61fdd8be">Alvorlig</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=12397b47-b18f-4d4d-b8d7-adec8ff310d5">Alvorlig</a>
               </td></tr>
-            <tr><td>Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</td><td>
+            <tr><td style="border:1px solid black;">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=19d993f9-06dd-4dc4-b0cc-c59e822eb8fa">Alvorlig</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=f19fd790-a4e6-4a8a-8077-d1bbfe37ecca">Alvorlig</a>
               </td></tr>
-            <tr class="alternateRow"><td>Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=2c2264f7-ebbb-40ab-9dbf-9b4e313665a7">Alvorlig</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0382a195-aa3d-409b-8a79-9fe61588d8a9">Alvorlig</a>
               </td></tr>
-            <tr><td>Windows Small Business Server 2003 Service Pack 1, Windows Small Business Server 2003 R2, Windows Small Business Server 2003 R2 Service Pack 2 og Windows Home Server</td><td>
+            <tr><td style="border:1px solid black;">Windows Small Business Server 2003 Service Pack 1, Windows Small Business Server 2003 R2, Windows Small Business Server 2003 R2 Service Pack 2 og Windows Home Server</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=fda060a5-9a1e-4036-9899-13eb61fdd8be">Kritisk</a>
               </td><td /></tr>
-            <tr class="alternateRow"><td>Windows Vista</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Windows Vista</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=23c0e03a-db66-4618-bce0-af55e5c1b067">Kritisk</a>
               </td><td /></tr>
-            <tr><td>Windows Vista x64 Edition</td><td>
+            <tr><td style="border:1px solid black;">Windows Vista x64 Edition</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5f6a37b1-c604-47c9-932f-485db2eda133">Kritisk</a>
               </td><td /></tr>
           </table>
