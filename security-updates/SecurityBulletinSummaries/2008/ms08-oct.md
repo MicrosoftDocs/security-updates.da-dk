@@ -33,181 +33,181 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Kritisk \[5\]
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS08-067</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS08-067</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=130719"><strong>En sårbarhed i Server-tjenesten kan muliggøre fjernudførelse af kode (958644)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=130719"><strong>En sårbarhed i Server-tjenesten kan muliggøre fjernudførelse af kode (958644)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Server-tjenesten. Sårbarheden kan muliggøre fjernudførelse af kode, hvis en bruger skulle modtage en særligt udformet RPC-anmodning på et berørt system. På systemerne Microsoft Windows 2000, Windows XP og Windows Server 2003 kan en hacker udnytte denne sårbarhed uden godkendelse til at køre arbitrær kode. Det er muligt, at denne sårbarhed kan bruges til at udforme en ormelignende udnyttelse. De bedste fremgangsmåder for brug af firewalls og standardkonfigurationer af firewalls kan hjælpe med at beskytte netværksressourcer mod angreb, der kommer fra en placering uden for virksomhedsperimeteren.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Server-tjenesten. Sårbarheden kan muliggøre fjernudførelse af kode, hvis en bruger skulle modtage en særligt udformet RPC-anmodning på et berørt system. På systemerne Microsoft Windows 2000, Windows XP og Windows Server 2003 kan en hacker udnytte denne sårbarhed uden godkendelse til at køre arbitrær kode. Det er muligt, at denne sårbarhed kan bruges til at udforme en ormelignende udnyttelse. De bedste fremgangsmåder for brug af firewalls og standardkonfigurationer af firewalls kan hjælpe med at beskytte netværksressourcer mod angreb, der kommer fra en placering uden for virksomhedsperimeteren.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-060</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-060</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128125"><strong>En sårbarhed i Active Directory kan tillade fjernudførelse af kode (957280)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128125"><strong>En sårbarhed i Active Directory kan tillade fjernudførelse af kode (957280)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed ved implementeringer af Active Directory på Microsoft Windows 2000 Server. Sårbarheden kan muliggøre fjernudførelse af kode, hvis en hacker får adgang til et berørt netværk. Denne sårbarhed berører kun Microsoft Windows 2000-servere, der er konfigureret som domænecontrollere. Hvis en Microsoft Windows 2000-server ikke er blevet opgraderet til domænecontroller, lytter den ikke til forespørgsler fra Lightweight Directory Access Protocol (LDAP) eller LDAP over SSL (LDAPS) og bliver ikke udsat for denne sårbarhed.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed ved implementeringer af Active Directory på Microsoft Windows 2000 Server. Sårbarheden kan muliggøre fjernudførelse af kode, hvis en hacker får adgang til et berørt netværk. Denne sårbarhed berører kun Microsoft Windows 2000-servere, der er konfigureret som domænecontrollere. Hvis en Microsoft Windows 2000-server ikke er blevet opgraderet til domænecontroller, lytter den ikke til forespørgsler fra Lightweight Directory Access Protocol (LDAP) eller LDAP over SSL (LDAPS) og bliver ikke udsat for denne sårbarhed.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-058</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-058</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060"><strong>Samlet sikkerhedsopdatering til Internet Explorer (956390)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060"><strong>Samlet sikkerhedsopdatering til Internet Explorer (956390)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne kritiske sikkerhedsopdatering løser fem privat rapporterede sårbarheder og én offentliggjort sårbarhed. Sårbarhederne kan muliggøre offentliggørelse af oplysninger eller fjernudførelse af kode, hvis en bruger får vist en særligt udformet webside i Internet Explorer. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne kritiske sikkerhedsopdatering løser fem privat rapporterede sårbarheder og én offentliggjort sårbarhed. Sårbarhederne kan muliggøre offentliggørelse af oplysninger eller fjernudførelse af kode, hvis en bruger får vist en særligt udformet webside i Internet Explorer. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows, Internet Explorer.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows, Internet Explorer.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-059</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-059</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=125712"><strong>En sårbarhed i Host Integration Server RPC Service kan tillade fjernudførelse af kode (956695)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=125712"><strong>En sårbarhed i Host Integration Server RPC Service kan tillade fjernudførelse af kode (956695)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Host Integration Server. Sårbarheden kan tillade fjernudførelse af kode, hvis en hacker sender en særligt udformet RPC-anmodning (Remote Procedure Call) til et berørt system. Kunder, der følger de bedste fremgangsmåder og konfigurerer SNA RPC-servicekontoen, så den har færre brugerrettigheder på systemet, berøres muligvis i mindre grad end kunder, der konfigurerer SNA RPC-servicekontoen til at have administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Host Integration Server. Sårbarheden kan tillade fjernudførelse af kode, hvis en hacker sender en særligt udformet RPC-anmodning (Remote Procedure Call) til et berørt system. Kunder, der følger de bedste fremgangsmåder og konfigurerer SNA RPC-servicekontoen, så den har færre brugerrettigheder på systemet, berøres muligvis i mindre grad end kunder, der konfigurerer SNA RPC-servicekontoen til at have administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver muligvis, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver muligvis, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Host Integration Server.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Host Integration Server.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-057</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-057</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=124653"><strong>Sårbarheder i Microsoft Excel kan give mulighed for fjernudførelse af kode (956416)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=124653"><strong>Sårbarheder i Microsoft Excel kan give mulighed for fjernudførelse af kode (956416)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne kritiske sikkerhedsopdatering løser tre privat rapporterede sårbarheder i Microsoft Office Excel, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet Excel-fil. En hacker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne kritiske sikkerhedsopdatering løser tre privat rapporterede sårbarheder i Microsoft Office Excel, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet Excel-fil. En hacker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -215,217 +215,217 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Alvorlig (6)
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-066</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-066</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=125709"><strong>En sårbarhed i Microsoft Ancillary Function Driver kan tillade udvidelse af rettigheder (956803)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=125709"><strong>En sårbarhed i Microsoft Ancillary Function Driver kan tillade udvidelse af rettigheder (956803)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Ancillary Function Driver. En lokal hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Ancillary Function Driver. En lokal hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Udvidelse af rettigheder</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Udvidelse af rettigheder</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-061</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-061</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=121738"><strong>Sårbarheder i Windows Kernel kan tillade udvidelse af rettigheder (954211)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=121738"><strong>Sårbarheder i Windows Kernel kan tillade udvidelse af rettigheder (954211)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en offentliggjort sårbarhed og to privat rapporterede sårbarheder i Windows kernel. En lokal acker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Sårbarhederne kan ikke udnyttes vha, fjernadgang eller af anonyme brugere.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en offentliggjort sårbarhed og to privat rapporterede sårbarheder i Windows kernel. En lokal acker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Sårbarhederne kan ikke udnyttes vha, fjernadgang eller af anonyme brugere.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Udvidelse af rettigheder</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Udvidelse af rettigheder</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-062</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-062</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=120829"><strong>En sårbarhed i Windows Internet Printing Service kan tillade fjernudførelse af kode (953155)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=120829"><strong>En sårbarhed i Windows Internet Printing Service kan tillade fjernudførelse af kode (953155)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne opdatering løser en privat rapporteret sårbarhed i Windows Internet Printing Service, som kan tillade fjernudførelse af kode. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne opdatering løser en privat rapporteret sårbarhed i Windows Internet Printing Service, som kan tillade fjernudførelse af kode. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-063</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-063</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=127994"><strong>En sårbarhed i SMB kan tillade fjernudførelse af kode (957095)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=127994"><strong>En sårbarhed i SMB kan tillade fjernudførelse af kode (957095)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Server Message Block (SMB) Protocol. Sårbarheden kan tillade fjernudførelse af kode på en server, der deler filer eller mapper. En hacker, som har held til at udnytte disse sårbarheder, kan installere programmer, se, ændre eller slette data eller oprette nye konti med komplette brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Server Message Block (SMB) Protocol. Sårbarheden kan tillade fjernudførelse af kode på en server, der deler filer eller mapper. En hacker, som har held til at udnytte disse sårbarheder, kan installere programmer, se, ændre eller slette data eller oprette nye konti med komplette brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-064</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-064</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128103"><strong>En sårbarhed i Virtual Address Descriptor Manipulation kan tillade udvidelse af rettigheder (956841)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128103"><strong>En sårbarhed i Virtual Address Descriptor Manipulation kan tillade udvidelse af rettigheder (956841)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Virtual Address Descriptor. Sårbarheden kan tillade udvidelse af rettigheder, hvis en bruger kører et særligt udformet program. En hacker, som har held til at udnytte denne sårbarhed, kan få udvidede rettigheder på et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data eller oprette nye konti med komplette administrative rettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Virtual Address Descriptor. Sårbarheden kan tillade udvidelse af rettigheder, hvis en bruger kører et særligt udformet program. En hacker, som har held til at udnytte denne sårbarhed, kan få udvidede rettigheder på et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data eller oprette nye konti med komplette administrative rettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Udvidelse af rettigheder</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Udvidelse af rettigheder</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-065</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-065</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128102"><strong>En sårbarhed i Message Queuing kan tillade fjernudførelse af kode (951071)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128102"><strong>En sårbarhed i Message Queuing kan tillade fjernudførelse af kode (951071)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Message Queuing Service (MSMQ) på Microsoft Windows 2000-systemer. Sårbarheden kan tillade fjernudførelse af kode på Microsoft Windows 2000-systemer med aktiveret MSMQ-service.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Message Queuing Service (MSMQ) på Microsoft Windows 2000-systemer. Sårbarheden kan tillade fjernudførelse af kode på Microsoft Windows 2000-systemer med aktiveret MSMQ-service.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -433,37 +433,37 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Moderat (1)
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Microsoft Security Bulletin MS08-056</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Microsoft Security Bulletin MS08-056</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128145"><strong>En sårbarhed i Microsoft Office kan tillade offentliggørelse af oplysninger (957699)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128145"><strong>En sårbarhed i Microsoft Office kan tillade offentliggørelse af oplysninger (957699)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Office. Sårbarheden kan tillade offentliggørelse af oplysninger, hvis en bruger klikker på en særligt udformet CDO URL. En hacker, som har held til at udnytte denne sårbarhed, kan indsætte et client side script i brugerens browser, som kan efterligne indhold, offentliggøre oplysninger eller udføre en hvilken som helst handling, brugeren kan udføre på det berørte websted.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Office. Sårbarheden kan tillade offentliggørelse af oplysninger, hvis en bruger klikker på en særligt udformet CDO URL. En hacker, som har held til at udnytte denne sårbarhed, kan indsætte et client side script i brugerens browser, som kan efterligne indhold, offentliggøre oplysninger eller udføre en hvilken som helst handling, brugeren kan udføre på det berørte websted.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Moderat</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Moderat</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Offentliggørelse af oplysninger</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Offentliggørelse af oplysninger</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -471,167 +471,167 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Indeks over mulighed for udnyttelse
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at høre nærmere om sandsynligheden for at der udgives fungerende exploit-kode for hver af de sikkerhedsopdateringer, du skal installere. Du bør gennemse alle vurderinger nedenfor, i overensstemmelse med din specifikke konfiguration for at prioritere din implementering. Hvis du ønsker flere oplysninger om, hvad disse klassifikationer betyder, og hvordan de fastlægges, kan du se [Microsoft Indeks for udnyttelse](http://technet.microsoft.com/en-us/security/cc998259,aspx).
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Bulletinens titel</th>
-<th>CVE ID</th>
-<th>Vurdering af mulighed for udnyttelse</th>
-<th>Vigtige bemærkninger</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Bulletinens titel</th>
+<th style="border:1px solid black;">CVE ID</th>
+<th style="border:1px solid black;">Vurdering af mulighed for udnyttelse</th>
+<th style="border:1px solid black;">Vigtige bemærkninger</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128145">MS08-056</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128145">En sårbarhed i Microsoft Office kan tillade offentliggørelse af oplysninger (957699)</a></td>
-<td>CVE-2008-4020</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
-<td>Fungerende exploit-kode kan oprettes. Der er dog begrænset alvorlighed, da sårbarheden kun tillader spoofing i en dialogboks i specifikke webprogrammer. Det vil derfor kun få lidt opmærksomhed fra hackere.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128145">MS08-056</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128145">En sårbarhed i Microsoft Office kan tillade offentliggørelse af oplysninger (957699)</a></td>
+<td style="border:1px solid black;">CVE-2008-4020</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;">Fungerende exploit-kode kan oprettes. Der er dog begrænset alvorlighed, da sårbarheden kun tillader spoofing i en dialogboks i specifikke webprogrammer. Det vil derfor kun få lidt opmærksomhed fra hackere.</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=124653">MS08-057</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=124653">Sårbarheder i Microsoft Excel kan tillade fjernudførelse af kode (956416)</a></td>
-<td>CVE-2008-4019</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=124653">MS08-057</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=124653">Sårbarheder i Microsoft Excel kan tillade fjernudførelse af kode (956416)</a></td>
+<td style="border:1px solid black;">CVE-2008-4019</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=124653">MS08-057</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=124653">Sårbarheder i Microsoft Excel kan tillade fjernudførelse af kode (956416)</a></td>
-<td>CVE-2008-3471</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=124653">MS08-057</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=124653">Sårbarheder i Microsoft Excel kan tillade fjernudførelse af kode (956416)</a></td>
+<td style="border:1px solid black;">CVE-2008-3471</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=124653">MS08-057</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=124653">Sårbarheder i Microsoft Excel kan tillade fjernudførelse af kode (956416)</a></td>
-<td>CVE-2008-3477</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=124653">MS08-057</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=124653">Sårbarheder i Microsoft Excel kan tillade fjernudførelse af kode (956416)</a></td>
+<td style="border:1px solid black;">CVE-2008-3477</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
-<td>CVE-2008-2947</td>
-<td>(Offentliggjort ved bulletinudgivelse)</td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
+<td style="border:1px solid black;">CVE-2008-2947</td>
+<td style="border:1px solid black;">(Offentliggjort ved bulletinudgivelse)</td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
-<td>CVE-2008-3472</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
+<td style="border:1px solid black;">CVE-2008-3472</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
-<td>CVE-2008-3473</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
+<td style="border:1px solid black;">CVE-2008-3473</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
-<td>CVE-2008-3475</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
+<td style="border:1px solid black;">CVE-2008-3475</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
-<td>CVE-2008-3474</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">3 - Fungerende exploit-kode usandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
+<td style="border:1px solid black;">CVE-2008-3474</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">3 - Fungerende exploit-kode usandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
-<td>CVE-2008-3476</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">3 - Fungerende exploit-kode usandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">MS08-058</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128060">Samlet sikkerhedsopdatering til Internet Explorer (956390)</a></td>
+<td style="border:1px solid black;">CVE-2008-3476</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">3 - Fungerende exploit-kode usandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=125712">MS08-059</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=125712">En sårbarhed i Host Integration Server RPC Service kan tillade fjernudførelse af kode (956695)</a></td>
-<td>CVE-2008-3466</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
-<td>Da det kun er særlige typer af virksomhedskunder, der vil installere Host Integration Server, er det sandsynligt, at der oprettes fungerende exploit-kode.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=125712">MS08-059</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=125712">En sårbarhed i Host Integration Server RPC Service kan tillade fjernudførelse af kode (956695)</a></td>
+<td style="border:1px solid black;">CVE-2008-3466</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;">Da det kun er særlige typer af virksomhedskunder, der vil installere Host Integration Server, er det sandsynligt, at der oprettes fungerende exploit-kode.</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128125">MS08-060</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128125">En sårbarhed i Active Directory kan tillade fjernudførelse af kode (957280)</a></td>
-<td>CVE-2008-4023</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
-<td>Udløsning af sårbarheden, så der forårsages en denial of service-tilstand, er sandsynlig. Det er dog svært at oprette fungerende exploit-kode for at udføre fjernudførelse af kode, da det ikke er muligt at kontrollere en nødvendig skrive-adresse.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128125">MS08-060</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128125">En sårbarhed i Active Directory kan tillade fjernudførelse af kode (957280)</a></td>
+<td style="border:1px solid black;">CVE-2008-4023</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;">Udløsning af sårbarheden, så der forårsages en denial of service-tilstand, er sandsynlig. Det er dog svært at oprette fungerende exploit-kode for at udføre fjernudførelse af kode, da det ikke er muligt at kontrollere en nødvendig skrive-adresse.</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=121738">MS08-061</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=121738">Sårbarheder i Windows Kernel kan tillade udvidelse af rettigheder (954211)</a></td>
-<td>CVE-2008-2250</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=121738">MS08-061</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=121738">Sårbarheder i Windows Kernel kan tillade udvidelse af rettigheder (954211)</a></td>
+<td style="border:1px solid black;">CVE-2008-2250</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=121738">MS08-061</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=121738">Sårbarheder i Windows Kernel kan tillade udvidelse af rettigheder (954211)</a></td>
-<td>CVE-2008-2252</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
-<td>Det er mest sandsynligt at fungerende exploit oprettes for multiprocessor-systemer.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=121738">MS08-061</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=121738">Sårbarheder i Windows Kernel kan tillade udvidelse af rettigheder (954211)</a></td>
+<td style="border:1px solid black;">CVE-2008-2252</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;">Det er mest sandsynligt at fungerende exploit oprettes for multiprocessor-systemer.</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=121738">MS08-061</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=121738">Sårbarheder i Windows Kernel kan tillade udvidelse af rettigheder (954211)</a></td>
-<td>CVE-2008-2251</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">3 - Fungerende exploit-kode usandsynlig</a></td>
-<td>Det kan være muligt at udløse sårbarheden, men det er meget vanskeligt at oprette fungerende exploit-kode.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=121738">MS08-061</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=121738">Sårbarheder i Windows Kernel kan tillade udvidelse af rettigheder (954211)</a></td>
+<td style="border:1px solid black;">CVE-2008-2251</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">3 - Fungerende exploit-kode usandsynlig</a></td>
+<td style="border:1px solid black;">Det kan være muligt at udløse sårbarheden, men det er meget vanskeligt at oprette fungerende exploit-kode.</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=120829">MS08-062</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=120829">En sårbarhed i Windows Internet Printing Service kan tillade fjernudførelse af kode (953155)</a></td>
-<td>CVE-2008-1446</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
-<td>Der er registreret konsekvent exploit-kode i begrænsede målrettede angreb. Internet Printing Protocol-tjenesten (IPP) aktiveres som standard, men adgang til denne tjeneste vha. IIS kræver også godkendelse som standard på alle platforme.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=120829">MS08-062</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=120829">En sårbarhed i Windows Internet Printing Service kan tillade fjernudførelse af kode (953155)</a></td>
+<td style="border:1px solid black;">CVE-2008-1446</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;">Der er registreret konsekvent exploit-kode i begrænsede målrettede angreb. Internet Printing Protocol-tjenesten (IPP) aktiveres som standard, men adgang til denne tjeneste vha. IIS kræver også godkendelse som standard på alle platforme.</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=127994">MS08-063</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=127994">En sårbarhed i SMB kan tillade fjernudførelse af kode (957095)</a></td>
-<td>CVE-2008-4038</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=127994">MS08-063</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=127994">En sårbarhed i SMB kan tillade fjernudførelse af kode (957095)</a></td>
+<td style="border:1px solid black;">CVE-2008-4038</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128103">MS08-064</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128103">En sårbarhed i Virtual Address Descriptor Manipulation kan tillade udvidelse af rettigheder (956841)</a></td>
-<td>CVE-2008-4036</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128103">MS08-064</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128103">En sårbarhed i Virtual Address Descriptor Manipulation kan tillade udvidelse af rettigheder (956841)</a></td>
+<td style="border:1px solid black;">CVE-2008-4036</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">2 - Inkonsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128102">MS08-065</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=128102">En sårbarhed i Message Queuing kan tillade fjernudførelse af kode (951071)</a></td>
-<td>CVE-2008-3479</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">3 - Fungerende exploit-kode usandsynlig</a></td>
-<td>Offentliggørelse af oplysninger kan være mulig, men det er ikke altid muligt at opnå brugbart indhold fra hukommelsen. Ødelæggelse af hukommelse kan udløses, men det er vanskeligt at opnå fjerneudførelse af kode.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128102">MS08-065</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=128102">En sårbarhed i Message Queuing kan tillade fjernudførelse af kode (951071)</a></td>
+<td style="border:1px solid black;">CVE-2008-3479</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">3 - Fungerende exploit-kode usandsynlig</a></td>
+<td style="border:1px solid black;">Offentliggørelse af oplysninger kan være mulig, men det er ikke altid muligt at opnå brugbart indhold fra hukommelsen. Ødelæggelse af hukommelse kan udløses, men det er vanskeligt at opnå fjerneudførelse af kode.</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=125709">MS08-066</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=125709">En sårbarhed i Microsoft Ancillary Function Driver kan tillade udvidelse af rettigheder (956803)</a></td>
-<td>CVE-2008-3464</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
-<td></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=125709">MS08-066</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=125709">En sårbarhed i Microsoft Ancillary Function Driver kan tillade udvidelse af rettigheder (956803)</a></td>
+<td style="border:1px solid black;">CVE-2008-3464</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=130719">MS08-067</a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=130719">En sårbarhed i Server-tjenesten kan muliggøre fjernudførelse af kode (958644)</a></td>
-<td>CVE-2008-4250</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
-<td>Der er registreret konsekvent exploit-kode i begrænsede målrettede angreb, som berører Windows XP. Denne tjeneste er aktiveret som standard på alle berørte platforme, men udnyttelse er mest sandsynlig på Microsoft Windows 2000, Windows XP og Windows Server 2003. På Windows Vista, Windows Server 2008 kræver disse platforme godkendelse, og selv efter en godkendelse er udnyttelse vanskeligere på grund af ASLR- og DEP-udvidelser.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=130719">MS08-067</a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=130719">En sårbarhed i Server-tjenesten kan muliggøre fjernudførelse af kode (958644)</a></td>
+<td style="border:1px solid black;">CVE-2008-4250</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259,aspx">1 - Konsekvent exploit-kode sandsynlig</a></td>
+<td style="border:1px solid black;">Der er registreret konsekvent exploit-kode i begrænsede målrettede angreb, som berører Windows XP. Denne tjeneste er aktiveret som standard på alle berørte platforme, men udnyttelse er mest sandsynlig på Microsoft Windows 2000, Windows XP og Windows Server 2003. På Windows Vista, Windows Server 2008 kræver disse platforme godkendelse, og selv efter en godkendelse er udnyttelse vanskeligere på grund af ASLR- og DEP-udvidelser.</td>
 </tr>
 </tbody>
 </table>
@@ -639,7 +639,7 @@ Brug denne tabel til at høre nærmere om sandsynligheden for at der udgives fun
 
 ## Berørte programmer og downloadplaceringer
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du skal se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er behov for en sikkerhedsopdatering. Hvis et program eller en komponent findes på listen, findes der hyperlinks til tilgængelige softwareopdateringer, og sårbarhedens omfang også angivet.
 
@@ -649,647 +649,647 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="10">Microsoft Windows 2000</th></tr>
+                <tr><th colspan="10" style="border:1px solid black;">Microsoft Windows 2000</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=130719">
                       <strong>MS08-067</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128125">
                       <strong>MS08-060</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128060">
                       <strong>MS08-058</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=125709">
                       <strong>MS08-066</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=121738">
                       <strong>MS08-061</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=120829">
                       <strong>MS08-062</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=127994">
                       <strong>MS08-063</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128103">
                       <strong>MS08-064</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128102">
                       <strong>MS08-065</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletinklassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Windows 2000 Service Pack 4</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Windows 2000 Service Pack 4</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e22eb3ae-1295-4fe2-9775-6f43c5c2aed3">Microsoft Windows 2000 Service Pack 4</a>
-                    <br />(Kritisk)</td><td>
+                    <br />(Kritisk)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8ed7bb9a-4b26-49d7-8c14-60226d2bc20d">Active Directory til Microsoft Windows 2000 Server Service Pack 4</a>
-                    <br />(Kritisk)</td><td>
+                    <br />(Kritisk)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=257c0478-56dd-42eb-a90e-607d01613db7">Microsoft Internet Explorer 5,01 Service Pack 4</a>
-                    <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=02390258-08e9-4b75-960d-be081b749558">Microsoft Internet Explorer 6 Service Pack 1</a><br />(Kritisk)</td><td>Ikke relevant</td><td>
+                    <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=02390258-08e9-4b75-960d-be081b749558">Microsoft Internet Explorer 6 Service Pack 1</a><br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3a6165a6-d7e7-4526-9291-290caf0639b4">Microsoft Windows 2000 Service Pack 4</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8163d1f6-feb5-4f39-8134-3ed42326b822">Microsoft Windows 2000 Service Pack 4</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9ed29c3a-0682-4586-bbc2-a73deaa18e4c">Microsoft Windows 2000 Service Pack 4</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=899e2728-2433-4ccb-a195-05b5d65e5469">Microsoft Windows 2000 Service Pack 4</a>
                     <br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="10">Windows XP</th></tr>
+                <tr><th colspan="10" style="border:1px solid black;">Windows XP</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=130719">
                       <strong>MS08-067</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128125">
                       <strong>MS08-060</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128060">
                       <strong>MS08-058</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=125709">
                       <strong>MS08-066</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=121738">
                       <strong>MS08-061</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=120829">
                       <strong>MS08-062</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=127994">
                       <strong>MS08-063</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128103">
                       <strong>MS08-064</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128102">
                       <strong>MS08-065</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletinklassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Windows XP Service Pack 2 og Windows XP Service Pack 3</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows XP Service Pack 2 og Windows XP Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0d5f9b6e-9265-44b9-a376-2067b73d6a03">Windows XP Service Pack 2 og Windows XP Service Pack 3</a>
-                    <br />(Kritisk)</td><td>Ikke relevant</td><td>
+                    <br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=a7f0f47b-b1ee-4516-9fbf-bf8e579963d0">Microsoft Internet Explorer 6</a>
-                    <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4e73de2b-05e6-4901-9bac-46d8f469e635">Windows Internet Explorer 7</a><br />(Alvorlig)</td><td>
+                    <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4e73de2b-05e6-4901-9bac-46d8f469e635">Windows Internet Explorer 7</a><br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=b16d9dac-c430-4dd8-a1e5-9a614801f1d9">Windows XP Service Pack 2 og Windows XP Service Pack 3</a>
-                    <br />(Alvorlig)<br /></td><td>
+                    <br />(Alvorlig)<br /></td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=7718bf14-c26c-43f3-be67-4c79ab5b2607">Windows XP Service Pack 2 og Windows XP Service Pack 3</a>
-                    <br />(Alvorlig)<br /></td><td>
+                    <br />(Alvorlig)<br /></td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e7ef571f-c9e8-4e14-95a3-3eeaec55b784">Windows XP Service Pack 2 og Windows XP Service Pack 3</a>
-                    <br />(Alvorlig)<br /></td><td>
+                    <br />(Alvorlig)<br /></td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=2f7e5981-6eef-4f08-86c0-c6a7607ea5d0">Windows XP Service Pack 2 og Windows XP Service Pack 3</a>
-                    <br />(Alvorlig)<br /></td><td>
+                    <br />(Alvorlig)<br /></td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=25997b73-a640-49c1-b19e-768a18bbe22c">Windows XP Service Pack 2 og Windows XP Service Pack 3</a>
-                    <br />(Alvorlig)<br /></td><td>Ikke relevant</td></tr>
-                <tr><td>Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</td><td>
+                    <br />(Alvorlig)<br /></td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr><td style="border:1px solid black;">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4c16a372-7bf8-4571-b982-dac6b2992b25">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a>
-                    <br />(Kritisk)</td><td>Ikke relevant</td><td>
+                    <br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=234c05fb-988b-4e02-aab6-bb23e447df3d">Microsoft Internet Explorer 6</a>
-                    <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ccf7a3e3-ec30-4b95-9a86-00032301513c">Windows Internet Explorer 7</a><br />(Alvorlig)</td><td>
+                    <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ccf7a3e3-ec30-4b95-9a86-00032301513c">Windows Internet Explorer 7</a><br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5b607efc-c6fb-4079-8478-e4f3262386d3">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=b06d3a02-b6e4-4d40-913a-3759a31f20f3">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3ae4b913-bff0-4974-b198-828ca10d2a87">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4e1675eb-6b06-48e9-9765-23a2c7737bdc">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=50fae854-0bde-46f8-9444-b9e0d9bfecad">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td></tr>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="10">Windows Server 2003</th></tr>
+                <tr><th colspan="10" style="border:1px solid black;">Windows Server 2003</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=130719">
                       <strong>MS08-067</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128125">
                       <strong>MS08-060</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128060">
                       <strong>MS08-058</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=125709">
                       <strong>MS08-066</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=121738">
                       <strong>MS08-061</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=120829">
                       <strong>MS08-062</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=127994">
                       <strong>MS08-063</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128103">
                       <strong>MS08-064</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128102">
                       <strong>MS08-065</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletinklassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=f26d395d-2459-4e40-8c92-3de1c52c390d">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a>
-                    <br />(Kritisk)</td><td>Ikke relevant</td><td>
+                    <br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ae8d22d5-20aa-471d-a423-f54c9d75febe">Microsoft Internet Explorer 6</a>
-                    <br />(Moderat)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=feaf2adf-7892-4dbf-a147-db4d5dbe52f3">Windows Internet Explorer 7</a><br />(Lav)</td><td>
+                    <br />(Moderat)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=feaf2adf-7892-4dbf-a147-db4d5dbe52f3">Windows Internet Explorer 7</a><br />(Lav)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ee88ff2d-1b12-4f4c-a081-9f27a6fba074">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6e696762-d652-4a8f-ab8f-622f9746c320">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=437a9b68-6a0c-48c8-9348-0d6fda48aa21">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=dbbebb3f-f1c7-402c-bd16-6f88da0d042c">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e8ef3d5f-dd8e-4945-92cd-9d3e30b16667">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr><td>Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr><td style="border:1px solid black;">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=c04d2afb-f9d0-4e42-9e1f-4b944a2de400">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a>
-                    <br />(Kritisk)</td><td>Ikke relevant</td><td>
+                    <br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=07fc88c4-2571-4a4d-b573-ae576798ab4c">Microsoft Internet Explorer 6</a>
-                    <br />(Moderat)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=319dba34-07ca-47f9-a1e9-20df2df7966b">Windows Internet Explorer 7</a><br />(Lav)</td><td>
+                    <br />(Moderat)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=319dba34-07ca-47f9-a1e9-20df2df7966b">Windows Internet Explorer 7</a><br />(Lav)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ab4d94d3-458c-4946-ab7f-03a279629d25">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=57ca28ea-e5e1-4191-a3d6-84aa90a3d668">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=d3df6508-a568-449d-ac97-fbf3f97b98ef">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=989ac6f1-515c-467d-a200-2aabe66d9319">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=c2e754f9-086a-494c-bc19-5feed7df8b65">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ab590756-f11f-43c9-9dcc-a85a43077acf">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a>
-                    <br />(Kritisk)</td><td>Ikke relevant</td><td>
+                    <br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=b68937af-f04a-4d1e-9d7f-ec92af5194de">Microsoft Internet Explorer 6</a>
-                    <br />(Moderat)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=47381d91-4a14-4a09-96b3-3345155df52d">Windows Internet Explorer 7</a><br />(Lav)</td><td>
+                    <br />(Moderat)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=47381d91-4a14-4a09-96b3-3345155df52d">Windows Internet Explorer 7</a><br />(Lav)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=63234f85-6e5d-4ef6-b7cf-d1d2c78a5517">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=1e6c3f81-85bb-48e6-a5af-635a7e540c93">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=748f54f1-40b9-407c-9819-909061b53743">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=91589cfb-15ba-4dd2-9e3b-107899fbcba6">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5a3832ec-3f8f-42c1-a603-b1330d527547">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td></tr>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="10">Windows Vista</th></tr>
+                <tr><th colspan="10" style="border:1px solid black;">Windows Vista</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=130719">
                       <strong>MS08-067</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128125">
                       <strong>MS08-060</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128060">
                       <strong>MS08-058</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=125709">
                       <strong>MS08-066</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=121738">
                       <strong>MS08-061</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=120829">
                       <strong>MS08-062</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=127994">
                       <strong>MS08-063</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128103">
                       <strong>MS08-064</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128102">
                       <strong>MS08-065</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletinklassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Windows Vista og Windows Vista Service Pack 1</td><td>
+                <tr><td style="border:1px solid black;">Windows Vista og Windows Vista Service Pack 1</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=18fdff67-c723-42bd-ac5c-cac7d8713b21">Windows Vista og Windows Vista Service Pack 1</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4756e04b-6e1c-4d78-a3c0-17f6b4b97975">Windows Internet Explorer 7</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3483b400-cedc-441f-ba8e-594e3df89190">Windows Vista og Windows Vista Service Pack 1</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9b5995df-a3b8-4e81-b118-9bb057e19884">Windows Vista og Windows Vista Service Pack 1</a>
-                    <br />(Ingen alvorlighedsklassifikation)</td><td>
+                    <br />(Ingen alvorlighedsklassifikation)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=72dd6015-25d1-45f4-a769-88ac43074b44">Windows Vista og Windows Vista Service Pack 1</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=b4212db5-093e-497d-b999-2e3780f9f7c2">Windows Vista og Windows Vista Service Pack 1</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=a976999d-264f-4e6a-9bd6-3ad9d214a4bd">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=bd19c72b-4f83-47ab-93be-d2c286e732c4">Windows Internet Explorer 7</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=905ab030-14a5-4a3d-aa11-e8f957f6a1ea">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4a0fcf4b-eb8e-456a-b934-400ae18248ee">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a>
-                    <br />(Ingen alvorlighedsklassifikation)</td><td>
+                    <br />(Ingen alvorlighedsklassifikation)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=f793af16-5464-4db1-a42b-1c5f17c538ed">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=c20808cb-c30a-4b53-91e5-810eb6b4b2e3">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td></tr>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="10">Windows Server 2008</th></tr>
+                <tr><th colspan="10" style="border:1px solid black;">Windows Server 2008</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=130719">
                       <strong>MS08-067</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128125">
                       <strong>MS08-060</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128060">
                       <strong>MS08-058</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=125709">
                       <strong>MS08-066</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=121738">
                       <strong>MS08-061</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=120829">
                       <strong>MS08-062</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=127994">
                       <strong>MS08-063</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128103">
                       <strong>MS08-064</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128102">
                       <strong>MS08-065</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletinklassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Windows Server 2008 til 32 bit-systemer                    </td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=25c17b07-1efe-43d7-9b01-3dfdf1ce0bd7">Windows Server 2008 til 32 bit-systemer</a>*<br />(Alvorlig)</td><td>Ikke relevant</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ec73f416-2204-42d6-8932-c96578ac819f">Windows Internet Explorer 7</a>**<br />(Lav)</td><td>Ikke relevant</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8b97114a-71aa-47a2-b9e7-f4e158c18c80">Windows Server 2008 til 32 bit-systemer</a>*<br />(Alvorlig)</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3d6290d8-1745-4bc0-9ca9-eeb1ad0be4a5">Windows Server 2008 til 32 bit-systemer</a>*<br />(Alvorlig)</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=cf6744e6-b54c-40f6-a78d-7ba9453133c0">Windows Server 2008 til 32 bit-systemer</a>*<br />(Alvorlig)</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ec9eeb82-0497-4c55-94bb-9a47cb3521b4">Windows Server 2008 til 32 bit-systemer</a>*<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2008 til x64-baserede systemer</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=7b12018e-0cc1-4136-a68c-be4e1633c8df">Windows Server 2008 til x64-baserede systemer</a>*<br />(Alvorlig)</td><td>Ikke relevant</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=baacd1c2-9764-4fea-bd4d-c49791974fef">Windows Internet Explorer 7</a>**<br />(Lav)</td><td>Ikke relevant</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6e641db2-90c8-458f-9795-3e46b70a5203">Windows Server 2008 til x64-baserede systemer</a>*<br />(Alvorlig)</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=a33c833c-d5c5-4e37-8f89-7b9079f92e59">Windows Server 2008 til x64-baserede systemer</a>*<br />(Alvorlig)</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=223236e8-7b19-4b47-8a90-bfc35eb9318a">Windows Server 2008 til x64-baserede systemer</a>*<br />(Alvorlig)</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0bc178b8-f8ae-4f41-8f88-fb6a75be1bca">Windows Server 2008 til x64-baserede systemer</a>*<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr><td>Windows Server 2008 til Itanium-baserede systemer</td><td>
+                <tr><td style="border:1px solid black;">Windows Server 2008 til 32 bit-systemer                    </td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=25c17b07-1efe-43d7-9b01-3dfdf1ce0bd7">Windows Server 2008 til 32 bit-systemer</a>*<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ec73f416-2204-42d6-8932-c96578ac819f">Windows Internet Explorer 7</a>**<br />(Lav)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8b97114a-71aa-47a2-b9e7-f4e158c18c80">Windows Server 2008 til 32 bit-systemer</a>*<br />(Alvorlig)</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3d6290d8-1745-4bc0-9ca9-eeb1ad0be4a5">Windows Server 2008 til 32 bit-systemer</a>*<br />(Alvorlig)</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=cf6744e6-b54c-40f6-a78d-7ba9453133c0">Windows Server 2008 til 32 bit-systemer</a>*<br />(Alvorlig)</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ec9eeb82-0497-4c55-94bb-9a47cb3521b4">Windows Server 2008 til 32 bit-systemer</a>*<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2008 til x64-baserede systemer</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=7b12018e-0cc1-4136-a68c-be4e1633c8df">Windows Server 2008 til x64-baserede systemer</a>*<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=baacd1c2-9764-4fea-bd4d-c49791974fef">Windows Internet Explorer 7</a>**<br />(Lav)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6e641db2-90c8-458f-9795-3e46b70a5203">Windows Server 2008 til x64-baserede systemer</a>*<br />(Alvorlig)</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=a33c833c-d5c5-4e37-8f89-7b9079f92e59">Windows Server 2008 til x64-baserede systemer</a>*<br />(Alvorlig)</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=223236e8-7b19-4b47-8a90-bfc35eb9318a">Windows Server 2008 til x64-baserede systemer</a>*<br />(Alvorlig)</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0bc178b8-f8ae-4f41-8f88-fb6a75be1bca">Windows Server 2008 til x64-baserede systemer</a>*<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr><td style="border:1px solid black;">Windows Server 2008 til Itanium-baserede systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=2bcf89ef-6446-406c-9c53-222e0f0baf7a">Windows Server 2008 for Itanium-baserede systemer</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=250a45dd-7eae-4440-bd10-02a703940976">Windows Internet Explorer 7</a>
-                    <br />(Lav)</td><td>Ikke relevant</td><td>
+                    <br />(Lav)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=b6546e1c-bf7b-4354-8574-6c16fa707de0">Windows Server 2008 for Itanium-baserede systemer</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=31783e88-76e2-4bc6-b4ae-308443c6d223">Windows Server 2008 for Itanium-baserede systemer</a>
-                    <br />(Ingen alvorlighedsklassifikation)</td><td>
+                    <br />(Ingen alvorlighedsklassifikation)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=077b697c-04a0-45bd-b08c-331d5c30cb47">Windows Server 2008 for Itanium-baserede systemer</a>
-                    <br />(Alvorlig)</td><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0af72663-4945-4916-8c55-090ba4d82793">Windows Server 2008 for Itanium-baserede systemer</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=130719">
                       <strong>MS08-067</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128125">
                       <strong>MS08-060</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128060">
                       <strong>MS08-058</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=125709">
                       <strong>MS08-066</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=121738">
                       <strong>MS08-061</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=120829">
                       <strong>MS08-062</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=127994">
                       <strong>MS08-063</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128103">
                       <strong>MS08-064</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128102">
                       <strong>MS08-065</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletinklassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td /><td /><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td></tr>
-                <tr><td /><td /><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Windows 7 Beta til Itanium-baserede systemer</td><td>
+                <tr class="alternateRow"><td /><td /><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr><td /><td /><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows 7 Beta til Itanium-baserede systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=66646156-f3e6-48d7-be22-de1772dd1884">Windows 7 Beta til Itanium-baserede systemer</a>
-                    <br />(Alvorlig)</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td><td>Ikke relevant</td></tr>
+                    <br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               </table>
 
 
@@ -1301,115 +1301,115 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="3">Microsoft Office Suites, systemer og komponenter</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Microsoft Office Suites, systemer og komponenter</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=124653">
                       <strong>MS08-057</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128145">
                       <strong>MS08-056</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletinklassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Moderat</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Office 2000 Service Pack 3</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office 2000 Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=1b2740e0-ecdd-48ca-84e0-eb187c31eb16">Excel 2000 Service Pack 3</a>
-                    <br />(KB955461)<br />(Kritisk)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Microsoft Office XP Service Pack 3</td><td>
+                    <br />(KB955461)<br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office XP Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=27cedef1-c47c-472c-a343-cd9b4ebc2bba">Excel 2002 Service Pack 3</a>
-                    <br />(KB955464)<br />(Alvorlig)</td><td>
+                    <br />(KB955464)<br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=b1aee2d5-bfa0-40e3-91b6-98bf65524e8c">Microsoft Office XP Service Pack 3</a>
                     <br />(KB956464)<br />(Moderat)</td></tr>
-                <tr><td>Microsoft Office 2003 Service Pack 2 og Microsoft Office 2003 Service Pack 3</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office 2003 Service Pack 2 og Microsoft Office 2003 Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4df27e8a-d803-483b-a700-0177d71bf368">Excel 2003 Service Pack 2</a>
-                    <br />(KB955466)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4df27e8a-d803-483b-a700-0177d71bf368">Excel 2003 Service Pack 3</a><br />(KB955466)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>2007 Microsoft Office System og 2007 Microsoft Office System Service Pack 1</td><td>
+                    <br />(KB955466)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4df27e8a-d803-483b-a700-0177d71bf368">Excel 2003 Service Pack 3</a><br />(KB955466)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">2007 Microsoft Office System og 2007 Microsoft Office System Service Pack 1</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=2765bbc0-ea2e-4b6e-822c-222ee8e5021f">Excel 2007</a>
-                    <br />(KB955470)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=2765bbc0-ea2e-4b6e-822c-222ee8e5021f">Excel 2007 Service Pack 1</a><br />(KB955470)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
+                    <br />(KB955470)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=2765bbc0-ea2e-4b6e-822c-222ee8e5021f">Excel 2007 Service Pack 1</a><br />(KB955470)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="3">Microsoft Office til Mac</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Microsoft Office til Mac</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=124653">
                       <strong>MS08-057</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128145">
                       <strong>MS08-056</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletinklassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Moderat</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Office 2004 til Mac</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office 2004 til Mac</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ba4fa21a-7e01-4ef8-9b9f-9d51d00ef094">Microsoft Office 2004 til Mac</a>
-                    <br />(KB958312)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Microsoft Office 2008 til Mac</td><td>
+                    <br />(KB958312)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office 2008 til Mac</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e70c5ae0-2858-46de-81f8-dcd1786656b7">Microsoft Office 2008 til Mac</a>
-                    <br />(KB958267)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr><td>Open XML File Format Converter til Mac</td><td>
+                    <br />(KB958267)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr><td style="border:1px solid black;">Open XML File Format Converter til Mac</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=2a8d9a3b-b8a4-43b6-82a6-a2e7d16ae11d">Open XML File Format Converter til Mac</a>
-                    <br />(KB958304)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
+                    <br />(KB958304)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="3">Anden Office Software</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Anden Office Software</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=124653">
                       <strong>MS08-057</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=128145">
                       <strong>MS08-056</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletinklassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Moderat</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Microsoft Office Excel Viewer</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Excel Viewer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9769ce08-5207-4c63-b7b9-536266ad6b2b">Microsoft Office Excel Viewer 2003</a>
-                    <br />(KB955468)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9769ce08-5207-4c63-b7b9-536266ad6b2b">Microsoft Office Excel Viewer 2003 Service Pack 3</a><br />(KB955468)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=83c88444-75b8-44d1-b280-3671394ade45">Microsoft Office Excel Viewer</a><br />(KB955935)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr><td>Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater</td><td>
+                    <br />(KB955468)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9769ce08-5207-4c63-b7b9-536266ad6b2b">Microsoft Office Excel Viewer 2003 Service Pack 3</a><br />(KB955468)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=83c88444-75b8-44d1-b280-3671394ade45">Microsoft Office Excel Viewer</a><br />(KB955935)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr><td style="border:1px solid black;">Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9a7be004-5903-4101-90c5-c0d5f8722af9">Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater</a>
-                    <br />(KB955936)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9a7be004-5903-4101-90c5-c0d5f8722af9">Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater Service Pack 1</a><br />(KB955936)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Microsoft Office SharePoint Server 2007</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5c29e646-504c-4455-9d35-9a1bed6d7535">Microsoft Office SharePoint Server 2007</a>*<br />(KB955937)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5c29e646-504c-4455-9d35-9a1bed6d7535">Microsoft Office SharePoint Server 2007 Service Pack 1</a>*<br />(KB955937)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3c21c405-2c9e-45d0-be4d-8ccd093af31f">Microsoft Office SharePoint Server 2007 x64 Edition</a>*<br />(KB955937)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3c21c405-2c9e-45d0-be4d-8ccd093af31f">Microsoft Office SharePoint Server 2007 x64 Edition Service Pack 1</a>*<br />(KB955937)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
+                    <br />(KB955936)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9a7be004-5903-4101-90c5-c0d5f8722af9">Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater Service Pack 1</a><br />(KB955936)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office SharePoint Server 2007</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5c29e646-504c-4455-9d35-9a1bed6d7535">Microsoft Office SharePoint Server 2007</a>*<br />(KB955937)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5c29e646-504c-4455-9d35-9a1bed6d7535">Microsoft Office SharePoint Server 2007 Service Pack 1</a>*<br />(KB955937)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3c21c405-2c9e-45d0-be4d-8ccd093af31f">Microsoft Office SharePoint Server 2007 x64 Edition</a>*<br />(KB955937)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3c21c405-2c9e-45d0-be4d-8ccd093af31f">Microsoft Office SharePoint Server 2007 x64 Edition Service Pack 1</a>*<br />(KB955937)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               </table>
 
 
@@ -1419,32 +1419,32 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="2">Microsoft Host Integration Server</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Microsoft Host Integration Server</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=125712">
                       <strong>MS08-059</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletinklassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Host Integration Server 2000</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Host Integration Server 2000</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=11cca58b-59a4-4e93-9eb1-19b07c290a10">Microsoft Host Integration Server 2000 Service Pack 2 (Server)</a>
                     <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=41b49291-1231-4e23-aef7-818207453d56">Microsoft Host Integration Server 2000 Administrator (Klient)</a><br />(Kritisk)</td></tr>
-                <tr class="alternateRow"><td>Microsoft Host Integration Server 2004</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Host Integration Server 2004</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9ca255ed-9334-4848-af94-49ef3078cdc0">Microsoft Host Integration Server 2004 (Server)</a>
                     <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=eca756a1-ca56-4481-b23c-53c159a4e08c">Microsoft Host Integration Server 2004 Service Pack 1 (Server)</a><br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=92cb54e7-f4ff-40a4-99cb-6257c4d8d4cd">Microsoft Host Integration Server 2004 (klient)</a><br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=d776515c-09aa-4a04-876d-606bfc26a006">Microsoft Host Integration Server 2004 Service Pack 1 (Klient)</a><br />(Kritisk)</td></tr>
-                <tr><td>Microsoft Host Integration Server 2006</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Host Integration Server 2006</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=1ae79da3-ec17-4d4b-8011-d777a237ac93">Microsoft Host Integration Server 2006 til 32-bit systemer</a>
                     <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=05da4540-4976-458a-a612-7385d78695a2">Microsoft Host Integration Server 2006 til x64-baserede systemer</a><br />(Kritisk)</td></tr>
               </table>
