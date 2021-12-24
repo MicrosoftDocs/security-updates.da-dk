@@ -33,37 +33,37 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Kritisk (1)
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS07-061</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS07-061</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=103190"><strong>En sårbarhed i Windows URI-håndtering kan give mulighed for fjernudførelse af kode (943460)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=103190"><strong>En sårbarhed i Windows URI-håndtering kan give mulighed for fjernudførelse af kode (943460)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne opdatering løser en offentligt rapporteret sårbarhed. Der findes en sårbarhed, der kan muliggøre fjernudførelse af kode i den måde, hvorpå Windows Shell håndterer særligt udformede URI'er, som overføres dertil. Hvis Windows Shell ikke i tilstrækkelig grad har valideret disse URI'er, kan en hacker udnytte denne sårbarhed til at udføre arbitrær kode. Microsoft har kun identificeret muligheder for at udnytte denne sårbarhed på systemer med Internet Explorer 7. Sårbarheden findes imidlertid i en Windows-fil, Shell32.dll, som findes i alle understøttede udgaver af Windows XP og Windows Server 2003.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne opdatering løser en offentligt rapporteret sårbarhed. Der findes en sårbarhed, der kan muliggøre fjernudførelse af kode i den måde, hvorpå Windows Shell håndterer særligt udformede URI'er, som overføres dertil. Hvis Windows Shell ikke i tilstrækkelig grad har valideret disse URI'er, kan en hacker udnytte denne sårbarhed til at udføre arbitrær kode. Microsoft har kun identificeret muligheder for at udnytte denne sårbarhed på systemer med Internet Explorer 7. Sårbarheden findes imidlertid i en Windows-fil, Shell32.dll, som findes i alle understøttede udgaver af Windows XP og Windows Server 2003.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -71,37 +71,37 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Alvorlig (1)
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS07-062</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS07-062</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=99391"><strong>En sårbarhed i DNS kan tillade spoofing (forfalskning) (941672)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=99391"><strong>En sårbarhed i DNS kan tillade spoofing (forfalskning) (941672)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne vigtige sikkerhedsopdatering løser en privat rapporteret sårbarhed. Denne forfalskningssårbarhed findes i Windows DNS-servere og kan gøre det muligt for en hacker at sende særligt udformede svar på DNS-anmodninger og derved forfalske eller omdirigere internettrafik fra legitime steder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne vigtige sikkerhedsopdatering løser en privat rapporteret sårbarhed. Denne forfalskningssårbarhed findes i Windows DNS-servere og kan gøre det muligt for en hacker at sende særligt udformede svar på DNS-anmodninger og derved forfalske eller omdirigere internettrafik fra legitime steder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Spoofing (forfalskning)</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Spoofing (forfalskning)</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver genstart, med undtagelse af bestemte situationer.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver genstart, med undtagelse af bestemte situationer.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -109,7 +109,7 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Berørte programmer og downloadplaceringer
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du skal se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er behov for en sikkerhedsopdatering. Hvis et program eller en komponent findes på listen, er sårbarhedens omfang også angivet, og der findes hyperlinks til tilgængelige softwareopdateringer.
 
@@ -119,79 +119,79 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th>Oplysninger        </th>
-    <th>Oplysninger        </th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;">Oplysninger        </th>
+    <th style="border:1px solid black;">Oplysninger        </th>
   </tr>
-            <tr><td>
+            <tr><td style="border:1px solid black;">
                 <strong>Bulletin-id</strong>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=103190">
                   <strong>MS07-061</strong>
                 </a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=99391">
                   <strong>MS07-062</strong>
                 </a>
               </td></tr>
-            <tr class="alternateRow"><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">
                 <strong>Klassifikation</strong>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">
                   <strong>Kritisk</strong>
                 </a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">
                   <strong>Alvorlig</strong>
                 </a>
               </td></tr>
           
-            <tr><th colspan="3">Windows-operativsystem</th></tr>
+            <tr><th colspan="3" style="border:1px solid black;">Windows-operativsystem</th></tr>
           
-            <tr><td>Microsoft Windows 2000 Server Service Pack 4</td><td /><td>
+            <tr><td style="border:1px solid black;">Microsoft Windows 2000 Server Service Pack 4</td><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=c80fcd9b-d0f8-44db-96fc-bf2ead054ff4">Alvorlig</a>
               </td></tr>
-            <tr class="alternateRow"><td>Windows XP Service Pack 2</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Windows XP Service Pack 2</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8ba1c2f9-1bde-4e97-b327-21259c5e5104">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                  
               </td></tr>
-            <tr><td>Windows XP Professional x64 Edition</td><td>
+            <tr><td style="border:1px solid black;">Windows XP Professional x64 Edition</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4ef7fdd7-8887-4c64-a70c-c6ae734d7c5f">Kritisk</a>
               </td><td /></tr>
-            <tr class="alternateRow"><td>Windows XP Professional x64 Edition Service Pack 2</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Windows XP Professional x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4ef7fdd7-8887-4c64-a70c-c6ae734d7c5f">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <strong> </strong>
               </td></tr>
-            <tr><td>Windows Server 2003 Service Pack 1</td><td>
+            <tr><td style="border:1px solid black;">Windows Server 2003 Service Pack 1</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e5d8a866-2c1f-4035-8325-c1be61a75c3b">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ed8e2cb4-bcd9-40fc-9ad6-46b364d0656d">Alvorlig</a>
               </td></tr>
-            <tr class="alternateRow"><td>Windows Server 2003 Service Pack 2</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 Service Pack 2</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e5d8a866-2c1f-4035-8325-c1be61a75c3b">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ed8e2cb4-bcd9-40fc-9ad6-46b364d0656d">Alvorlig</a>
               </td></tr>
-            <tr><td>Windows Server 2003 x64 Edition</td><td>
+            <tr><td style="border:1px solid black;">Windows Server 2003 x64 Edition</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=bf26da08-15b8-4d65-ba12-4cc74c7a1326">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=d1323e14-ffa7-4d03-a2a7-9240c192a75e">Alvorlig</a>
               </td></tr>
-            <tr class="alternateRow"><td>Windows Server 2003 x64 Edition Service Pack 2</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=bf26da08-15b8-4d65-ba12-4cc74c7a1326">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=d1323e14-ffa7-4d03-a2a7-9240c192a75e">Alvorlig</a>
               </td></tr>
-            <tr><td>Windows Server 2003 med SP1 til Itanium-baserede systemer</td><td>
+            <tr><td style="border:1px solid black;">Windows Server 2003 med SP1 til Itanium-baserede systemer</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=1c055f11-3273-4a4c-a33f-bf61ac9ec4c5">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=f3ad67de-85ad-452d-a1e0-0af3faf969d6">Alvorlig</a>
               </td></tr>
-            <tr class="alternateRow"><td>Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=1c055f11-3273-4a4c-a33f-bf61ac9ec4c5">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=f3ad67de-85ad-452d-a1e0-0af3faf969d6">Alvorlig</a>
               </td></tr>
           </table>

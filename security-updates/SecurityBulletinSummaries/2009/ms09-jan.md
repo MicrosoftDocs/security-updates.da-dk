@@ -33,26 +33,26 @@ Følgende tabel viser sikkerhedsbulletinerne for denne måned efter vigtighed.
 
 Oplysninger om berørte programmer kan fås i næste afsnit, **Berørte programmer og downloadplaceringer**.
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Bulletinens titel og resumé</th>
-<th>Klassifikation og sårbarhedens omfang</th>
-<th>Krav om genstart</th>
-<th>Berørte programmer</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Bulletinens titel og resumé</th>
+<th style="border:1px solid black;">Klassifikation og sårbarhedens omfang</th>
+<th style="border:1px solid black;">Krav om genstart</th>
+<th style="border:1px solid black;">Berørte programmer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=132991">MS09-001</a></td>
-<td><strong>Sårbarheder i SMB kan give mulighed for fjernudførelse af kode (958687)</strong><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=132991">MS09-001</a></td>
+<td style="border:1px solid black;"><strong>Sårbarheder i SMB kan give mulighed for fjernudførelse af kode (958687)</strong><br />
 <br />
 Denne sikkerhedsopdatering løser flere privat rapporterede sårbarheder i Microsoft Server Message Block (SMB) Protocol. Disse sårbarheder kan muliggøre fjernudførelse af kode på berørte systemer. En hacker, som har held til at udnytte disse sårbarheder, kan installere programmer, se, ændre eller slette data eller oprette nye konti med komplette brugerrettigheder. De bedste fremgangsmåder for brug af firewalls og standardkonfigurationer af firewalls kan hjælpe med at beskytte netværk mod angreb, der kommer fra en placering uden for virksomhedsperimeteren. De bedste fremgangsmåder anbefaler, at systemer med forbindelse til internettet har mindst mulig antal åbne porte.</td>
-<td><a href="http://www.microsoft.com/danmark/technet/sikkerhed/bulletin/klassificering.mspx">Kritisk</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/danmark/technet/sikkerhed/bulletin/klassificering.mspx">Kritisk</a><br />
 Fjernudførelse af kode</td>
-<td>Kræver genstart</td>
-<td>Microsoft Windows</td>
+<td style="border:1px solid black;">Kræver genstart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 </tbody>
 </table>
@@ -62,41 +62,41 @@ Fjernudførelse af kode</td>
 
 Følgende tabel viser en vurdering af udnyttelsesmuligheden for hver af de sårbarheder, der behandles i denne måned. Sårbarhederne er opført i rækkefølge efter bulletin-id og CVE-id.
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til sandsynligheden for, at fungerende exploit-kode udgives inden for 30 dage efter udgivelse af sikkerhedsbulletin, for hver af de sikkerhedsopdateringer, du muligvis skal installere. Du bør gennemse alle vurderinger nedenfor, i overensstemmelse med din specifikke konfiguration for at prioritere din implementering. Hvis du ønsker flere oplysninger om, hvad disse klassifikationer betyder, og hvordan de fastlægges, kan du se [Microsoft Indeks for udnyttelse](http://technet.microsoft.com/en-us/security/cc998259.aspx).
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Bulletinens titel</th>
-<th>CVE ID</th>
-<th>Vurdering af mulighed for udnyttelse</th>
-<th>Vigtige bemærkninger</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Bulletinens titel</th>
+<th style="border:1px solid black;">CVE ID</th>
+<th style="border:1px solid black;">Vurdering af mulighed for udnyttelse</th>
+<th style="border:1px solid black;">Vigtige bemærkninger</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=132991">MS09-001</a></td>
-<td>Sårbarheder i SMB kan give mulighed for fjernudførelse af kode (958687)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4114">CVE-2008-4114</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig</td>
-<td>Dette er kun en sårbarhed med Denial-of-Service.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=132991">MS09-001</a></td>
+<td style="border:1px solid black;">Sårbarheder i SMB kan give mulighed for fjernudførelse af kode (958687)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4114">CVE-2008-4114</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig</td>
+<td style="border:1px solid black;">Dette er kun en sårbarhed med Denial-of-Service.</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=132991">MS09-001</a></td>
-<td>Sårbarheder i SMB kan give mulighed for fjernudførelse af kode (958687)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4834">CVE-2008-4834</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig</td>
-<td>Dette er en sårbarhed i forbindelse med fjernudførelse af kode, men fungerende exploit-kode er usandsynlig. Yderligere oplysninger finder du under bloggen Microsoft Security Vulnerability Research &amp; Defense, <a href="http://blogs.technet.com/swi/archive/2009/01/09/ms09-001-prioritizing-the-deployment-of-the-smb-bulletin.aspx">Prioritizing the deployment of the SMB bulletin</a>.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=132991">MS09-001</a></td>
+<td style="border:1px solid black;">Sårbarheder i SMB kan give mulighed for fjernudførelse af kode (958687)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4834">CVE-2008-4834</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig</td>
+<td style="border:1px solid black;">Dette er en sårbarhed i forbindelse med fjernudførelse af kode, men fungerende exploit-kode er usandsynlig. Yderligere oplysninger finder du under bloggen Microsoft Security Vulnerability Research &amp; Defense, <a href="http://blogs.technet.com/swi/archive/2009/01/09/ms09-001-prioritizing-the-deployment-of-the-smb-bulletin.aspx">Prioritizing the deployment of the SMB bulletin</a>.</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=132991">MS09-001</a></td>
-<td>Sårbarheder i SMB kan give mulighed for fjernudførelse af kode (958687)</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4835">CVE-2008-4835</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig</td>
-<td>Dette er en sårbarhed i forbindelse med fjernudførelse af kode, men fungerende exploit-kode er usandsynlig. Yderligere oplysninger finder du under bloggen Microsoft Security Vulnerability Research &amp; Defense, <a href="http://blogs.technet.com/swi/archive/2009/01/09/ms09-001-prioritizing-the-deployment-of-the-smb-bulletin.aspx">Prioritizing the deployment of the SMB bulletin</a>.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=132991">MS09-001</a></td>
+<td style="border:1px solid black;">Sårbarheder i SMB kan give mulighed for fjernudførelse af kode (958687)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4835">CVE-2008-4835</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig</td>
+<td style="border:1px solid black;">Dette er en sårbarhed i forbindelse med fjernudførelse af kode, men fungerende exploit-kode er usandsynlig. Yderligere oplysninger finder du under bloggen Microsoft Security Vulnerability Research &amp; Defense, <a href="http://blogs.technet.com/swi/archive/2009/01/09/ms09-001-prioritizing-the-deployment-of-the-smb-bulletin.aspx">Prioritizing the deployment of the SMB bulletin</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -106,7 +106,7 @@ Brug denne tabel til at få kendskab til sandsynligheden for, at fungerende expl
 
 Følgende tabel viser bulletinerne efter overordnet softwarekategori og klassifikation.
 
-**Hvordan bruger jeg disse tabeller?**
+**Hvordan bruger jeg disse tabeller?**  
 
 Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du bør se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er nogen sikkerhedsopdateringer vedrørende din installation. Hvis et program eller en komponent findes på listen, findes der hyperlinks til tilgængelige softwareopdateringer, og sårbarhedens omfang også angivet.
 
@@ -116,122 +116,122 @@ Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligv
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="2">Microsoft Windows 2000</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Microsoft Windows 2000</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=132991">
                       <strong>MS09-001</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/danmark/technet/sikkerhed/bulletin/klassificering.mspx">
                       <strong>Kritisk</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Windows 2000 Service Pack 4</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Windows 2000 Service Pack 4</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e0678d14-c1b5-457a-8222-8e7682760ed4">Microsoft Windows 2000 Service Pack 4</a>
                     <br />(Kritisk)</td></tr>
               
-                <tr><th colspan="2">Windows XP</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Windows XP</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=132991">
                       <strong>MS09-001</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/danmark/technet/sikkerhed/bulletin/klassificering.mspx">
                       <strong>Kritisk</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Windows XP Service Pack 2 og Windows XP Service Pack 3</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows XP Service Pack 2 og Windows XP Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=eeafcdc5-df39-4b29-b6f1-7d32b64761e1">Windows XP Service Pack 2 og Windows XP Service Pack 3</a>
                     <br />(Kritisk)</td></tr>
-                <tr><td>Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</td><td>
+                <tr><td style="border:1px solid black;">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=26898401-f669-4542-ad93-199ed1fe9a2a">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a>
                     <br />(Kritisk)</td></tr>
               
-                <tr><th colspan="2">Windows Server 2003</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Windows Server 2003</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=132991">
                       <strong>MS09-001</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/danmark/technet/sikkerhed/bulletin/klassificering.mspx">
                       <strong>Kritisk</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=588ca8e8-38a9-47ed-9c41-09aaf1022e49">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a>
                     <br />(Kritisk)</td></tr>
-                <tr><td>Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</td><td>
+                <tr><td style="border:1px solid black;">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ee59441c-1e8f-4425-ae8d-dec14e7f13fb">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a>
                     <br />(Kritisk)</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=caec9321-fa5b-42f0-9f26-61f673fe6eef">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a>
                     <br />(Kritisk)</td></tr>
               
-                <tr><th colspan="2">Windows Vista</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Windows Vista</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=132991">
                       <strong>MS09-001</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/danmark/technet/sikkerhed/bulletin/klassificering.mspx">
                       <strong>Moderat</strong>
                     </a>
                   </td></tr>
-                <tr><td>Windows Vista og Windows Vista Service Pack 1</td><td>
+                <tr><td style="border:1px solid black;">Windows Vista og Windows Vista Service Pack 1</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9179c463-c10a-452a-990f-b7e37cdd889b">Windows Vista og Windows Vista Service Pack 1</a>
                     <br />(Moderat)</td></tr>
-                <tr class="alternateRow"><td>Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6b26952e-b59d-4b0f-a52d-025e45ecd233">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a>
                     <br />(Moderat)</td></tr>
               
-                <tr><th colspan="2">Windows Server 2008</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Windows Server 2008</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=132991">
                       <strong>MS09-001</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/danmark/technet/sikkerhed/bulletin/klassificering.mspx">
                       <strong>Moderat</strong>
                     </a>
                   </td></tr>
-                <tr><td>Windows Server 2008 til 32 bit-systemer                    </td><td>
+                <tr><td style="border:1px solid black;">Windows Server 2008 til 32 bit-systemer                    </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=7245b411-7c9e-41e5-9841-4c586336086c">Windows Server 2008 til 32 bit-systemer</a>*<br />(Moderat)</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2008 til x64-baserede systemer</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2008 til x64-baserede systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=a241eaad-95a0-442b-978f-f21a6f0c7db4">Windows Server 2008 til x64-baserede systemer</a>*<br />(Moderat)</td></tr>
-                <tr><td>Windows Server 2008 til Itanium-baserede systemer</td><td>
+                <tr><td style="border:1px solid black;">Windows Server 2008 til Itanium-baserede systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=ab7c7015-20bb-4a0c-977a-969f4e2a5189">Windows Server 2008 for Itanium-baserede systemer</a>
                     <br />(Moderat)</td></tr>
               </table>

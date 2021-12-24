@@ -33,46 +33,46 @@ Følgende tabel viser sikkerhedsbulletinerne for denne måned efter vigtighed.
 
 Oplysninger om berørte programmer kan fås i næste afsnit, **Berørte programmer og downloadplaceringer**.
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Bulletinens titel og resumé</th>
-<th>Klassifikation og sårbarhedens omfang</th>
-<th>Krav om genstart</th>
-<th>Berørte programmer</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Bulletinens titel og resumé</th>
+<th style="border:1px solid black;">Klassifikation og sårbarhedens omfang</th>
+<th style="border:1px solid black;">Krav om genstart</th>
+<th style="border:1px solid black;">Berørte programmer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=207841">MS11-015</a></td>
-<td><strong>Sårbarheder i Windows Media kan give mulighed for fjernudførelse af kode (2510030)</strong><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=207841">MS11-015</a></td>
+<td style="border:1px solid black;"><strong>Sårbarheder i Windows Media kan give mulighed for fjernudførelse af kode (2510030)</strong><br />
 <br />
 Denne sikkerhedsopdatering løser én offentliggjort sårbarhed i DirectShow og en privat rapporteret sårbarhed i Windows Media Player og Windows Media Center. De mere alvorlige af disse sårbarheder kan give mulighed for fjernudførelse af kode, hvis en bruger åbner en særligt udformet Microsoft Digital Video Recording-fil (.dvr-ms). I alle tilfælde kan brugeren ikke tvinges til at åbne filen; for at angrebet skal kunne lykkes, skal brugeren bringes til dette af egen fri vilje.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a><br />
 Fjernudførelse af kode</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Windows</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=207892">MS11-017</a></td>
-<td><strong>Sårbarhed i Fjernskrivebordsklienten kan give mulighed for fjernudførelse af kode (2508062)</strong><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=207892">MS11-017</a></td>
+<td style="border:1px solid black;"><strong>Sårbarhed i Fjernskrivebordsklienten kan give mulighed for fjernudførelse af kode (2508062)</strong><br />
 <br />
 Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Windows-Fjernskrivebordsklient. Sårbarheden kan give mulighed for fjernudførelse af kode, hvis en bruger åbner en legitim Fjernskrivebordskonfigurationsfil (.rdp), der er placeret i den samme netværksmappe som en særligt udformet biblioteksfil. For at et angreb skal lykkes, skal en bruger besøge en fjernplacering på et filsystem, der ikke er tillid til, eller en WebDAV-deling og åbne et dokument fra denne placering, der derefter indlæses med et sårbart program.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
 Fjernudførelse af kode</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Windows</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=209774">MS11-016</a></td>
-<td><strong>En sårbarhed i Microsoft Groove kan muliggøre fjernudførelse af kode (2494047)</strong><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=209774">MS11-016</a></td>
+<td style="border:1px solid black;"><strong>En sårbarhed i Microsoft Groove kan muliggøre fjernudførelse af kode (2494047)</strong><br />
 <br />
 Denne sikkerhedsopdatering løser en offentliggjort sårbarhed i Microsoft Groove som kan muliggøre fjernudførelse af kode, hvis en bruger åbner en legitim Groove-relateret fil, der er placeret i samme netværk som en særligt udformet biblioteksfil. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
 Fjernudførelse af kode</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Office</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Office</td>
 </tr>
 </tbody>
 </table>
@@ -82,48 +82,48 @@ Fjernudførelse af kode</td>
 
 Følgende tabel viser en vurdering af udnyttelsesmuligheden for hver af de sårbarheder, der behandles i denne måned. Sårbarhederne er anført i faldende rækkefølge i forhold til CVE ID's vurderingsniveau for udnyttelse. Kun sårbarheder, der har en klassifikation som Kritisk eller Alvorlig i bulletinerne, bliver inkluderet.
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til sandsynligheden for, at fungerende exploit-kode udgives inden for 30 dage efter udgivelse af sikkerhedsbulletin, for hver af de sikkerhedsopdateringer, du muligvis skal installere. Du bør gennemse alle vurderinger nedenfor, i overensstemmelse med din specifikke konfiguration for at prioritere din implementering. Hvis du ønsker flere oplysninger om, hvad disse klassifikationer betyder, og hvordan de fastlægges, kan du se [Microsoft Indeks for udnyttelse](http://technet.microsoft.com/en-us/security/cc998259.aspx).
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Titel på sårbarhed</th>
-<th>CVE ID</th>
-<th>Vurdering af mulighed for udnyttelse</th>
-<th>Vigtige bemærkninger</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Titel på sårbarhed</th>
+<th style="border:1px solid black;">CVE ID</th>
+<th style="border:1px solid black;">Vurdering af mulighed for udnyttelse</th>
+<th style="border:1px solid black;">Vigtige bemærkninger</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=207892">MS11-017</a></td>
-<td>Sårbarhed vedrørende usikker indlæsning af Fjernskrivebordsbibliotek</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0029">CVE-2011-0029</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=207892">MS11-017</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende usikker indlæsning af Fjernskrivebordsbibliotek</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0029">CVE-2011-0029</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=207841">MS11-015</a></td>
-<td>Sårbarhed vedrørende usikker indlæsning af DirectShow-bibliotek</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0032">CVE-2011-0032</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
-<td><strong>Denne sårbarhed er blevet offentliggjort, og PoC-kode er muligvis tilgængelig</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=207841">MS11-015</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende usikker indlæsning af DirectShow-bibliotek</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0032">CVE-2011-0032</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;"><strong>Denne sårbarhed er blevet offentliggjort, og PoC-kode er muligvis tilgængelig</strong></td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=207841">MS11-015</a></td>
-<td>DVR-MS-sårbarhed</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0042">CVE-2011-0042</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=207841">MS11-015</a></td>
+<td style="border:1px solid black;">DVR-MS-sårbarhed</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0042">CVE-2011-0042</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=209774">MS11-016</a></td>
-<td>Sårbarhed vedrørende usikker indlæsning af Microsoft Groove-bibliotek</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0108">CVE-2011-0108</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
-<td><strong>Denne sårbarhed er blevet offentliggjort, og PoC-kode er muligvis tilgængelig</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=209774">MS11-016</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende usikker indlæsning af Microsoft Groove-bibliotek</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-0108">CVE-2011-0108</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;"><strong>Denne sårbarhed er blevet offentliggjort, og PoC-kode er muligvis tilgængelig</strong></td>
 </tr>
 </tbody>
 </table>
@@ -133,7 +133,7 @@ Brug denne tabel til at få kendskab til sandsynligheden for, at fungerende expl
 
 Følgende tabel viser bulletinerne efter overordnet softwarekategori og klassifikation.
 
-**Hvordan bruger jeg disse tabeller?**
+**Hvordan bruger jeg disse tabeller?**  
 
 Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du bør se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er nogen sikkerhedsopdateringer vedrørende din installation. Hvis et program eller en komponent findes på listen, findes der hyperlinks til tilgængelige softwareopdateringer, og sårbarhedens omfang også angivet.
 
@@ -143,199 +143,199 @@ Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligv
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="3">Windows XP</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows XP</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207841">
                       <strong>MS11-015</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207892">
                       <strong>MS11-017</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Windows XP Service Pack 3</td><td>
+                <tr><td style="border:1px solid black;">Windows XP Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=d8284bfa-ed6c-4647-9fb0-588e53173775">Kun Windows XP Service Pack 3</a>
                     [1]
-                    <br />(KB2479943)<br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=b1be30de-7e88-467d-aee2-68f88e6a7355">Windows XP Media Center Edition 2005 Service Pack 3</a><br />(KB2502898)<br />(Kritisk)</td><td>
+                    <br />(KB2479943)<br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=b1be30de-7e88-467d-aee2-68f88e6a7355">Windows XP Media Center Edition 2005 Service Pack 3</a><br />(KB2502898)<br />(Kritisk)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=1aed6080-feab-4b5e-9d26-6a3f4b92434d">Forbindelse til Fjernskrivebord 5.2-klient</a>
                     <br />(KB2483618)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=d67e4d8c-aeb9-45e6-9555-7456c5540475">Forbindelse til Fjernskrivebord 6.1-klient</a><br />(KB2481109) <br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6a01992e-c9a1-4dc9-a3ef-7410b81f17e6">Forbindelse til Fjernskrivebord 7.0-klient</a><br />(KB2483614) <br />(Alvorlig)</td></tr>
-                <tr class="alternateRow"><td>Windows XP Professional x64 Edition Service Pack 2</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows XP Professional x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5270b5d3-3720-42a2-a8cf-67089c0cc658">Windows XP Professional x64 Edition Service Pack 2</a>
-                    <br />(KB2479943) <br />(Kritisk)</td><td>
+                    <br />(KB2479943) <br />(Kritisk)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6d4539ef-4a05-4c7d-9489-436f7b7a3ebe">Forbindelse til Fjernskrivebord 6.0-klient</a>
                     [1]
                     <br />(KB2481109) <br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="3">Windows Server 2003</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows Server 2003</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207841">
                       <strong>MS11-015</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207892">
                       <strong>MS11-017</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>Ingen</td><td>
+                  </td><td style="border:1px solid black;">Ingen</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Windows Server 2003 Service Pack 2</td><td>Ikke relevant</td><td>
+                <tr><td style="border:1px solid black;">Windows Server 2003 Service Pack 2</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=641d5d12-0790-4551-831a-e78febad17a7">Forbindelse til Fjernskrivebord 6.0-klient</a>
                     [1]
                     <br />(KB2481109) <br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6fec0d06-042d-4e55-9843-009edd7d26ce">Forbindelse til Fjernskrivebord 6.0-klient-MUI (Multilingual User Interface )</a>[2]<br />(KB2483619) <br />(Alvorlig)</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2003 x64 Edition Service Pack 2</td><td>Ikke relevant</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 x64 Edition Service Pack 2</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=78dbb9cf-8a18-4f0a-8edf-f1ce0c993c63">Forbindelse til Fjernskrivebord 6.0-klient</a>
                     [1]
                     <br />(KB2481109) <br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="3">Windows Vista</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows Vista</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207841">
                       <strong>MS11-015</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207892">
                       <strong>MS11-017</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Windows Vista Service Pack 1 og Windows Vista Service Pack 2</td><td>
+                <tr><td style="border:1px solid black;">Windows Vista Service Pack 1 og Windows Vista Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=f9f1dde2-2219-4bf1-a497-edd011577b96">Windows Vista Service Pack 2 og Windows Vista Service Pack 2</a>
                     [2]
-                    <br />(KB2479943)<br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=1bc240b3-1938-4350-b26f-67b81a79f8a0">Windows Media Center TV-pakke til Windows Vista (32-bit versioner</a>)[3]<br />(KB2494132) <br />(Kritisk)</td><td>
+                    <br />(KB2479943)<br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=1bc240b3-1938-4350-b26f-67b81a79f8a0">Windows Media Center TV-pakke til Windows Vista (32-bit versioner</a>)[3]<br />(KB2494132) <br />(Kritisk)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e3ea7690-386b-4cdf-889f-b3914921c56f">Forbindelse til Fjernskrivebord 6.1-klient</a>
                     <br />(KB2481109) <br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3c30f67e-7c31-4553-ba3e-e056df1bf8eb">Forbindelse til Fjernskrivebord 7.0-klient</a><br />(KB2483614) <br />(Alvorlig)</td></tr>
-                <tr class="alternateRow"><td>Windows Vista x64 Edition Service Pack 1 og Windows Vista x64 Edition Service Pack 2</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Vista x64 Edition Service Pack 1 og Windows Vista x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e11d00df-d1cf-4a33-a1be-6721cdff5995">Windows Vista x64 Edition Service Pack 2 og Windows Vista x64 Edition Service Pack 2</a>
                     [2]
-                    <br />(KB2479943) <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=cd4c5a80-db24-4696-a248-1286c3b9f550">Windows Media Center TV-pakke til Windows Vista (64-bit versioner</a>)[3]<br />(KB2494132) <br />(Kritisk)</td><td>
+                    <br />(KB2479943) <br />(Kritisk)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=cd4c5a80-db24-4696-a248-1286c3b9f550">Windows Media Center TV-pakke til Windows Vista (64-bit versioner</a>)[3]<br />(KB2494132) <br />(Kritisk)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5735bed6-0e3d-46a4-85d0-14ec34a82edd">Forbindelse til Fjernskrivebord 6.1-klient</a>
                     <br />(KB2481109) <br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8025482b-f58f-4f5a-a133-5563c65b21f6">Forbindelse til Fjernskrivebord 7.0-klient</a><br />(KB2483614) <br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="3">Windows Server 2008</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows Server 2008</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207841">
                       <strong>MS11-015</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207892">
                       <strong>MS11-017</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>Ingen</td><td>
+                  </td><td style="border:1px solid black;">Ingen</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Windows Server 2008 til 32-bit-systemer og Windows Server 2008 til 32-bit-systemer Service Pack 2</td><td>Ikke relevant</td><td>
+                <tr><td style="border:1px solid black;">Windows Server 2008 til 32-bit-systemer og Windows Server 2008 til 32-bit-systemer Service Pack 2</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=31d790c9-92f9-4a2b-800b-8e8d2b570bb9">Forbindelse til Fjernskrivebord 6.1-klient</a>**<br />(KB2481109) <br />(Alvorlig)</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2008 til x64-baserede systemer og Windows Server 2008 til x64-baserede systemer Service Pack 2</td><td>Ikke relevant</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2008 til x64-baserede systemer og Windows Server 2008 til x64-baserede systemer Service Pack 2</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5b0a8eb5-4bc2-4054-b952-58aa645afcf5">Forbindelse til Fjernskrivebord 6.1-klient</a>**<br />(KB2481109) <br />(Alvorlig)</td></tr>
-                <tr><td>Windows Server 2008 til Itanium-baserede systemer og Windows Server 2008 til Itanium-baserede systemer Service Pack 2</td><td>Ikke relevant</td><td>
+                <tr><td style="border:1px solid black;">Windows Server 2008 til Itanium-baserede systemer og Windows Server 2008 til Itanium-baserede systemer Service Pack 2</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=25da7e00-745d-4d98-9dd8-52a8a4340404">Forbindelse til Fjernskrivebord 6.1-klient</a>
                     <br />(KB2481109) <br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="3">Windows 7</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows 7</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207841">
                       <strong>MS11-015</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207892">
                       <strong>MS11-017</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Windows 7 til 32-bit-systemer og Windows 7 til 32-bit-systemer Service Pack 1</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows 7 til 32-bit-systemer og Windows 7 til 32-bit-systemer Service Pack 1</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=1be77daa-29b1-4dae-a87f-2cb8f7e6a305">Windows 7 til 32-bit-systemer og Windows 7 til 32-bit-systemer Service Pack 1</a>
-                    <br />(KB2479943) <br />(Kritisk)</td><td>Kun Windows 7 til 32-bit-systemer:<br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0768a5f4-da28-4b2e-8aff-d68f890df3e6">Forbindelse til Fjernskrivebord 7.0-klient</a><br />(KB2483614) <br />(Alvorlig)</td></tr>
-                <tr><td>Windows 7 til x64-baserede systemer og Windows 7 til x64-baserede systemer Service Pack 1</td><td>
+                    <br />(KB2479943) <br />(Kritisk)</td><td style="border:1px solid black;">Kun Windows 7 til 32-bit-systemer:<br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0768a5f4-da28-4b2e-8aff-d68f890df3e6">Forbindelse til Fjernskrivebord 7.0-klient</a><br />(KB2483614) <br />(Alvorlig)</td></tr>
+                <tr><td style="border:1px solid black;">Windows 7 til x64-baserede systemer og Windows 7 til x64-baserede systemer Service Pack 1</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=56fb24ce-65c7-4573-b613-e424ccc1a3a6">Windows 7 til x64-baserede systemer og Windows 7 til x64-baserede systemer Service Pack 1</a>
-                    <br />(KB2479943) <br />(Kritisk)</td><td>Kun Windows 7 til x64-baserede systemer:<br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=935adb10-1e7e-4501-b543-8247b88f6d18">Forbindelse til Fjernskrivebord 7.0-klient</a><br />(KB2483614) <br />(Alvorlig)</td></tr>
+                    <br />(KB2479943) <br />(Kritisk)</td><td style="border:1px solid black;">Kun Windows 7 til x64-baserede systemer:<br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=935adb10-1e7e-4501-b543-8247b88f6d18">Forbindelse til Fjernskrivebord 7.0-klient</a><br />(KB2483614) <br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="3">Windows Server 2008 R2</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Windows Server 2008 R2</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207841">
                       <strong>MS11-015</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=207892">
                       <strong>MS11-017</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Windows Server 2008 R2 til x64-baserede systemer og Windows Server 2008 R2 til x64-baserede systemer Service Pack 1																		</td><td>
-                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6f45658a-1db8-4ef5-b840-4d0180d4d90e">Windows Server 2008 R2 til x64-baserede systemer  og Windows Server 2008 R2 til x64-baserede systemer Service Pack 1</a>**<br />(KB2479943) <br />(Alvorlig)</td><td>Kun Windows Server 2008 R2 til x64-baserede systemer:<br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3fcb2e11-591e-484a-a992-2f1d563e6d17">Forbindelse til Fjernskrivebord 7.0-klient</a>**<br />(KB2483614) <br />(Alvorlig)</td></tr>
-                <tr><td>Windows Server 2008 R2 til Itanium-baserede systemer</td><td>Ikke relevant</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2008 R2 til x64-baserede systemer og Windows Server 2008 R2 til x64-baserede systemer Service Pack 1																		</td><td style="border:1px solid black;">
+                    <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=6f45658a-1db8-4ef5-b840-4d0180d4d90e">Windows Server 2008 R2 til x64-baserede systemer  og Windows Server 2008 R2 til x64-baserede systemer Service Pack 1</a>**<br />(KB2479943) <br />(Alvorlig)</td><td style="border:1px solid black;">Kun Windows Server 2008 R2 til x64-baserede systemer:<br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3fcb2e11-591e-484a-a992-2f1d563e6d17">Forbindelse til Fjernskrivebord 7.0-klient</a>**<br />(KB2483614) <br />(Alvorlig)</td></tr>
+                <tr><td style="border:1px solid black;">Windows Server 2008 R2 til Itanium-baserede systemer</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=c29b6487-78f0-421c-810c-c5e45d6a2352">Forbindelse til Fjernskrivebord 7.0-klient</a>
                     <br />(KB2483614) <br />(Alvorlig)</td></tr>
               </table>
@@ -363,26 +363,26 @@ Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligv
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="2">Microsoft Office-programmer</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Microsoft Office-programmer</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=209774">
                       <strong>MS11-016</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Groove 2007</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Groove 2007</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3981ab53-1082-4155-9000-11d8a976ff33">Microsoft Groove 2007 Service Pack 2</a>
                     <br />(KB2494047)<br />(Alvorlig)</td></tr>
               </table>

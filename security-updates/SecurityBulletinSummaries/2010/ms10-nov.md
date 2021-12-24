@@ -33,46 +33,46 @@ Følgende tabel viser sikkerhedsbulletinerne for denne måned efter vigtighed.
 
 Oplysninger om berørte programmer kan fås i næste afsnit, **Berørte programmer og downloadplaceringer**.
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Bulletinens titel og resumé</th>
-<th>Klassifikation og sårbarhedens omfang</th>
-<th>Krav om genstart</th>
-<th>Berørte programmer</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Bulletinens titel og resumé</th>
+<th style="border:1px solid black;">Klassifikation og sårbarhedens omfang</th>
+<th style="border:1px solid black;">Krav om genstart</th>
+<th style="border:1px solid black;">Berørte programmer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
-<td><strong>Sårbarheder i Microsoft Office kan give mulighed for fjernudførelse af kode (2423930)</strong><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
+<td style="border:1px solid black;"><strong>Sårbarheder i Microsoft Office kan give mulighed for fjernudførelse af kode (2423930)</strong><br />
 <br />
 Denne sikkerhedsopdatering løser én offentliggjort sårbarhed og fire privat rapporterede sårbarheder i Microsoft Office. Den mest alvorlige sårbarhed kan muliggøre fjernudførelse af kode, hvis en bruger åbner eller får vist en særligt udformet RTF e-mail-meddelelse. En hacker, som det lykkes at udnytte enhver af disse sårbarheder, vil kunne få de samme brugerrettigheder som den lokale bruger. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a><br />
 Fjernudførelse af kode</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Office</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Office</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=198186">MS10-088</a></td>
-<td><strong>Sårbarheder i Microsoft PowerPoint kan give mulighed for fjernudførelse af kode (2293386)</strong><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=198186">MS10-088</a></td>
+<td style="border:1px solid black;"><strong>Sårbarheder i Microsoft PowerPoint kan give mulighed for fjernudførelse af kode (2293386)</strong><br />
 <br />
 Denne sikkerhedsopdatering løser to privat rapporterede sårbarheder i Microsoft Office, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet PowerPoint-fil. En hacker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
 Fjernudførelse af kode</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Office</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Office</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=199536">MS10-089</a></td>
-<td><strong>Sårbarheder i Forefront Unified Access Gateway (UAG) kan muliggøre udvidelse af rettigheder (2316074)</strong><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=199536">MS10-089</a></td>
+<td style="border:1px solid black;"><strong>Sårbarheder i Forefront Unified Access Gateway (UAG) kan muliggøre udvidelse af rettigheder (2316074)</strong><br />
 <br />
 Denne kritiske sikkerhedsopdatering løser fire privat rapporterede sårbarheder i Forefront Unified Access Gateway (UAG). De mest alvorlige af disse sårbarheder kan tillade en udvidelse af rettigheder, hvis en bruger besøger et berørt websted ved brug af en særligt udformet URL. En hacker kan imidlertid ikke tvinge brugere til at besøge et sådant websted. I stedet er hackeren nødt til at overtale brugerne til at besøge webstedet, typisk ved at få dem til at klikke på et link i en e-mail eller i en onlinemeddelelse, som fører brugerne til hackerens websted.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
 Udvidelse af rettigheder</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Forefront United Access Gateway</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Forefront United Access Gateway</td>
 </tr>
 </tbody>
 </table>
@@ -82,97 +82,97 @@ Udvidelse af rettigheder</td>
 
 Følgende tabel viser en vurdering af udnyttelsesmuligheden for hver af de sårbarheder, der behandles i denne måned. Sårbarhederne er anført i faldende rækkefølge i forhold til CVE ID's vurderingsniveau for udnyttelse. Kun sårbarheder, der har en klassifikation som Kritisk eller Alvorlig i bulletinerne, bliver inkluderet.
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til sandsynligheden for, at fungerende exploit-kode udgives inden for 30 dage efter udgivelse af sikkerhedsbulletin, for hver af de sikkerhedsopdateringer, du muligvis skal installere. Du bør gennemse alle vurderinger nedenfor, i overensstemmelse med din specifikke konfiguration for at prioritere din implementering. Hvis du ønsker flere oplysninger om, hvad disse klassifikationer betyder, og hvordan de fastlægges, kan du se [Microsoft Indeks for udnyttelse](http://technet.microsoft.com/en-us/security/cc998259.aspx).
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Titel på sårbarhed</th>
-<th>CVE ID</th>
-<th>Vurdering af mulighed for udnyttelse</th>
-<th>Vigtige bemærkninger</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Titel på sårbarhed</th>
+<th style="border:1px solid black;">CVE ID</th>
+<th style="border:1px solid black;">Vurdering af mulighed for udnyttelse</th>
+<th style="border:1px solid black;">Vigtige bemærkninger</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=198186">MS10-088</a></td>
-<td>Sårbarhed vedrørende bufferoverløb for PowerPoint-parsing</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2572">CVE-2010-2572</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=198186">MS10-088</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende bufferoverløb for PowerPoint-parsing</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2572">CVE-2010-2572</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=199536">MS10-089</a></td>
-<td>UAG XSS tillader sårbarhed vedrørende EOP</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2733">CVE-2010-2733</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=199536">MS10-089</a></td>
+<td style="border:1px solid black;">UAG XSS tillader sårbarhed vedrørende EOP</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2733">CVE-2010-2733</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=199536">MS10-089</a></td>
-<td>Sårbarhed vedrørende XSS-problem på UAG-mobilportalwebsted i Forefront Unified Access Gateway</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2734">CVE-2010-2734</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=199536">MS10-089</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende XSS-problem på UAG-mobilportalwebsted i Forefront Unified Access Gateway</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2734">CVE-2010-2734</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
-<td>Sårbarhed i forbindelse med RTF-stakbufferoverløb</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3333">CVE-2010-3333</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
+<td style="border:1px solid black;">Sårbarhed i forbindelse med RTF-stakbufferoverløb</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3333">CVE-2010-3333</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
-<td>Sårbarhed vedrørende poster i forbindelse med Office-tegning</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3334">CVE-2010-3334</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende poster i forbindelse med Office-tegning</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3334">CVE-2010-3334</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
-<td>Sårbarhed vedrørende håndtering af tegningsundtagelse</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3335">CVE-2010-3335</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende håndtering af tegningsundtagelse</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3335">CVE-2010-3335</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
-<td>Sårbarhed vedrørende usikker indlæsning af bibliotek</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3337">CVE-2010-3337</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td><strong>Denne sårbarhed er blevet offentliggjort</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende usikker indlæsning af bibliotek</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3337">CVE-2010-3337</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;"><strong>Denne sårbarhed er blevet offentliggjort</strong></td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=199536">MS10-089</a></td>
-<td>Sårbarhed i XSS i Sginurl.asp</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3936">CVE-2010-3936</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=199536">MS10-089</a></td>
+<td style="border:1px solid black;">Sårbarhed i XSS i Sginurl.asp</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3936">CVE-2010-3936</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=198186">MS10-088</a></td>
-<td>PowerPoint-heltalsunderløb forårsager sårbarhed vedrørende heapdefekt</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2573">CVE-2010-2573</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Inkonsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=198186">MS10-088</a></td>
+<td style="border:1px solid black;">PowerPoint-heltalsunderløb forårsager sårbarhed vedrørende heapdefekt</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2573">CVE-2010-2573</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Inkonsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
-<td>Sårbarhed vedrørende MSO stor SPID læs AV</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3336">CVE-2010-3336</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Inkonsekvent exploit-kode sandsynlig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=203241">MS10-087</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende MSO stor SPID læs AV</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3336">CVE-2010-3336</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Inkonsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=199536">MS10-089</a></td>
-<td>Sårbarhed vedrørende UAG-omdirigerings-spoofing</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2732">CVE-2010-2732</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig</td>
-<td>Dette er kun en spoofing-sårbarhed</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=199536">MS10-089</a></td>
+<td style="border:1px solid black;">Sårbarhed vedrørende UAG-omdirigerings-spoofing</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2732">CVE-2010-2732</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Fungerende exploit-kode usandsynlig</td>
+<td style="border:1px solid black;">Dette er kun en spoofing-sårbarhed</td>
 </tr>
 </tbody>
 </table>
@@ -182,7 +182,7 @@ Brug denne tabel til at få kendskab til sandsynligheden for, at fungerende expl
 
 Følgende tabel viser bulletinerne efter overordnet softwarekategori og klassifikation.
 
-**Hvordan bruger jeg disse tabeller?**
+**Hvordan bruger jeg disse tabeller?**  
 
 Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du bør se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er nogen sikkerhedsopdateringer vedrørende din installation. Hvis et program eller en komponent findes på listen, findes der hyperlinks til tilgængelige softwareopdateringer, og sårbarhedens omfang også angivet.
 
@@ -192,106 +192,106 @@ Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligv
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="3">Microsoft Office-pakker og komponenter</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Microsoft Office-pakker og komponenter</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=203241">
                       <strong>MS10-087</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=198186">
                       <strong>MS10-088</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Office XP Service Pack 3</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office XP Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=f32648e3-2fb5-472c-932f-360e5d3c0931">Microsoft Office XP Service Pack 3</a>
-                    <br />(KB2289169)<br />(Alvorlig)</td><td>
+                    <br />(KB2289169)<br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=3efbf9f6-734a-46ac-8f92-87b6ec819bfa">Microsoft PowerPoint 2002 Service Pack 3</a>
                     <br />(KB2413272)<br />(Alvorlig)</td></tr>
-                <tr class="alternateRow"><td>Microsoft Office 2003 Service Pack 3</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office 2003 Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=07a6cf76-2cea-4c54-b66d-50e9eed108ac">Microsoft Office 2003 Service Pack 3</a>
-                    <br />(KB2289187)<br />(Alvorlig)</td><td>
+                    <br />(KB2289187)<br />(Alvorlig)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=108286d4-fb68-40d6-a7b1-64b3a4eb87ee">Microsoft PowerPoint 2003 Service Pack 3</a>
                     <br />(KB2413304)<br />(Alvorlig)</td></tr>
-                <tr><td>Microsoft Office 2007 Service Pack 2</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office 2007 Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=be0c5878-60c0-4700-8836-50d369b51d04">Microsoft Office 2007 Service Pack 2</a>
-                    <br />(KB2289158)<br />(Kritisk)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Microsoft Office 2010 (32-bit-versioner)</td><td>
+                    <br />(KB2289158)<br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office 2010 (32-bit-versioner)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0b308508-0e1e-4e90-b2b8-7e32bfc5dbf4">Microsoft Office 2010 (32-bit-versioner)</a>
-                    <br />(KB2289161)<br />(Kritisk)</td><td>Ikke relevant</td></tr>
-                <tr><td>Microsoft Office 2010 (64-bit-versioner)</td><td>
+                    <br />(KB2289161)<br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr><td style="border:1px solid black;">Microsoft Office 2010 (64-bit-versioner)</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=534c6a2a-e7c6-4adf-8b81-e009a2b5fff4">Microsoft Office 2010 (64-bit-versioner)</a>
-                    <br />(KB2289161)<br />(Kritisk)</td><td>Ikke relevant</td></tr>
+                    <br />(KB2289161)<br />(Kritisk)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="3">Microsoft Office til Mac</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Microsoft Office til Mac</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=203241">
                       <strong>MS10-087</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=198186">
                       <strong>MS10-088</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Microsoft Office 2004 til Mac</td><td>Microsoft Office 2004 til Mac[1]<br />(Alvorlig)</td><td>Microsoft Office 2004 til Mac[1]<br />(Alvorlig)</td></tr>
-                <tr><td>Microsoft Office 2008 til Mac</td><td>Microsoft Office 2008 til Mac[1]<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr class="alternateRow"><td>Microsoft Office til Mac 2011                    </td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office 2004 til Mac</td><td style="border:1px solid black;">Microsoft Office 2004 til Mac[1]<br />(Alvorlig)</td><td style="border:1px solid black;">Microsoft Office 2004 til Mac[1]<br />(Alvorlig)</td></tr>
+                <tr><td style="border:1px solid black;">Microsoft Office 2008 til Mac</td><td style="border:1px solid black;">Microsoft Office 2008 til Mac[1]<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office til Mac 2011                    </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8bd6ca3b-8004-4e8d-a09d-220dcbbce799">Microsoft Office til Mac 2011</a>
-                    <br />(KB2454823)<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
-                <tr><td>Open XML File Format Converter til Mac</td><td>Open XML File Format Converter til Mac[1]<br />(Alvorlig)</td><td>Ikke relevant</td></tr>
+                    <br />(KB2454823)<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
+                <tr><td style="border:1px solid black;">Open XML File Format Converter til Mac</td><td style="border:1px solid black;">Open XML File Format Converter til Mac[1]<br />(Alvorlig)</td><td style="border:1px solid black;">Ikke relevant</td></tr>
               
-                <tr><th colspan="3">Anden Office Software</th></tr>
+                <tr><th colspan="3" style="border:1px solid black;">Anden Office Software</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=203241">
                       <strong>MS10-087</strong>
                     </a>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=198186">
                       <strong>MS10-088</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>Ingen</td><td>
+                  </td><td style="border:1px solid black;">Ingen</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Microsoft PowerPoint Viewer</td><td>Ikke relevant</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft PowerPoint Viewer</td><td style="border:1px solid black;">Ikke relevant</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=df826b79-7398-45de-943c-6f6f0af1b4e3">Microsoft PowerPoint Viewer Service Pack 2</a>
                     <br />(KB2413381)<br />(Alvorlig)</td></tr>
               </table>
@@ -309,26 +309,26 @@ Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligv
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="2">Microsoft Forefront Unified Access Gateway</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Microsoft Forefront Unified Access Gateway</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=199536">
                       <strong>MS10-089</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Forefront Unified Access Gateway</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Forefront Unified Access Gateway</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5f2ee08e-e289-47db-bd3f-7b9cfc1eb985">Forefront Unified Access Gateway 2010</a>
                     [1]
                     <br />(KB2433585)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=db0b70c8-1fa5-4d92-9888-3500c7566b19">Forefront Unified Access Gateway 2010 opdatering 1</a>[1]<br />(KB2433584)<br />(Alvorlig)<br /><br /><a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4e3ee07a-771c-46ee-959f-82389bab67d7">Forefront Unified Access Gateway 2010 opdatering 2</a>[1]<br />(KB2418933)<br />(Alvorlig)</td></tr>

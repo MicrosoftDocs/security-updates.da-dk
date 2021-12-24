@@ -33,36 +33,36 @@ Følgende tabel viser sikkerhedsbulletinerne for denne måned efter vigtighed.
 
 Oplysninger om berørte programmer kan fås i næste afsnit, **Berørte programmer og downloadplaceringer**.
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Bulletinens titel og resumé</th>
-<th>Klassifikation og sårbarhedens omfang</th>
-<th>Krav om genstart</th>
-<th>Berørte programmer</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Bulletinens titel og resumé</th>
+<th style="border:1px solid black;">Klassifikation og sårbarhedens omfang</th>
+<th style="border:1px solid black;">Krav om genstart</th>
+<th style="border:1px solid black;">Berørte programmer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=214807">MS11-035</a></td>
-<td><strong>En sårbarhed i WINS kan tillade fjernudførelse af kode (2524426)</strong> <br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=214807">MS11-035</a></td>
+<td style="border:1px solid black;"><strong>En sårbarhed i WINS kan tillade fjernudførelse af kode (2524426)</strong> <br />
 <br />
 Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i WINS (Windows Internet Name Service). Sårbarheden kan muliggøre fjernudførelse af kode, hvis en bruger skulle modtage en særligt udformet WINS-replikeringspakke på et berørt system, der anvender WINS-tjenesten. Som standard er WINS ikke installeret på nogen berørte operativsystemer. Kun kunder, der manuelt installerer denne komponent, er berørt af dette problem.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a><br />
 Fjernudførelse af kode</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Windows</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=217670">MS11-036</a></td>
-<td><strong>Sårbarheder i Microsoft PowerPoint kan give mulighed for fjernudførelse af kode (2545814)</strong> <br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=217670">MS11-036</a></td>
+<td style="border:1px solid black;"><strong>Sårbarheder i Microsoft PowerPoint kan give mulighed for fjernudførelse af kode (2545814)</strong> <br />
 <br />
 Denne sikkerhedsopdatering løser to privat rapporterede sårbarheder i Microsoft PowerPoint. Disse sårbarheder kan give mulighed for fjernudførelse af kode, hvis en bruger åbner en særligt udformet PowerPoint-fil. En hacker, som det lykkes at udnytte en af disse sårbarheder, vil kunne få de samme brugerrettigheder som den bruger, der er logget på. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder. Installation og konfiguration af Office File Validation (OFV) for at forhindre åbning af mistænkelige filer, blokerer angrebsvektorerne for udnyttelse af de sårbarheder, der er beskrevet i CVE-2011-1269 og CVE-2011-1270.</td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a><br />
 Fjernudførelse af kode</td>
-<td>Kan kræve genstart</td>
-<td>Microsoft Office</td>
+<td style="border:1px solid black;">Kan kræve genstart</td>
+<td style="border:1px solid black;">Microsoft Office</td>
 </tr>
 </tbody>
 </table>
@@ -72,51 +72,51 @@ Fjernudførelse af kode</td>
 
 Følgende tabel viser en vurdering af udnyttelsesmuligheden for hver af de sårbarheder, der behandles i denne måned. Sårbarhederne er anført i faldende rækkefølge i forhold til CVE ID's vurderingsniveau for udnyttelse. Kun sårbarheder, der har en klassifikation som Kritisk eller Alvorlig i bulletinerne, bliver inkluderet.
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til sandsynligheden for, at udførelse af kode og denial-of-service udnyttes inden for 30 dage efter udgivelse af sikkerhedsbulletin, for hver af de sikkerhedsopdateringer, du muligvis skal installere. Læs alle vurderinger nedenfor, i overensstemmelse med din specifikke konfiguration for at prioritere din implementering af denne måneds opdateringer. Hvis du ønsker flere oplysninger om, hvad disse klassifikationer betyder, og hvordan de fastlægges, kan du se [Microsoft Indeks for udnyttelse](http://technet.microsoft.com/en-us/security/cc998259.aspx).
 
 I nedenstående artikelserier, refererer "Nyeste softwareversion" til den nyeste version af softwareemner, og "Ældre softwareversioner" refererer til alle ældre, understøttede versioner af softwareemner, der findes i "Berørte programmer" eller "Ikke-berørte programmer" i bulletin-tabellerne.
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Titel på sårbarhed</th>
-<th>CVE ID</th>
-<th>Vurdering af mulighed for udnyttelse af kodeudførelse i nyeste softwareversion</th>
-<th>Vurdering af mulighed for udnyttelse af kodeudførelse i ældre softwareversioner</th>
-<th>Vurdering af mulighed for udnyttelse af Denial of Service</th>
-<th>Vigtige bemærkninger</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Titel på sårbarhed</th>
+<th style="border:1px solid black;">CVE ID</th>
+<th style="border:1px solid black;">Vurdering af mulighed for udnyttelse af kodeudførelse i nyeste softwareversion</th>
+<th style="border:1px solid black;">Vurdering af mulighed for udnyttelse af kodeudførelse i ældre softwareversioner</th>
+<th style="border:1px solid black;">Vurdering af mulighed for udnyttelse af Denial of Service</th>
+<th style="border:1px solid black;">Vigtige bemærkninger</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=217670">MS11-036</a></td>
-<td>Sårbarhed vedr. Presentation Memory Corruption RCE</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-1269">CVE-2011-1269</a></td>
-<td>Er ikke berørt</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
-<td>Ikke relevant</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=217670">MS11-036</a></td>
+<td style="border:1px solid black;">Sårbarhed vedr. Presentation Memory Corruption RCE</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-1269">CVE-2011-1269</a></td>
+<td style="border:1px solid black;">Er ikke berørt</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">1</a> - Konsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">Ikke relevant</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="even">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=214807">MS11-035</a></td>
-<td>Sårbarhed vedr. WINS Service Failed Response.</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-1248">CVE-2011-1248</a></td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">2</a> - Inkonsekvent exploit-kode sandsynlig</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">2</a> - Inkonsekvent exploit-kode sandsynlig</td>
-<td>Midlertidig</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=214807">MS11-035</a></td>
+<td style="border:1px solid black;">Sårbarhed vedr. WINS Service Failed Response.</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-1248">CVE-2011-1248</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">2</a> - Inkonsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">2</a> - Inkonsekvent exploit-kode sandsynlig</td>
+<td style="border:1px solid black;">Midlertidig</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 <tr class="odd">
-<td><a href="http://go.microsoft.com/fwlink/?linkid=217670">MS11-036</a></td>
-<td>Sårbarhed vedr. Presentation Buffer Overrun RCE</td>
-<td><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-1270">CVE-2011-1270</a></td>
-<td>Er ikke berørt</td>
-<td><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">3</a> – Fungerende exploit-kode usandsynlig</td>
-<td>Ikke relevant</td>
-<td>(Ingen)</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=217670">MS11-036</a></td>
+<td style="border:1px solid black;">Sårbarhed vedr. Presentation Buffer Overrun RCE</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2011-1270">CVE-2011-1270</a></td>
+<td style="border:1px solid black;">Er ikke berørt</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx">3</a> – Fungerende exploit-kode usandsynlig</td>
+<td style="border:1px solid black;">Ikke relevant</td>
+<td style="border:1px solid black;">(Ingen)</td>
 </tr>
 </tbody>
 </table>
@@ -126,7 +126,7 @@ I nedenstående artikelserier, refererer "Nyeste softwareversion" til den nyeste
 
 Følgende tabel viser bulletinerne efter overordnet softwarekategori og klassifikation.
 
-**Hvordan bruger jeg disse tabeller?**
+**Hvordan bruger jeg disse tabeller?**  
 
 Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du bør se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er nogen sikkerhedsopdateringer vedrørende din installation. Hvis et program eller en komponent findes på listen, findes der hyperlinks til tilgængelige softwareopdateringer, og sårbarhedens omfang også angivet.
 
@@ -136,73 +136,73 @@ Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligv
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="2">Windows Server 2003</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Windows Server 2003</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=214807">
                       <strong>MS11-035</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
                   </td></tr>
-                <tr><td>Windows Server 2003 Service Pack 2</td><td>
+                <tr><td style="border:1px solid black;">Windows Server 2003 Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0d289146-8470-45dd-a886-d1b35a2c6d4b">Windows Server 2003 Service Pack 2</a>
                     <br />(Kritisk)</td></tr>
-                <tr class="alternateRow"><td>Windows Server 2003 x64 Edition Service Pack 2</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2003 x64 Edition Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=0d3e85a9-42ff-447b-ab8c-095a1c0b224c">Windows Server 2003 x64 Edition Service Pack 2</a>
                     <br />(Kritisk)</td></tr>
-                <tr><td>Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td>
+                <tr><td style="border:1px solid black;">Windows Server 2003 med SP2 til Itanium-baserede systemer</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4c388fe8-883a-4118-a7ff-50f1e9d0a071">Windows Server 2003 med SP2 til Itanium-baserede systemer</a>
                     <br />(Kritisk)</td></tr>
               
-                <tr><th colspan="2">Windows Server 2008</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Windows Server 2008</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=214807">
                       <strong>MS11-035</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Windows Server 2008 til 32-bit-systemer og Windows Server 2008 til 32-bit-systemer Service Pack 2</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2008 til 32-bit-systemer og Windows Server 2008 til 32-bit-systemer Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9019a3ff-d953-4b0b-8c7a-05aa9cf65c92">Windows Server 2008 til 32-bit-systemer og Windows Server 2008 til 32-bit-systemer Service Pack 2</a>*<br />(Kritisk)</td></tr>
-                <tr><td>Windows Server 2008 til x64-baserede systemer og Windows Server 2008 til x64-baserede systemer Service Pack 2</td><td>
+                <tr><td style="border:1px solid black;">Windows Server 2008 til x64-baserede systemer og Windows Server 2008 til x64-baserede systemer Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=841130fa-4522-4079-b7eb-f8466ac3ef12">Windows Server 2008 til x64-baserede systemer og Windows Server 2008 til x64-baserede systemer Service Pack 2</a>*<br />(Kritisk)</td></tr>
               
-                <tr><th colspan="2">Windows Server 2008 R2</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Windows Server 2008 R2</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=214807">
                       <strong>MS11-035</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Kritisk</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Windows Server 2008 R2 til x64-baserede systemer og Windows Server 2008 R2 til x64-baserede systemer Service Pack 1																		</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Windows Server 2008 R2 til x64-baserede systemer og Windows Server 2008 R2 til x64-baserede systemer Service Pack 1																		</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8732b41e-2f25-4ee1-a8b7-a8b8b9e22d08">Windows Server 2008 R2 til x64-baserede systemer og Windows Server 2008 R2 til x64-baserede systemer Service Pack 1</a>*<br />(Kritisk)</td></tr>
               </table>
 
@@ -215,73 +215,73 @@ Brug disse tabeller til at få kendskab til de sikkerhedsopdateringer, du muligv
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th></th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;"></th>
   </tr>
-                <tr><th colspan="2">Microsoft Office-pakker og komponenter</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Microsoft Office-pakker og komponenter</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=217670">
                       <strong>MS11-036</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Office XP Service Pack 3</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office XP Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=2e8a30ac-bcfe-4535-8ceb-723c25b43d5f">Microsoft PowerPoint 2002 Service Pack 3</a>
                     <br />(KB2535802)<br />(Alvorlig)</td></tr>
-                <tr class="alternateRow"><td>Microsoft Office 2003 Service Pack 3</td><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office 2003 Service Pack 3</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=fc1cfcac-64cc-484a-97f2-3dcfe84cfdcd">Microsoft PowerPoint 2003 Service Pack 3</a>
                     <br />(KB2535812)<br />(Alvorlig)</td></tr>
-                <tr><td>Microsoft Office 2007 Service Pack 2</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office 2007 Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9a181739-709a-4c0d-a97f-f9891c45c04c">Microsoft PowerPoint 2007 Service Pack 2</a>
                     [1]
                     <br />(KB2535818)<br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="2">Microsoft Office til Mac</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Microsoft Office til Mac</th></tr>
               
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=217670">
                       <strong>MS11-036</strong>
                     </a>
                   </td></tr>
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>Microsoft Office 2004 til Mac</td><td>Microsoft Office 2004 til Mac[2]<br />(Alvorlig)</td></tr>
-                <tr><td>Microsoft Office 2008 til Mac</td><td>Microsoft Office 2008 til Mac[2]<br />(Alvorlig)</td></tr>
-                <tr class="alternateRow"><td>Open XML File Format Converter til Mac</td><td>Open XML File Format Converter til Mac[2]<br />(Alvorlig)</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office 2004 til Mac</td><td style="border:1px solid black;">Microsoft Office 2004 til Mac[2]<br />(Alvorlig)</td></tr>
+                <tr><td style="border:1px solid black;">Microsoft Office 2008 til Mac</td><td style="border:1px solid black;">Microsoft Office 2008 til Mac[2]<br />(Alvorlig)</td></tr>
+                <tr class="alternateRow"><td style="border:1px solid black;">Open XML File Format Converter til Mac</td><td style="border:1px solid black;">Open XML File Format Converter til Mac[2]<br />(Alvorlig)</td></tr>
               
-                <tr><th colspan="2">Anden Office-software</th></tr>
+                <tr><th colspan="2" style="border:1px solid black;">Anden Office-software</th></tr>
               
-                <tr><td>
+                <tr><td style="border:1px solid black;">
                     <strong>Bulletin-id</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=217670">
                       <strong>MS11-036</strong>
                     </a>
                   </td></tr>
-                <tr class="alternateRow"><td>
+                <tr class="alternateRow"><td style="border:1px solid black;">
                     <strong>Samlet klassifikation</strong>
-                  </td><td>
+                  </td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=21140">
                       <strong>Alvorlig</strong>
                     </a>
                   </td></tr>
-                <tr><td>Microsoft Office Compatibility Pack til filformaterne Word, Excel og PowerPoint 2007 Service Pack 2</td><td>
+                <tr><td style="border:1px solid black;">Microsoft Office Compatibility Pack til filformaterne Word, Excel og PowerPoint 2007 Service Pack 2</td><td style="border:1px solid black;">
                     <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=5be09069-1cac-4b1e-ac94-4fb7024fb4ac">Microsoft Office Compatibility Pack til filformaterne Word, Excel, og PowerPoint 2007 Service Pack 2</a>
                     <br />(KB2540162)<br />(Alvorlig)</td></tr>
               </table>

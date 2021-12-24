@@ -33,145 +33,145 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Kritisk (4)
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS08-014</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS08-014</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=112111"><strong>Sårbarheder i Microsoft Excel kan give mulighed for fjernudførelse af kode (949029)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=112111"><strong>Sårbarheder i Microsoft Excel kan give mulighed for fjernudførelse af kode (949029)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser flere sårbarheder i Microsoft Office Excel, som er blevet rapporteret både privat og offentligt, og som kan give mulighed for fjernudførelse af kode, hvis en bruger åbner en særligt udformet Excel-fil. En hacker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser flere sårbarheder i Microsoft Office Excel, som er blevet rapporteret både privat og offentligt, og som kan give mulighed for fjernudførelse af kode, hvis en bruger åbner en særligt udformet Excel-fil. En hacker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS08-015</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS08-015</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=112113"><strong>En sårbarhed i Microsoft Outlook kan give mulighed for fjernudførelse af kode (949031)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=112113"><strong>En sårbarhed i Microsoft Outlook kan give mulighed for fjernudførelse af kode (949031)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Office Outlook. Sårbarheden kan tillade fjernudførelse af kode, hvis Outlook får tilsendt en særligt udformet mailto URI. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder. Det er ikke muligt at udnytte denne sårbarhed ved kun at se en e-mail i indholdsruden i Outlook.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Office Outlook. Sårbarheden kan tillade fjernudførelse af kode, hvis Outlook får tilsendt en særligt udformet mailto URI. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder. Det er ikke muligt at udnytte denne sårbarhed ved kun at se en e-mail i indholdsruden i Outlook.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Office. </strong>Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Office. </strong>Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS08-016</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS08-016</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=112112"><strong>Sårbarheder i Microsoft Office kan give mulighed for fjernudførelse af kode (949030)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=112112"><strong>Sårbarheder i Microsoft Office kan give mulighed for fjernudførelse af kode (949030)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser to privat rapporterede sårbarheder i Microsoft Office, som kan give mulighed for fjernudførelse af kode, når en bruger åbner en forkert udformet Office-fil. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser to privat rapporterede sårbarheder i Microsoft Office, som kan give mulighed for fjernudførelse af kode, når en bruger åbner en forkert udformet Office-fil. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS08-017</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS08-017</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=112114"><strong>Sårbarheder i Microsoft Office Web Components kan give mulighed for fjernudførelse af kode (933103)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=112114"><strong>Sårbarheder i Microsoft Office Web Components kan give mulighed for fjernudførelse af kode (933103)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne kritiske opdatering løser to privat rapporterede sårbarheder i Microsoft Office Web Components. Disse sårbarheder kan give mulighed for fjernudførelse af kode, hvis en bruger har fået vist en særligt udformet webside. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne kritiske opdatering løser to privat rapporterede sårbarheder i Microsoft Office Web Components. Disse sårbarheder kan give mulighed for fjernudførelse af kode, hvis en bruger har fået vist en særligt udformet webside. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver muligvis, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver muligvis, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Office Web Components.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Office Web Components.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -179,7 +179,7 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Berørte programmer og downloadplaceringer
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du skal se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er behov for en sikkerhedsopdatering. Hvis et program eller en komponent findes på listen, er sårbarhedens omfang også angivet, og der findes hyperlinks til tilgængelige softwareopdateringer.
 
@@ -189,151 +189,151 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 <table xmlns="http://www.w3.org/1999/xhtml">
   <tr class="thead">
-    <th></th>
-    <th>Oplysninger</th>
-    <th>Oplysninger</th>
-    <th>Oplysninger</th>
-    <th>Oplysninger</th>
+    <th style="border:1px solid black;"></th>
+    <th style="border:1px solid black;">Oplysninger</th>
+    <th style="border:1px solid black;">Oplysninger</th>
+    <th style="border:1px solid black;">Oplysninger</th>
+    <th style="border:1px solid black;">Oplysninger</th>
   </tr>
-            <tr><td>
+            <tr><td style="border:1px solid black;">
                 <strong>Bulletin-id</strong>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=112111">
                   <strong>MS08-014</strong>
                 </a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=112113">
                   <strong>MS08-015</strong>
                 </a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=112112">
                   <strong>MS08-016</strong>
                 </a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://go.microsoft.com/fwlink/?linkid=112114">
                   <strong>MS08-017</strong>
                 </a>
               </td></tr>
-            <tr class="alternateRow"><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">
                 <strong>Klassifikation</strong>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">
                   <strong>Kritisk</strong>
                 </a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">
                   <strong>Kritisk</strong>
                 </a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">
                   <strong>Kritisk</strong>
                 </a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/danmark/sikkerhed/bulletin/klassificering.mspx">
                   <strong>Kritisk</strong>
                 </a>
               </td></tr>
           
-            <tr><th colspan="5">Office-pakker og -programmer </th></tr>
+            <tr><th colspan="5" style="border:1px solid black;">Office-pakker og -programmer </th></tr>
           
-            <tr><td>Microsoft Office 2000 Service Pack 3</td><td /><td /><td>
+            <tr><td style="border:1px solid black;">Microsoft Office 2000 Service Pack 3</td><td /><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=72735aa1-e22c-40ed-8c79-38fba89979aa">Kritisk</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <strong>[1]</strong>
               </td></tr>
-            <tr class="alternateRow"><td>Microsoft Office XP Service Pack 3</td><td /><td /><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office XP Service Pack 3</td><td /><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9cf8aafa-71a5-4017-b53c-4e80ef6e1188">Alvorlig</a>
-              </td><td>
+              </td><td style="border:1px solid black;">
                 <strong>[1]</strong>
               </td></tr>
-            <tr><td>Microsoft Office 2003 Service Pack 2</td><td /><td /><td>
+            <tr><td style="border:1px solid black;">Microsoft Office 2003 Service Pack 2</td><td /><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa">Alvorlig</a>
               </td><td /></tr>
-            <tr class="alternateRow"><td>Microsoft Office Excel 2000 Service Pack 3</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Excel 2000 Service Pack 3</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=f7f90c30-1bfd-406b-a77f-612443e30185">Kritisk</a>
               </td><td /><td /><td /></tr>
-            <tr><td>Microsoft Office Excel 2002 Service Pack 3</td><td>
+            <tr><td style="border:1px solid black;">Microsoft Office Excel 2002 Service Pack 3</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=907f96d5-d1e9-4471-b41c-3ac811e63038">Alvorlig</a>
               </td><td /><td /><td /></tr>
-            <tr class="alternateRow"><td>Microsoft Office Excel 2003 Service Pack 2</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Excel 2003 Service Pack 2</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=296e5f2c-f594-41c8-a20a-3e4c40ae3948">Alvorlig</a>
               </td><td /><td /><td /></tr>
-            <tr><td>Microsoft Office Excel Viewer 2003</td><td>
+            <tr><td style="border:1px solid black;">Microsoft Office Excel Viewer 2003</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=280bb2ac-b21a-46b5-8751-5a50fbebf107">Alvorlig</a>
-              </td><td /><td>
+              </td><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa">Alvorlig</a>
               </td><td /></tr>
-            <tr class="alternateRow"><td>Microsoft Office Excel Viewer 2003 Service Pack 3</td><td /><td /><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Excel Viewer 2003 Service Pack 3</td><td /><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa">Alvorlig</a>
               </td><td /></tr>
-            <tr><td>Microsoft Office Excel 2007</td><td>
+            <tr><td style="border:1px solid black;">Microsoft Office Excel 2007</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e7634cb5-9531-4284-9554-4168fc488e0c">Alvorlig</a>
               </td><td /><td /><td /></tr>
-            <tr class="alternateRow"><td>Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Compatibility Pack til Word-, Excel- og PowerPoint 2007-filformater</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=e9251d71-9098-4125-ae91-7d4c83ea58ad">Alvorlig</a>
               </td><td /><td /><td /></tr>
-            <tr><td>Microsoft Office Outlook 2000 Service Pack 3</td><td /><td>
+            <tr><td style="border:1px solid black;">Microsoft Office Outlook 2000 Service Pack 3</td><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=714a49cd-5bca-4719-96a1-e1077f279533">Kritisk</a>
               </td><td /><td /></tr>
-            <tr class="alternateRow"><td>Microsoft Office Outlook 2002 Service Pack 3</td><td /><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Outlook 2002 Service Pack 3</td><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=59853687-d885-4059-9460-ee403855dbd8">Kritisk</a>
               </td><td /><td /></tr>
-            <tr><td>Microsoft Office Outlook 2003 Service Pack 2</td><td /><td>
+            <tr><td style="border:1px solid black;">Microsoft Office Outlook 2003 Service Pack 2</td><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=fccc7c4c-8496-4682-bd46-6590503c1bf2">Kritisk</a>
               </td><td /><td /></tr>
-            <tr class="alternateRow"><td>Microsoft Office Outlook 2003 Service Pack 3</td><td /><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Outlook 2003 Service Pack 3</td><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=fccc7c4c-8496-4682-bd46-6590503c1bf2">Kritisk</a>
               </td><td /><td /></tr>
-            <tr><td>Microsoft Office Outlook 2007</td><td /><td>
+            <tr><td style="border:1px solid black;">Microsoft Office Outlook 2007</td><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=4e2baf00-88eb-4eb6-961a-54245b363c21">Kritisk</a>
               </td><td /><td /></tr>
-            <tr class="alternateRow"><td>Microsoft Office 2004 til Mac</td><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office 2004 til Mac</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=95dceb37-b35f-46db-b280-db0f3b298aa9">Alvorlig</a>
-              </td><td /><td>
+              </td><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=95dceb37-b35f-46db-b280-db0f3b298aa9">Alvorlig</a>
               </td><td /></tr>
-            <tr><td>Microsoft Office 2008 til Mac</td><td>
+            <tr><td style="border:1px solid black;">Microsoft Office 2008 til Mac</td><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=8fe8c32a-6d7a-482b-97c6-42562f089ee4">Alvorlig</a>
               </td><td /><td /><td /></tr>
           
-            <tr><th colspan="5">Andre programmer </th></tr>
+            <tr><th colspan="5" style="border:1px solid black;">Andre programmer </th></tr>
           
-            <tr class="alternateRow"><td>Microsoft Office Web Components 2000<br />(KB931660)</td><td /><td /><td /><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Web Components 2000<br />(KB931660)</td><td /><td /><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=806c654a-35e3-4385-855a-4b803249bfcf">Kritisk</a>
               </td></tr>
-            <tr><td>Microsoft Office Web Components 2000<br />(KB932031)</td><td /><td /><td /><td>
+            <tr><td style="border:1px solid black;">Microsoft Office Web Components 2000<br />(KB932031)</td><td /><td /><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=f54d2a5e-c0ed-4f70-9746-38dd61c8e9d7">Kritisk</a>
               </td></tr>
-            <tr class="alternateRow"><td>Microsoft Office Web Components 2000<br />(KB933367)</td><td /><td /><td /><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Web Components 2000<br />(KB933367)</td><td /><td /><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=d71b23fa-a873-406d-bad7-e38e565dee39">Kritisk</a>
               </td></tr>
-            <tr><td>Microsoft Office Web Components 2000<br />(KB933369)</td><td /><td /><td /><td>
+            <tr><td style="border:1px solid black;">Microsoft Office Web Components 2000<br />(KB933369)</td><td /><td /><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=2fe10ccd-40cb-4090-b83d-eae3d4eca174">Kritisk</a>
               </td></tr>
-            <tr class="alternateRow"><td>Microsoft Office Web Components 2000<br />(KB939714)</td><td /><td /><td /><td>Kritisk <br /><strong>[2]</strong></td></tr>
-            <tr><td>Microsoft Office Web Components 2000<br />(KB939714)</td><td /><td /><td /><td>Kritisk<br /><strong>[3]</strong></td></tr>
-            <tr class="alternateRow"><td>Microsoft Office Web Components 2000<br />(KB941305)</td><td /><td /><td /><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Web Components 2000<br />(KB939714)</td><td /><td /><td /><td style="border:1px solid black;">Kritisk <br /><strong>[2]</strong></td></tr>
+            <tr><td style="border:1px solid black;">Microsoft Office Web Components 2000<br />(KB939714)</td><td /><td /><td /><td style="border:1px solid black;">Kritisk<br /><strong>[3]</strong></td></tr>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Office Web Components 2000<br />(KB941305)</td><td /><td /><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=71de76ba-b62c-4a7a-a78a-9317f5255b13">Kritisk</a>
               </td></tr>
-            <tr><td>Microsoft Office Web Components 2000<br />(KB948257)</td><td /><td /><td /><td>
+            <tr><td style="border:1px solid black;">Microsoft Office Web Components 2000<br />(KB948257)</td><td /><td /><td /><td style="border:1px solid black;">
                 <a Target="" runat="server" href="http://www.microsoft.com/downloads/details.aspx?familyid=526d87bd-c3da-412e-8765-c15987ae9b01">Kritisk</a>
               </td></tr>
-            <tr class="alternateRow"><td>Visual Studio .NET 2002 Service Pack 1<br />(KB933367)</td><td /><td /><td /><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Visual Studio .NET 2002 Service Pack 1<br />(KB933367)</td><td /><td /><td /><td style="border:1px solid black;">
                 <strong>[1]</strong>
               </td></tr>
-            <tr><td>Visual Studio .NET 2003 Service Pack 1<br />(KB933369)</td><td /><td /><td /><td>
+            <tr><td style="border:1px solid black;">Visual Studio .NET 2003 Service Pack 1<br />(KB933369)</td><td /><td /><td /><td style="border:1px solid black;">
                 <strong>[1]</strong>
               </td></tr>
-            <tr class="alternateRow"><td>Microsoft BizTalk Server 2000<br />(KB939714)</td><td /><td /><td /><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft BizTalk Server 2000<br />(KB939714)</td><td /><td /><td /><td style="border:1px solid black;">
                 <strong>[1]</strong>
               </td></tr>
-            <tr><td>Microsoft BizTalk Server 2002<br />(KB939714)</td><td /><td /><td /><td>
+            <tr><td style="border:1px solid black;">Microsoft BizTalk Server 2002<br />(KB939714)</td><td /><td /><td /><td style="border:1px solid black;">
                 <strong>[1]</strong>
               </td></tr>
-            <tr class="alternateRow"><td>Microsoft Commerce Server 2000<br />(KB941305)</td><td /><td /><td /><td>
+            <tr class="alternateRow"><td style="border:1px solid black;">Microsoft Commerce Server 2000<br />(KB941305)</td><td /><td /><td /><td style="border:1px solid black;">
                 <strong>[1]</strong>
               </td></tr>
-            <tr><td>Internet Security and Acceleration Server 2000 Service Pack 2<br />(KB948257)</td><td /><td /><td /><td>
+            <tr><td style="border:1px solid black;">Internet Security and Acceleration Server 2000 Service Pack 2<br />(KB948257)</td><td /><td /><td /><td style="border:1px solid black;">
                 <strong>[1]</strong>
               </td></tr>
           </table>

@@ -33,181 +33,181 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Kritisk \[5\]
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS08-018</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS08-018</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=115454"><strong>En sårbarhed i Microsoft Project kan give mulighed for fjernudførelse af kode (950183)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=115454"><strong>En sårbarhed i Microsoft Project kan give mulighed for fjernudførelse af kode (950183)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Project, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet Project-fil. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed i Microsoft Project, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet Project-fil. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS08-021</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS08-021</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>Sårbarheder i GDI kan give mulighed for fjernudførelse af kode (948590)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>Sårbarheder i GDI kan give mulighed for fjernudførelse af kode (948590)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne vigtige sikkerhedsopdatering løser to privat rapporterede sårbarheder i GDI. Begge af disse sårbarheder kan give mulighed for fjernudførelse af kode, hvis en bruger åbner en særligt udformet EMF- eller WMF-billedfil. En hacker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne vigtige sikkerhedsopdatering løser to privat rapporterede sårbarheder i GDI. Begge af disse sårbarheder kan give mulighed for fjernudførelse af kode, hvis en bruger åbner en særligt udformet EMF- eller WMF-billedfil. En hacker, som har held til at udnytte disse sårbarheder, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsoft MS08-022</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsoft MS08-022</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>En sårbarhed i VBScript og JScript Scripting Engines kan muliggøre fjernudførelse af kode (944338)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>En sårbarhed i VBScript og JScript Scripting Engines kan muliggøre fjernudførelse af kode (944338)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne kritiske sikkerhedsopdatering løser en privat rapporteret sårbarhed i VBScript og JScript Scripting Engines i Windows. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne kritiske sikkerhedsopdatering løser en privat rapporteret sårbarhed i VBScript og JScript Scripting Engines i Windows. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows. </strong>Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows. </strong>Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra MS08-023</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra MS08-023</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>Sikkerhedsopdatering af kill-bitter for ActiveX (948881)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>Sikkerhedsopdatering af kill-bitter for ActiveX (948881)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser én privat rapporteret sårbarhed for et Microsoft-produkt. Denne opdatering indeholder også en kill-bit for produktet Yahoo! Music Jukebox. Denne sårbarhed kan give mulighed for fjernudførelse af kode, hvis en bruger har fået vist en særligt udformet webside i Internet Explorer. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser én privat rapporteret sårbarhed for et Microsoft-produkt. Denne opdatering indeholder også en kill-bit for produktet Yahoo! Music Jukebox. Denne sårbarhed kan give mulighed for fjernudførelse af kode, hvis en bruger har fået vist en særligt udformet webside i Internet Explorer. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver muligvis, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver muligvis, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows, Internet Explorer.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows, Internet Explorer.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra Microsift MS08-024</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra Microsift MS08-024</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>Samlet sikkerhedsopdatering til Internet Explorer (947864)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>Samlet sikkerhedsopdatering til Internet Explorer (947864)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser én privat rapporteret sårbarhed. Denne sårbarhed kan give mulighed for fjernudførelse af kode, hvis en bruger har fået vist en særligt udformet webside i Internet Explorer. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser én privat rapporteret sårbarhed. Denne sårbarhed kan give mulighed for fjernudførelse af kode, hvis en bruger har fået vist en særligt udformet webside i Internet Explorer. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisk</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows, Internet Explorer.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows, Internet Explorer.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -215,109 +215,109 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Alvorlig \[3\]
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra MS08-020</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra MS08-020</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>En sårbarhed i DNS Client kan tillade spoofing (forfalskning) (945553)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>En sårbarhed i DNS Client kan tillade spoofing (forfalskning) (945553)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed. Denne forfalskningssårbarhed findes i Windows DNS-servere og kan gøre det muligt for en hacker at sende særligt udformede svar på DNS-anmodninger og derved forfalske eller omdirigere internettrafik fra legitime steder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne sikkerhedsopdatering løser en privat rapporteret sårbarhed. Denne forfalskningssårbarhed findes i Windows DNS-servere og kan gøre det muligt for en hacker at sende særligt udformede svar på DNS-anmodninger og derved forfalske eller omdirigere internettrafik fra legitime steder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Spoofing (forfalskning)</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Spoofing (forfalskning)</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra MS08-025</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra MS08-025</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>En sårbarhed i Windows Kernel kan give mulighed for udvidelse af rettigheder (941693)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>En sårbarhed i Windows Kernel kan give mulighed for udvidelse af rettigheder (941693)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne vigtige sikkerhedsopdatering løser en privat rapporteret sårbarhed i Windows Kernel. En lokal hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne vigtige sikkerhedsopdatering løser en privat rapporteret sårbarhed i Windows Kernel. En lokal hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Udvidelse af rettigheder</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Udvidelse af rettigheder</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver, at maskinen genstartes.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Windows.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Bulletin-id</th>
-<th>Sikkerhedsbulletin fra MS08-019</th>
+<th style="border:1px solid black;">Bulletin-id</th>
+<th style="border:1px solid black;">Sikkerhedsbulletin fra MS08-019</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletinens titel</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=115455"><strong>Sårbarheder i Microsoft Visio kan give mulighed for fjernudførelse af kode (949032)</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletinens titel</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=115455"><strong>Sårbarheder i Microsoft Visio kan give mulighed for fjernudførelse af kode (949032)</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Resumé</strong></td>
-<td>Denne kritiske sikkerhedsopdatering løser privat rapporterede sårbarheder i Microsoft Office Visio, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet Visio-fil. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
+<td style="border:1px solid black;"><strong>Resumé</strong></td>
+<td style="border:1px solid black;">Denne kritiske sikkerhedsopdatering løser privat rapporterede sårbarheder i Microsoft Office Visio, som kan muliggøre fjernudførelse af kode, når en bruger åbner en særligt udformet Visio-fil. En hacker, som har held til at udnytte denne sårbarhed, kan få fuld kontrol over et berørt system. Derefter vil det være muligt for hackeren at installere programmer, se, ændre eller slette data, eller oprette nye konti med komplette brugerrettigheder. Brugere, hvis konti er konfigurerede til at have færre brugerrettigheder på systemet, rammes muligvis i mildere grad end brugere, der opererer med administrative brugerrettigheder.</td>
 </tr>
 <tr class="odd">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Alvorlig</a></td>
 </tr>
 <tr class="even">
-<td><strong>Sårbarhedens omfang</strong></td>
-<td>Fjernudførelse af kode</td>
+<td style="border:1px solid black;"><strong>Sårbarhedens omfang</strong></td>
+<td style="border:1px solid black;">Fjernudførelse af kode</td>
 </tr>
 <tr class="odd">
-<td><strong>Registrering</strong></td>
-<td>Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
+<td style="border:1px solid black;"><strong>Registrering</strong></td>
+<td style="border:1px solid black;">Microsoft Baseline Security Analyzer kan registrere, om dit computersystem skal bruge denne opdatering. Opdateringen kræver ikke genstart af computeren.</td>
 </tr>
 <tr class="even">
-<td><strong>Berørte programmer</strong></td>
-<td><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
+<td style="border:1px solid black;"><strong>Berørte programmer</strong></td>
+<td style="border:1px solid black;"><strong>Microsoft Office.</strong> Du kan finde yderligere oplysninger i afsnittene Berørte programmer og downloadplaceringer.</td>
 </tr>
 </tbody>
 </table>
@@ -325,7 +325,7 @@ Denne måneds sikkerhedsbulletiner er opstillet efter vigtighed på følgende m�
 
 ## Berørte programmer og downloadplaceringer
 
-**Hvordan anvender jeg denne tabel?**
+**Hvordan anvender jeg denne tabel?**  
 
 Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis skal installere. Du skal se alle de anførte softwareprogrammer eller komponenter igennem for at se, om der er behov for en sikkerhedsopdatering. Hvis et program eller en komponent findes på listen, findes der hyperlinks til tilgængelige softwareopdateringer, og sårbarhedens omfang også angivet.
 
@@ -333,306 +333,306 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 #### Windows-operativsystemet og dets komponenter
 
-<table>
+<table style="border:1px solid black;">
 <caption>Microsoft Windows 2000</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>MS08-021</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>MS08-022</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>MS08-023</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>MS08-024</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>MS08-020</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>MS08-025</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>MS08-021</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>MS08-022</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>MS08-023</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>MS08-024</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>MS08-020</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>MS08-025</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Microsoft Windows 2000 Service Pack 4</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=caac000a-22b6-48cb-aa00-1a0bfe886de2">Microsoft Windows 2000 Service Pack 4</a><br />
+<td style="border:1px solid black;">Microsoft Windows 2000 Service Pack 4</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=caac000a-22b6-48cb-aa00-1a0bfe886de2">Microsoft Windows 2000 Service Pack 4</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8e3ff44f-145b-4a68-9ad4-4a55d74b216e">VBScript 5.1 og JScript 5.1</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8e3ff44f-145b-4a68-9ad4-4a55d74b216e">VBScript 5.1 og JScript 5.1</a><br />
 (Kritisk)<br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=8e3ff44f-145b-4a68-9ad4-4a55d74b216e">VBScript 5.6 og JScript 5.6</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0395451f-b719-4f71-a7b4-403d0c7e8fcc">Microsoft Internet Explorer 5.01 Service Pack 4</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0395451f-b719-4f71-a7b4-403d0c7e8fcc">Microsoft Internet Explorer 5.01 Service Pack 4</a><br />
 (Kritisk)<br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=ba6d3aeb-e35a-47cc-bace-7bd9d58a9d3f">Microsoft Internet Explorer 6 Service Pack 1</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b051ae04-fe81-440d-9136-d6b239ca954e">Microsoft Internet Explorer 5.01 Service Pack 4</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b051ae04-fe81-440d-9136-d6b239ca954e">Microsoft Internet Explorer 5.01 Service Pack 4</a><br />
 (Kritisk)<br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=75d2dc78-e3a4-4ff6-9e2d-bf1935003e8e">Microsoft Internet Explorer 6 Service Pack 1</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=41326ade-96b6-47ce-9291-d4e3039471c4">Microsoft Windows 2000 Service Pack 4</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=41326ade-96b6-47ce-9291-d4e3039471c4">Microsoft Windows 2000 Service Pack 4</a><br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8db9f328-da0e-4fb8-96c4-6d368b47c224">Microsoft Windows 2000 Service Pack 4</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8db9f328-da0e-4fb8-96c4-6d368b47c224">Microsoft Windows 2000 Service Pack 4</a><br />
 (Alvorlig)</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <caption>Windows XP</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>MS08-021</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>MS08-022</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>MS08-023</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>MS08-024</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>MS08-020</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>MS08-025</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>MS08-021</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>MS08-022</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>MS08-023</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>MS08-024</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>MS08-020</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>MS08-025</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Windows XP Service Pack 2</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c2763dd8-a03e-4a48-aa86-a7ec00250a7a">Windows XP Service Pack 2</a><br />
+<td style="border:1px solid black;">Windows XP Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c2763dd8-a03e-4a48-aa86-a7ec00250a7a">Windows XP Service Pack 2</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c0124698-3b94-4474-9473-22a2f39a4a56">VBScript 5.6 og JScript 5.6</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c0124698-3b94-4474-9473-22a2f39a4a56">VBScript 5.6 og JScript 5.6</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9dbf002f-fe53-4cc7-a430-35f45c520d10">Windows XP Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9dbf002f-fe53-4cc7-a430-35f45c520d10">Windows XP Service Pack 2</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=36c641ad-953f-4b09-ba1c-9c383295e180">Microsoft Internet Explorer 6</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=36c641ad-953f-4b09-ba1c-9c383295e180">Microsoft Internet Explorer 6</a><br />
 (Kritisk)<br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=e771efe8-8881-4f23-b5b0-15651a390ba9">Windows Internet Explorer 7</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=893f4cef-0395-4c44-ba28-7a10b6e7dd48">Windows XP Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=893f4cef-0395-4c44-ba28-7a10b6e7dd48">Windows XP Service Pack 2</a><br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0e937f65-abd0-46dd-8883-5bfd70ea1178">Windows XP Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0e937f65-abd0-46dd-8883-5bfd70ea1178">Windows XP Service Pack 2</a><br />
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td>Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=166f2ab5-913c-47a9-86fe-b814797b751e">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a><br />
+<td style="border:1px solid black;">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=166f2ab5-913c-47a9-86fe-b814797b751e">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=87b80ae3-e299-4d15-a135-3b1bcf943652">VBScript 5.6 og JScript 5.6</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=87b80ae3-e299-4d15-a135-3b1bcf943652">VBScript 5.6 og JScript 5.6</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=01400970-df68-4daf-aa39-2fc4f969974c">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=01400970-df68-4daf-aa39-2fc4f969974c">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=85beacc0-8ca2-4ded-9c24-23348d05c735">Microsoft Internet Explorer 6</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=85beacc0-8ca2-4ded-9c24-23348d05c735">Microsoft Internet Explorer 6</a><br />
 (Kritisk)<br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=9364bf81-6505-4788-958d-a4bd29dc98ad">Windows Internet Explorer 7</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8fdd1207-6e93-4c43-bacc-fe3623a6ebe7">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8fdd1207-6e93-4c43-bacc-fe3623a6ebe7">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a><br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a29bbd13-761f-44fa-8948-e1a8c244bd7a">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a29bbd13-761f-44fa-8948-e1a8c244bd7a">Windows XP Professional x64 Edition og Windows XP Professional x64 Edition Service Pack 2</a><br />
 (Alvorlig)</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <caption>Windows Server 2003</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>MS08-021</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>MS08-022</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>MS08-023</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>MS08-024</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>MS08-020</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>MS08-025</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>MS08-021</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>MS08-022</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>MS08-023</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>MS08-024</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>MS08-020</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>MS08-025</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bee91d80-d49a-4d3d-82d6-d5aa63f54979">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a><br />
+<td style="border:1px solid black;">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bee91d80-d49a-4d3d-82d6-d5aa63f54979">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=88518aa6-e334-4529-aa63-0bf2ef417ce3">VBScript 5.6 og JScript 5.6</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=88518aa6-e334-4529-aa63-0bf2ef417ce3">VBScript 5.6 og JScript 5.6</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ad384fea-53be-4be3-8acb-1cd23a7f5405">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ad384fea-53be-4be3-8acb-1cd23a7f5405">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a><br />
 (Moderat)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0444b76e-93fa-43c2-b1bc-a5c054529eb5">Microsoft Internet Explorer 6</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0444b76e-93fa-43c2-b1bc-a5c054529eb5">Microsoft Internet Explorer 6</a><br />
 (Kritisk)<br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=9acd2a03-5530-49c8-9ea1-0bfaf259700d">Windows Internet Explorer 7</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=214bd8f5-6eb2-414c-b013-c516a306d692">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=214bd8f5-6eb2-414c-b013-c516a306d692">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a><br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d3b855a6-4648-4771-826d-11a151828eac">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d3b855a6-4648-4771-826d-11a151828eac">Windows Server 2003 Service Pack 1 og Windows Server 2003 Service Pack 2</a><br />
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td>Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e3dde449-e062-4ce0-a9f4-433bff23e224">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a><br />
+<td style="border:1px solid black;">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e3dde449-e062-4ce0-a9f4-433bff23e224">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=12cefefc-8553-4dca-9850-c653371de61e">VBScript 5.6 og JScript 5.6</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=12cefefc-8553-4dca-9850-c653371de61e">VBScript 5.6 og JScript 5.6</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ffc5c893-cb24-4875-b0a7-6d5c7aa4d642">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ffc5c893-cb24-4875-b0a7-6d5c7aa4d642">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a><br />
 (Moderat)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5ebb5ef9-615f-4cab-bac5-6f45f1b94952">Microsoft Internet Explorer 6</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5ebb5ef9-615f-4cab-bac5-6f45f1b94952">Microsoft Internet Explorer 6</a><br />
 (Kritisk)<br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=a9e406aa-33e2-49b8-ab54-4a7328e46147">Windows Internet Explorer 7</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=fd123394-a5d6-4b55-be74-2938f52ce922">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=fd123394-a5d6-4b55-be74-2938f52ce922">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a><br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=320fd100-35e1-4345-9399-796393235cbc">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=320fd100-35e1-4345-9399-796393235cbc">Windows Server 2003 x64 Edition og Windows Server 2003 x64 Edition Service Pack 2</a><br />
 (Alvorlig)</td>
 </tr>
 <tr class="odd">
-<td>Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7886a802-f2b5-489c-b14b-631f4c4c0742">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a><br />
+<td style="border:1px solid black;">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7886a802-f2b5-489c-b14b-631f4c4c0742">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=fe22a828-cca4-4b51-bbd5-995c65fead21">VBScript 5.6 og JScript 5.6</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=fe22a828-cca4-4b51-bbd5-995c65fead21">VBScript 5.6 og JScript 5.6</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=94cf78d3-b6c3-41bc-993e-3af3be0d70f1">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=94cf78d3-b6c3-41bc-993e-3af3be0d70f1">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a><br />
 (Moderat)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=63da8040-fda2-42c7-8543-26ad6f9811f2">Microsoft Internet Explorer 6</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=63da8040-fda2-42c7-8543-26ad6f9811f2">Microsoft Internet Explorer 6</a><br />
 (Kritisk)<br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=75a05d3a-92a0-4a00-95d4-e2b2f6755180">Windows Internet Explorer 7</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e0e63f03-904d-47ee-94fc-51a8dea668eb">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e0e63f03-904d-47ee-94fc-51a8dea668eb">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a><br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=126426a7-be38-4327-89db-02d99d76589d">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=126426a7-be38-4327-89db-02d99d76589d">Windows Server 2003 med SP1 til Itanium-baserede systemer og Windows Server 2003 med SP2 til Itanium-baserede systemer</a><br />
 (Alvorlig)</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <caption>Windows Vista</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>MS08-021</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>MS08-022</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>MS08-023</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>MS08-024</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>MS08-020</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>MS08-025</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>MS08-021</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>MS08-022</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>MS08-023</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>MS08-024</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>MS08-020</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>MS08-025</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Windows Vista og Windows Vista Service Pack 1</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9b51deb8-3873-4146-977f-7e3d0840a4c5">Windows Vista og Windows Vista Service Pack 1</a><br />
+<td style="border:1px solid black;">Windows Vista og Windows Vista Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9b51deb8-3873-4146-977f-7e3d0840a4c5">Windows Vista og Windows Vista Service Pack 1</a><br />
 (Kritisk)</td>
-<td>Ingen</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d7f14001-7f42-4ca0-9193-cdf061179b59">Windows Vista og Windows Vista Service Pack 1</a><br />
+<td style="border:1px solid black;">Ingen</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d7f14001-7f42-4ca0-9193-cdf061179b59">Windows Vista og Windows Vista Service Pack 1</a><br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d4e24966-6530-463a-9ee2-f6a9d000f998">Windows Internet Explorer 7</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d4e24966-6530-463a-9ee2-f6a9d000f998">Windows Internet Explorer 7</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8203d303-c855-4579-9bbf-b06ddf5c1b87">Windows Vista</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8203d303-c855-4579-9bbf-b06ddf5c1b87">Windows Vista</a><br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9640cd8b-d749-4ddd-8af9-b298cebed969">Windows Vista og Windows Vista Service Pack 1</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9640cd8b-d749-4ddd-8af9-b298cebed969">Windows Vista og Windows Vista Service Pack 1</a><br />
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td>Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=4ad6dcd1-6ea5-43bf-8bee-a5f507beadc6">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a><br />
+<td style="border:1px solid black;">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=4ad6dcd1-6ea5-43bf-8bee-a5f507beadc6">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a><br />
 (Kritisk)</td>
-<td>Ingen</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d33462b6-7391-482d-babe-fb4cd0beaa21">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a><br />
+<td style="border:1px solid black;">Ingen</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d33462b6-7391-482d-babe-fb4cd0beaa21">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a><br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=295cf8f2-265e-4570-b708-21033337fe05">Windows Internet Explorer 7</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=295cf8f2-265e-4570-b708-21033337fe05">Windows Internet Explorer 7</a><br />
 (Kritisk)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=73f3a234-3973-4467-be7e-69efa7ee978c">Windows Vista x64 Edition</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=73f3a234-3973-4467-be7e-69efa7ee978c">Windows Vista x64 Edition</a><br />
 (Alvorlig)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d56bb4fe-304e-45e0-95f2-fde2f47b2a04">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d56bb4fe-304e-45e0-95f2-fde2f47b2a04">Windows Vista x64 Edition og Windows Vista x64 Edition Service Pack 1</a><br />
 (Alvorlig)</td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <caption>Windows Server 2008</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>MS08-021</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>MS08-022</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>MS08-023</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>MS08-024</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>MS08-020</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>MS08-025</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111955"><strong>MS08-021</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108169"><strong>MS08-022</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=112366"><strong>MS08-023</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=110557"><strong>MS08-024</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=108231"><strong>MS08-020</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=111956"><strong>MS08-025</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Windows Server 2008 til 32 bit-systemer</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=006d5c47-53e6-4ee1-932c-497611804938">Windows Server 2008 til 32 bit-systemer</a><br />
+<td style="border:1px solid black;">Windows Server 2008 til 32 bit-systemer</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=006d5c47-53e6-4ee1-932c-497611804938">Windows Server 2008 til 32 bit-systemer</a><br />
 (Kritisk)</td>
-<td>Ingen</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=95691924-2813-4a86-9e11-99d853f8e606">Windows Server 2008 til 32 bit-systemer</a><br />
+<td style="border:1px solid black;">Ingen</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=95691924-2813-4a86-9e11-99d853f8e606">Windows Server 2008 til 32 bit-systemer</a><br />
 (Lav)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e57b4d94-19ad-4818-8311-a3f94be01a4b">Windows Internet Explorer 7</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e57b4d94-19ad-4818-8311-a3f94be01a4b">Windows Internet Explorer 7</a>*<br />
 (Kritisk)</td>
-<td>Ingen</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=4497333c-9418-4b91-83dc-0155735421c0">Windows Server 2008 til 32 bit-systemer</a><br />
+<td style="border:1px solid black;">Ingen</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=4497333c-9418-4b91-83dc-0155735421c0">Windows Server 2008 til 32 bit-systemer</a><br />
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td>Windows Server 2008 til x64-baserede systemer</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8909f144-655b-4f07-916f-fd967f1efb2b">Windows Server 2008 til x64-baserede systemer</a><br />
+<td style="border:1px solid black;">Windows Server 2008 til x64-baserede systemer</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8909f144-655b-4f07-916f-fd967f1efb2b">Windows Server 2008 til x64-baserede systemer</a><br />
 (Kritisk)</td>
-<td>Ingen</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=920ae29b-19d0-4089-ac79-f2da824a2256">Windows Server 2008 til x64-baserede systemer</a><br />
+<td style="border:1px solid black;">Ingen</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=920ae29b-19d0-4089-ac79-f2da824a2256">Windows Server 2008 til x64-baserede systemer</a><br />
 (Lav)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=93e9f52a-c7d0-4033-9c12-740665a219af">Windows Internet Explorer 7</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=93e9f52a-c7d0-4033-9c12-740665a219af">Windows Internet Explorer 7</a>*<br />
 (Kritisk)</td>
-<td>Ingen</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5aefc7a6-79a4-45a2-b534-35d0ec400dda">Windows Server 2008 til x64-baserede systemer</a><br />
+<td style="border:1px solid black;">Ingen</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5aefc7a6-79a4-45a2-b534-35d0ec400dda">Windows Server 2008 til x64-baserede systemer</a><br />
 (Alvorlig)</td>
 </tr>
 <tr class="odd">
-<td>Windows Server 2008 til Itanium-baserede systemer</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b7771a4a-4e4f-48d1-8551-bb8b778ca5a7">Windows Server 2008 for Itanium-baserede systemer</a><br />
+<td style="border:1px solid black;">Windows Server 2008 til Itanium-baserede systemer</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b7771a4a-4e4f-48d1-8551-bb8b778ca5a7">Windows Server 2008 for Itanium-baserede systemer</a><br />
 (Kritisk)</td>
-<td>Ingen</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=66df79ac-8364-4922-9688-ebc7ec76d89f">Windows Server 2008 for Itanium-baserede systemer</a><br />
+<td style="border:1px solid black;">Ingen</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=66df79ac-8364-4922-9688-ebc7ec76d89f">Windows Server 2008 for Itanium-baserede systemer</a><br />
 (Lav)</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=acf948e8-c4a9-40da-b282-f5e584e77b05">Windows Internet Explorer 7</a><br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=acf948e8-c4a9-40da-b282-f5e584e77b05">Windows Internet Explorer 7</a><br />
 (Kritisk)</td>
-<td>Ingen</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3080c26b-7456-41ef-8668-28f15bc7b8ce">Windows Server 2008 for Itanium-baserede systemer</a><br />
+<td style="border:1px solid black;">Ingen</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3080c26b-7456-41ef-8668-28f15bc7b8ce">Windows Server 2008 for Itanium-baserede systemer</a><br />
 (Alvorlig)</td>
 </tr>
 </tbody>
@@ -643,32 +643,32 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 
 #### Micorsoft Office-pakker og -programmer
 
-<table>
+<table style="border:1px solid black;">
 <caption>Microsoft Project</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=115454"><strong>MS08-018</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=115454"><strong>MS08-018</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritisk</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Microsoft Project 2000 Service Release 1</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=fbe46241-b9da-40c6-803d-42eb6234be77">Project 2000 Service Release 1</a><br />
+<td style="border:1px solid black;">Microsoft Project 2000 Service Release 1</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=fbe46241-b9da-40c6-803d-42eb6234be77">Project 2000 Service Release 1</a><br />
 (KB949043)<br />
 (Kritisk)</td>
 </tr>
 <tr class="even">
-<td>Microsoft Project 2002 Service Pack 1</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=07a90718-6597-426d-9dca-a336d60c01b8">Project 2002 Service Pack 1</a><br />
+<td style="border:1px solid black;">Microsoft Project 2002 Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=07a90718-6597-426d-9dca-a336d60c01b8">Project 2002 Service Pack 1</a><br />
 (KB949005)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="odd">
-<td>Microsoft Project 2003 Service Pack 2</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=aaba07d6-e972-4e85-bccd-406aa2c4a4f4">Project 2003 Service Pack 2</a><br />
+<td style="border:1px solid black;">Microsoft Project 2003 Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=aaba07d6-e972-4e85-bccd-406aa2c4a4f4">Project 2003 Service Pack 2</a><br />
 (KB948962)<br />
 (Alvorlig)</td>
 </tr>
@@ -676,44 +676,44 @@ Brug denne tabel til at få kendskab til de sikkerhedsopdateringer, du muligvis 
 </table>
 
 
-<table>
+<table style="border:1px solid black;">
 <caption>Microsoft Visio</caption>
 <tbody>
 <tr class="odd">
-<td><strong>Bulletin-id</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=115455"><strong>MS08-019</strong></a></td>
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=115455"><strong>MS08-019</strong></a></td>
 </tr>
 <tr class="even">
-<td><strong>Klassifikation</strong></td>
-<td><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
+<td style="border:1px solid black;"><strong>Klassifikation</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Alvorlig</strong></a></td>
 </tr>
 <tr class="odd">
-<td>Microsoft Visio 2002 Service Pack 2</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0056a936-def5-40fa-bcfc-0ab0dd5c3964">Visio 2002 Service Pack 2</a><br />
+<td style="border:1px solid black;">Microsoft Visio 2002 Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0056a936-def5-40fa-bcfc-0ab0dd5c3964">Visio 2002 Service Pack 2</a><br />
 (KB947896)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td>Microsoft Visio 2003 Service Pack 2</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=18af0ce6-99a0-4471-8d26-9700a8a8e631">Visio 2003 Service Pack 2</a><br />
+<td style="border:1px solid black;">Microsoft Visio 2003 Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=18af0ce6-99a0-4471-8d26-9700a8a8e631">Visio 2003 Service Pack 2</a><br />
 (KB947650)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="odd">
-<td>Microsoft Visio 2003 Service Pack 3</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=18af0ce6-99a0-4471-8d26-9700a8a8e631">Visio 2003 Service Pack 3</a><br />
+<td style="border:1px solid black;">Microsoft Visio 2003 Service Pack 3</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=18af0ce6-99a0-4471-8d26-9700a8a8e631">Visio 2003 Service Pack 3</a><br />
 (KB947650)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="even">
-<td>Microsoft Visio 2007</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0510a1bb-b464-452c-900f-7f4e58ed9c7e">Visio 2007</a><br />
+<td style="border:1px solid black;">Microsoft Visio 2007</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0510a1bb-b464-452c-900f-7f4e58ed9c7e">Visio 2007</a><br />
 (KB947590)<br />
 (Alvorlig)</td>
 </tr>
 <tr class="odd">
-<td>Microsoft Visio 2007 Service Pack 1</td>
-<td><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0510a1bb-b464-452c-900f-7f4e58ed9c7e">Visio 2007 Service Pack 1</a><br />
+<td style="border:1px solid black;">Microsoft Visio 2007 Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0510a1bb-b464-452c-900f-7f4e58ed9c7e">Visio 2007 Service Pack 1</a><br />
 (KB947590)<br />
 (Alvorlig)</td>
 </tr>
